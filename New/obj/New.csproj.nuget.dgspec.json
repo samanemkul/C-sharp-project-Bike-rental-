@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Practice-of-C-Sharp\\New\\New.csproj": {}
+    "D:\\C-sharp-project-Bike-rental-\\New\\New.csproj": {}
   },
   "projects": {
-    "D:\\Practice-of-C-Sharp\\New\\New.csproj": {
+    "D:\\C-sharp-project-Bike-rental-\\New\\New.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Practice-of-C-Sharp\\New\\New.csproj",
+        "projectUniqueName": "D:\\C-sharp-project-Bike-rental-\\New\\New.csproj",
         "projectName": "New",
-        "projectPath": "D:\\Practice-of-C-Sharp\\New\\New.csproj",
+        "projectPath": "D:\\C-sharp-project-Bike-rental-\\New\\New.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\Practice-of-C-Sharp\\New\\obj\\",
+        "outputPath": "D:\\C-sharp-project-Bike-rental-\\New\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,16 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "FontAwesome": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "FontAwesome.Sharp": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

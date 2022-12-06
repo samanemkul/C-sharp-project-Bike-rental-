@@ -9,49 +9,88 @@ namespace New
 {
     public partial class Form1 : Form
     {
-        //creation of round rectangle
-        [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
-        private static extern IntPtr CreateRoundRectRgn(int nLeftRect, int nTopRect, int nRightRect, int nBottomRect, int nWidthEllipse, int nHeightEllipse);
+        //Fields
+        private int borderSize = 2;
+       
+      //Constructor
         public Form1()
         {
             InitializeComponent();
-            Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 25, 25));
+            CollapseMenu();
+            this.Padding = new Padding(borderSize);     //Border Size
+            this.BackColor = Color.FromArgb(98, 102, 244);  //Border Color
+            
         }
-
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
         private void btnBikes_Click(object sender, EventArgs e)
         {
-            //creation of round rectangle
-            pnlNav.Height = btnBikes.Height;
-            pnlNav.Top = btnBikes.Top;
-            btnBikes.BackColor = Color.FromArgb(46, 51, 73);
-            //end
+
         }
 
         private void btnDashboard_Click(object sender, EventArgs e)
         {
-            //creation of round rectangle
-            pnlNav.Height = btnDashboard.Height;
-            pnlNav.Top = btnDashboard.Top;
-            btnDashboard.BackColor = Color.FromArgb(46, 51, 73);
-            //end
+           
         }
 
         private void btnProfile_Click(object sender, EventArgs e)
         {
-            //creation of round rectangle
-            pnlNav.Height = btnProfile.Height;
-            pnlNav.Top = btProfile.Top;
-            btnProfile.BackColor = Color.FromArgb(46, 51, 73);
-            //end
+           
         }
 
         private void btnAbout_Click(object sender, EventArgs e)
         {
-            //creation of round rectangle
-            pnlNav.Height = btnAbout.Height;
-            pnlNav.Top = btnAbout.Top;
-            btnAbout.BackColor = Color.FromArgb(46, 51, 73);
-            //end
+            
+        }
+
+        private void panelHeading_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+        protected override void WndProc(ref Message m)
+        {
+            const int WM_NCCALCSIZE = 0x0083;
+            if (m.Msg = WM_NCCALCSIZE && m.WParam.ToInt32() = 1)
+            {
+                return;
+            }
+
+            base.WndProc(ref m);
+        }
+
+        private void btnMenu_Click(object sender, EventArgs e)
+        {
+            CollapseMenu();
+        }
+        private void CollapseMenu()
+        {
+            if(this.panelMenu.Width > 200)
+            {
+                panelMenu.Width = 100;
+                label1.Visible = false;
+                btnMenu.Dock = DockStyle.Top;
+                foreach(Button menuButton in panelMenu.Controls.OfType<Button>())
+                {
+                    menuButton.Text = "";
+                    menuButton.ImageAlign = ContentAlignment.MiddleCenter;
+                    menuButton.Padding = new Padding(0);
+                }
+            }
+            else
+            {
+                panelMenu.Width = 230;
+                label1.Visible = true;
+                btnMenu.Dock = DockStyle.None;
+                foreach(Button menuButton in panelMenu.Controls.OfType<Button>())
+                {
+                    menuButton.Text = "   " + menuButton.Tag.ToString();
+                    menuButton.ImageAlign = ContentAlignment.MiddleLeft
+                    menuButton.Padding = new Padding(10,0,0,0);
+                }
+            }
         }
     }
 }
