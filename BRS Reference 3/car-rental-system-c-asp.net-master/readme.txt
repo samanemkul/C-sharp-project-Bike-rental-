@@ -1,0 +1,1 @@
+Open the 'carrentalsystem.sln' file located inside 'Projects' folder

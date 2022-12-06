@@ -1,0 +1,998 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ERPSystem
+</name>
+</assembly>
+<members>
+<member name="T:ERP_System.ERPS_DBDataSet1.ActivationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.AdvanceEntryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.BusCardHolder_StaffDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.BusCardHolder_StudentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.BusFeePayment_StaffDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.BusFeePayment_StudentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.BusInfoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.Cards_StaffDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.Cards_StudentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.ClassDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.ClassTypeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.CourseFeeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.CourseFeePaymentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.CourseFeePayment_JoinDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.DepartmentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.DesignationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.DiscountDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.Discount_StaffDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.DocumentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.FeeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.HostelerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.HostelFeePaymentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.HostelInfoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.Installment_BusDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.Installment_HostelDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.LocationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.LogsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.NoDues_StaffDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.NoDues_StudentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.RegistrationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.SchoolInfoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.SchoolTypeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.SectionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.Session_MasterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.StaffDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.Staff_DepartmentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.StaffAttendanceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.StaffPaymentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.StudentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.StudentDocSubmittedDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.VoucherDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.Voucher_OtherDetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.ActivationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.AdvanceEntryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.BusCardHolder_StaffRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.BusCardHolder_StudentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.BusFeePayment_StaffRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.BusFeePayment_StudentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.BusInfoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.Cards_StaffRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.Cards_StudentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.ClassRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.ClassTypeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.CourseFeeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.CourseFeePaymentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.CourseFeePayment_JoinRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.DepartmentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.DesignationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.DiscountRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.Discount_StaffRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.DocumentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.FeeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.HostelerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.HostelFeePaymentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.HostelInfoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.Installment_BusRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.Installment_HostelRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.LocationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.LogsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.NoDues_StaffRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.NoDues_StudentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.RegistrationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.SchoolInfoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.SchoolTypeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.SectionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.Session_MasterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.StaffRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.Staff_DepartmentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.StaffAttendanceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.StaffPaymentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.StudentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.StudentDocSubmittedRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.VoucherRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.Voucher_OtherDetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.ActivationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.AdvanceEntryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.BusCardHolder_StaffRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.BusCardHolder_StudentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.BusFeePayment_StaffRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.BusFeePayment_StudentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.BusInfoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.Cards_StaffRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.Cards_StudentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.ClassRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.ClassTypeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.CourseFeeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.CourseFeePaymentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.CourseFeePayment_JoinRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.DepartmentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.DesignationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.DiscountRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.Discount_StaffRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.DocumentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.FeeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.HostelerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.HostelFeePaymentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.HostelInfoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.Installment_BusRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.Installment_HostelRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.LocationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.LogsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.NoDues_StaffRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.NoDues_StudentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.RegistrationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.SchoolInfoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.SchoolTypeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.SectionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.Session_MasterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.StaffRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.Staff_DepartmentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.StaffAttendanceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.StaffPaymentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.StudentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.StudentDocSubmittedRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.VoucherRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1.Voucher_OtherDetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.ActivationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.AdvanceEntryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.BusCardHolder_StaffTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.BusCardHolder_StudentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.BusFeePayment_StaffTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.BusFeePayment_StudentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.BusInfoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.Cards_StaffTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.Cards_StudentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.ClassTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.ClassTypeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.CourseFeeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.CourseFeePaymentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.CourseFeePayment_JoinTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.DepartmentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.DesignationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.DiscountTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.Discount_StaffTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.DocumentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.FeeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.HostelerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.HostelFeePaymentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.HostelInfoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.Installment_BusTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.Installment_HostelTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.LocationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.LogsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.NoDues_StaffTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.NoDues_StudentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.RegistrationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.SchoolInfoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.SchoolTypeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.SectionTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.Session_MasterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.StaffTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.Staff_DepartmentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.StaffAttendanceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.StaffPaymentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.StudentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.StudentDocSubmittedTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.VoucherTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.Voucher_OtherDetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ERP_System.ERPS_DBDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(ERP_System.ERPS_DBDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ERP_System.ERPS_DBDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(ERP_System.ERPS_DBDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ERP_System.ERPS_DBDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(ERP_System.ERPS_DBDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ERP_System.ERPS_DBDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ERP_System.ERPS_DBDataSet1TableAdapters.TableAdapterManager.UpdateAll(ERP_System.ERPS_DBDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ERP_System.ERPS_DBDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ERP_System.Class_DBDataSet.ClassDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.Class_DBDataSet.CourseFeeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.Class_DBDataSet.CourseFeePaymentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.Class_DBDataSet.SchoolInfoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.Class_DBDataSet.StudentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ERP_System.Class_DBDataSet.ClassRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.Class_DBDataSet.CourseFeeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.Class_DBDataSet.CourseFeePaymentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.Class_DBDataSet.SchoolInfoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.Class_DBDataSet.StudentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ERP_System.Class_DBDataSet.ClassRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.Class_DBDataSet.CourseFeeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.Class_DBDataSet.CourseFeePaymentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.Class_DBDataSet.SchoolInfoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.Class_DBDataSet.StudentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ERP_System.Class_DBDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ERP_System.Class_DBDataSetTableAdapters.ClassTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.Class_DBDataSetTableAdapters.CourseFeeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.Class_DBDataSetTableAdapters.CourseFeePaymentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.Class_DBDataSetTableAdapters.SchoolInfoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ERP_System.Class_DBDataSetTableAdapters.StudentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ERP_System.Class_DBDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ERP_System.Class_DBDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ERP_System.Class_DBDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ERP_System.Class_DBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ERP_System.Class_DBDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ERP_System.Class_DBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ERP_System.Class_DBDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ERP_System.Class_DBDataSetTableAdapters.TableAdapterManager.UpdateAll(ERP_System.Class_DBDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ERP_System.Class_DBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ERP_System.Class_DBDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ERP_System.Class_DBDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="M:ERP_System.Encryption.Boring(System.String)">
+	<summary>
+ moving all characters in string insert then into new index
+ </summary>
+	<param name="st">string to moving characters</param>
+	<returns>moved characters string</returns>
+</member><member name="P:ERP_System.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources._8589130422101_back_to_school_wallpaper_hd">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.abstract_set_awesome_1449569">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.add_stock">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.all_things_of_studies_back_to_school">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.back_to_school">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.back_to_school_powerpoint_backgrounds">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.Database">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.database_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.Doc___Google_Docs">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.find_customer">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.gnome_panel_force_quit">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.icon_documentation">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.images_3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.images_5">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.images_6">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.images1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.images11">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.kcK56zncj">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.log_1281">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.logout">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.Logs">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.Logs1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.Money_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.new_customers">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.photo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.register">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.register1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.register2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.reports">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.School_Icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.schoolhouse">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.teacher_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.top_image">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.unnamed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.user_regestration">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ERP_System.My.Resources.Resources.ycard_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:ERP_System.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

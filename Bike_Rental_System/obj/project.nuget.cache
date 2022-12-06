@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Kwf0Hz8tQsV+tD4p6Mx+VHgPRsRh4G0PAnIsWL3oYS2QJcmzbV4nSbgnb7uGINQTEzCyTOorDxD8opFNPP11jQ==",
+  "success": true,
+  "projectFilePath": "D:\\kushal\\project\\C-sharp-project-Bike-rental-\\Bike_Rental_System\\Bike_Rental_System.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\student3\\.nuget\\packages\\mstest.testadapter\\2.2.7\\mstest.testadapter.2.2.7.nupkg.sha512",
+    "C:\\Users\\student3\\.nuget\\packages\\mstest.testframework\\2.2.7\\mstest.testframework.2.2.7.nupkg.sha512",
+    "C:\\Users\\student3\\.nuget\\packages\\selenium.webdriver\\3.14.0\\selenium.webdriver.3.14.0.nupkg.sha512"
+  ],
+  "logs": []
+}

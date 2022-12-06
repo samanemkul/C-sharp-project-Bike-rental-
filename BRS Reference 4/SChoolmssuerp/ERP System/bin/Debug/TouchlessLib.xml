@@ -1,0 +1,544 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TouchlessLib</name>
+    </assembly>
+    <members>
+        <member name="T:TouchlessLib.RGB">
+            <summary>
+            Represents a color in RGB (Red, Green, Blue)
+            byte Red: [0-255]
+            byte Grn: [0-255]
+            byte Blu: [0-255]
+            </summary>
+        </member>
+        <member name="M:TouchlessLib.RGB.#ctor(System.Byte,System.Byte,System.Byte)">
+            <summary>
+            Create a new RGB (Red, Green, Blue) struct
+            </summary>
+            <param name="r">RGB Red [0-255]</param>
+            <param name="g">RGB Green [0-255]</param>
+            <param name="b">RGB Blue [0-255]</param>
+        </member>
+        <member name="M:TouchlessLib.RGB.#ctor(System.Int32)">
+            <summary>
+            Create a new RGB (Red, Green, Blue) struct from an ARGB int
+            </summary>
+            <param name="argb">ARGB integer in the format 0xAARRGGBB</param>
+        </member>
+        <member name="M:TouchlessLib.RGB.ConvertFromColor(System.Drawing.Color)">
+            <summary>
+            Convert a System.Drawing.Color to its corresponding RGB
+            </summary>
+            <param name="c">A System.Drawing.Color</param>
+            <returns>A corresponding RGB structure</returns>
+        </member>
+        <member name="M:TouchlessLib.RGB.ConvertToColor(TouchlessLib.RGB)">
+            <summary>
+            Convert an RGB structure to its corresponding System.Drawing.Color
+            </summary>
+            <param name="rgb">An RGB structure</param>
+            <returns>A corresponding System.Drawing.Color</returns>
+        </member>
+        <member name="M:TouchlessLib.RGB.ConvertToHSV(TouchlessLib.RGB)">
+            <summary>
+            Convert an RGB structure to its corresponding HSV structure
+            </summary>
+            <param name="rgb">An RGB structure</param>
+            <returns>A corresponding HSV structure</returns>
+        </member>
+        <member name="P:TouchlessLib.RGB.Red">
+            <summary>
+            RGB Red [0-255]
+            </summary>
+        </member>
+        <member name="P:TouchlessLib.RGB.Grn">
+            <summary>
+            RGB Green [0-255]
+            </summary>
+        </member>
+        <member name="P:TouchlessLib.RGB.Blu">
+            <summary>
+            RGB Blue [0-255]
+            </summary>
+        </member>
+        <member name="T:TouchlessLib.HSV">
+            <summary>
+            Represents a color in HSV (Hue, Saturation, Value)
+            byte Hue: [0-360]
+            byte Sat: [0-255]
+            byte Val: [0-255]
+            </summary>
+        </member>
+        <member name="M:TouchlessLib.HSV.#ctor(System.Int16,System.Byte,System.Byte)">
+            <summary>
+            Create a new HSV (Hue, Saturation, Value) struct
+            </summary>
+            <param name="h">HSV Hue [0-360]</param>
+            <param name="s">HSV Saturation [0-255]</param>
+            <param name="v">HSV Value [0-255]</param>
+        </member>
+        <member name="M:TouchlessLib.HSV.ConvertFromColor(System.Drawing.Color)">
+            <summary>
+            Convert a System.Drawing.Color to its corresponding HSV
+            </summary>
+            <param name="c">A System.Drawing.Color</param>
+            <returns>A corresponding HSV structure</returns>
+        </member>
+        <member name="M:TouchlessLib.HSV.ConvertToColor(TouchlessLib.HSV)">
+            <summary>
+            Convert an HSV structure to its corresponding System.Drawing.Color
+            </summary>
+            <param name="hsv">An HSV structure</param>
+            <returns>A corresponding System.Drawing.Color</returns>
+        </member>
+        <member name="M:TouchlessLib.HSV.ConvertToRGB(TouchlessLib.HSV)">
+            <summary>
+            Convert an HSV structure to its corresponding RGB structure
+            </summary>
+            <param name="hsv">An HSV structure</param>
+            <returns>A corresponding RGB structure</returns>
+        </member>
+        <member name="M:TouchlessLib.HSV.GetBinnedHSV(TouchlessLib.HSV,TouchlessLib.HSV)">
+            <summary>
+            Returns an HSV representing the binned version of the argument HSV color
+            </summary>
+            <param name="hsv">The HSV color to be binned and then used to generate the hash key</param>
+            <param name="binCounts">The count of bins per Hue, Sat, Val space</param>
+        </member>
+        <member name="P:TouchlessLib.HSV.Hue">
+            <summary>
+            HSV Hue [0-360]
+            </summary>
+        </member>
+        <member name="P:TouchlessLib.HSV.Sat">
+            <summary>
+            HSV Saturation [0-255]
+            </summary>
+        </member>
+        <member name="P:TouchlessLib.HSV.Val">
+            <summary>
+            HSV Value [0-255]
+            </summary>
+        </member>
+        <member name="T:TouchlessLib.ColorKey">
+            <summary>
+            A hash key that represents an HSV color
+            </summary>
+        </member>
+        <member name="M:TouchlessLib.ColorKey.#ctor(TouchlessLib.HSV)">
+            <summary>
+            Constructor that takes an HSV color
+            </summary>
+            <param name="h">The HSV color used to generate the hash key</param>
+        </member>
+        <member name="M:TouchlessLib.ColorKey.GetHashCode">
+            <summary>
+            Provides a hash key from the HSV value
+            </summary>
+            <returns>A unique int used as a hash key for this color (depends on HSV colorspace partitioning model)</returns>
+        </member>
+        <member name="M:TouchlessLib.ColorKey.Equals(System.Object)">
+            <summary>
+            Hashtable equality tester
+            </summary>
+            <param name="obj"></param>
+            <returns>Returns true if the color components (h,s,v) are the same</returns>
+        </member>
+        <member name="P:TouchlessLib.ColorKey.Hsv">
+            <summary>
+            The HSV Value used to generate the hash key
+            </summary>
+        </member>
+        <member name="T:TouchlessLib.TouchlessMgr">
+            <summary>
+            Main class for the Touchless library.  Allows access to cameras on the
+            system and manipulation of Markers
+            </summary>
+        </member>
+        <member name="M:TouchlessLib.TouchlessMgr.RefreshCameraList">
+            <summary>
+            Refreshes the list of available cameras.  All existing camera instances are invalidated
+            </summary>
+        </member>
+        <member name="M:TouchlessLib.TouchlessMgr.AddMarker(System.String,System.Drawing.Bitmap,System.Drawing.Point,System.Single)">
+            <summary>
+            Adds a new marker given training data as an image and proposed marker region
+            </summary>
+            <param name="name">Caller supplied name for the new marker</param>
+            <param name="image">The image to scan for the new marker</param>
+            <param name="center">The center point of the new marker as pixel coordinates</param>
+            <param name="radius">The radius of the new marker in pixels</param>
+            <returns>A newly trained marker</returns>
+            /// <example>
+            The following is a code snippet that shows how to create a Marker
+            <code>
+                TouchlessMgr _touch = new TouchlessMgr();
+                ...
+            
+                // Create a new marker using the current image at a fixed location and size
+                Marker m = _touch.AddMarker("marker", _touch.CurrentCamera.GetCurrentImage(), new Point(100, 100), 10);
+            </code>
+            </example>
+        </member>
+        <member name="M:TouchlessLib.TouchlessMgr.RemoveMarker(System.Int32)">
+            <summary>
+            Removes a currently active marker and stops all tracking
+            </summary>
+            <param name="index">Index of the marker to remove</param>
+        </member>
+        <member name="M:TouchlessLib.TouchlessMgr.#ctor">
+            <summary>
+            The default contructor for a new TouchlessMgr
+            </summary>
+        </member>
+        <member name="M:TouchlessLib.TouchlessMgr.CaptureCallbackProc(System.Int32,System.Byte[])">
+            <summary>
+            Here is where the images come in as they are collected, as fast as they can and on a background thread
+            </summary>
+        </member>
+        <member name="M:TouchlessLib.TouchlessMgr.GetMarkerAppearance(System.Drawing.Bitmap,System.Drawing.Point,System.Single)">
+            <summary>
+            Get a marker's color using the training data of an image and a suggested marker circle
+            This version provides default bin counts to the core function
+            </summary>
+            <param name="image">The image to be analyzed for marker color</param>
+            <param name="center">The center of the proposed marker in pixel coordinates</param>
+            <param name="radius">The radius of the proposed marker in pixels</param>
+            <returns></returns>
+        </member>
+        <member name="M:TouchlessLib.TouchlessMgr.GetMarkerAppearance(System.Drawing.Bitmap,System.Drawing.Point,System.Single,TouchlessLib.HSV)">
+            <summary>
+            Get a marker's color using the training data of an image and a suggested marker circle
+            </summary>
+            <param name="image">The image to be analyzed for marker color</param>
+            <param name="center">The center of the proposed marker in pixel coordinates</param>
+            <param name="radius">The radius of the proposed marker in pixels</param>
+            <param name="binCounts">The number of bins per dimension used to partition hsv colors</param>
+        </member>
+        <member name="M:TouchlessLib.TouchlessMgr.UpdateMarkers(System.Drawing.Bitmap)">
+            <summary>
+            Update information about the current collection of markers
+            </summary>
+            <param name="image">Used as input to update markers, and as output for image adornments</param>
+        </member>
+        <member name="M:TouchlessLib.TouchlessMgr.preProcessMarker(TouchlessLib.Marker,System.Int32,System.Int32)">
+            <summary>
+            Perform preparatory action on a marker before update
+            </summary>
+            <param name="marker">The marker to be processed</param>
+            <param name="imageWidth">The width of the image image being processed</param>
+            <param name="imageHeight">The height of the image image being processed</param>
+        </member>
+        <member name="M:TouchlessLib.TouchlessMgr.postProcessMarker(TouchlessLib.Marker)">
+            <summary>
+            Perform additional computation and post-processing on the marker
+            </summary>
+            <param name="marker">The marker to be processed</param>
+        </member>
+        <member name="M:TouchlessLib.TouchlessMgr.Dispose">
+            <summary>
+            Cleanup function for the library
+            </summary>
+        </member>
+        <member name="P:TouchlessLib.TouchlessMgr.Cameras">
+            <summary>
+            Returns all available cameras 
+            </summary>
+        </member>
+        <member name="P:TouchlessLib.TouchlessMgr.CurrentCamera">
+            <summary>
+            The camera currently acquiring images, only one camera can be acquiring at one time and 
+            its starts acquiring as soon as it is set
+            </summary>
+            <example>
+            <code>
+                TouchlessMgr _touch = new TouchlessMgr();
+                ...
+            
+                // Pick the first available camera 
+                _touch.CurrentCamera = _touch.Cameras[0];
+            </code>
+            </example>
+        </member>
+        <member name="P:TouchlessLib.TouchlessMgr.Markers">
+            <summary>
+            Returns all tracked markers as an enumeration
+            </summary>
+        </member>
+        <member name="P:TouchlessLib.TouchlessMgr.MarkerCount">
+            <summary>
+            Get the current count of tracked markers
+            </summary>
+        </member>
+        <member name="T:TouchlessLib.Camera">
+            <summary>
+            Represents a camera inuse  by the Touchless system
+            </summary>
+        </member>
+        <member name="M:TouchlessLib.Camera.ShowPropertiesDialog(System.IntPtr)">
+            <summary>
+            Shows a camera specific properties dialog
+            </summary>
+            <param name="handle">Native window handle of the dialog parent</param>
+        </member>
+        <member name="M:TouchlessLib.Camera.GetCurrentImage">
+            <summary>
+            Returns the last image acquired from the camera
+            </summary>
+            <returns>A bitmap of the last image acquired from the camera</returns>
+            <example>
+            The following is a code snipet that shows acquiring the the current image from the camera. 
+            Selecting a camera is omitted from this sample.
+            <code lang="cs">
+                TouchlessMgr touch = new TouchlessMgr();
+            
+                // Code to select the camera omitted
+                ...
+            
+                Bitmap b = touch.CurrentCamera.GetCurrentImage();
+            </code>
+            </example>
+        </member>
+        <member name="M:TouchlessLib.Camera.ToString">
+            <summary>
+            Returns the camera name as the ToString implementation
+            </summary>
+            <returns>The name of the camera</returns>
+        </member>
+        <member name="M:TouchlessLib.Camera.Dispose">
+            <summary>
+            Cleanup function for the camera
+            </summary>
+        </member>
+        <member name="P:TouchlessLib.Camera.Fps">
+            <summary>
+            Defines the frames per second limit that is in place, -1 means no limit
+            </summary>
+        </member>
+        <member name="P:TouchlessLib.Camera.CaptureWidth">
+            <summary>
+            Determines the width of the image captured
+            </summary>
+        </member>
+        <member name="P:TouchlessLib.Camera.CaptureHeight">
+            <summary>
+            Defines the height of the image captured
+            </summary>
+        </member>
+        <member name="E:TouchlessLib.Camera.OnImageCaptured">
+            <summary>
+            Event fired when an image from the camera is captured
+            </summary>
+            <example>
+            The following is a code snippet that shows how to attach to the <c>OnImageCaptured</c> event to process images captured by the current camera.
+            <code lang="cs">
+                TouchlessMgr touch = new TouchlessMgr();
+            
+                // Code to select the camera omitted
+                ...
+            
+                touch.CurrentCamera.OnImageCaptured += new EventHandler&lt;CameraEventArgs&gt;(Camera_OnImageCaptured);
+                
+                ...
+            
+                void Camera_OnImageCaptured(object sender, CameraEventArgs args)
+                {
+                    Camera c = (Camera)sender;
+            
+                    // Do something with args.Image
+                }
+            </code>
+            </example>
+        </member>
+        <member name="T:TouchlessLib.CameraEventArgs">
+            <summary>
+            Camera specific EventArgs that provides the Image being captured
+            </summary>
+        </member>
+        <member name="P:TouchlessLib.CameraEventArgs.Image">
+            <summary>
+            Current Camera Image
+            </summary>
+        </member>
+        <member name="T:TouchlessLib.Marker">
+            <summary>
+            Represents a marker being tracked
+            </summary>
+        </member>
+        <member name="M:TouchlessLib.Marker.ToString">
+            <summary>
+            ToString override that returns the name of the marker
+            </summary>
+            <returns>The name of the marker</returns>
+        </member>
+        <member name="M:TouchlessLib.Marker.SetMarkerAppearance(System.Int32[0:,0:,0:])">
+            <summary>
+            Set the appearance of the marker, given its color frequencies
+            </summary>
+            <param name="rawHsvFreq">A 3D array of HSV frequencies</param>
+            <returns>Success</returns>
+        </member>
+        <member name="M:TouchlessLib.Marker.FireMarkerEventData">
+            <summary>
+            Fire an event to notify handlers that the marker data was updated
+            </summary>
+        </member>
+        <member name="P:TouchlessLib.Marker.Name">
+            <summary>
+            Name of the marker provided when it was created
+            </summary>
+        </member>
+        <member name="P:TouchlessLib.Marker.RepresentativeColor">
+            <summary>
+            Representative color value of the marker
+            </summary>
+        </member>
+        <member name="P:TouchlessLib.Marker.Threshold">
+            <summary>
+            Color frequency threshold used for detection
+            </summary>
+        </member>
+        <member name="P:TouchlessLib.Marker.SmoothingEnabled">
+            <summary>
+            Enable marker motion smoothing
+            </summary>
+        </member>
+        <member name="P:TouchlessLib.Marker.ProvideCalculatedProperties">
+            <summary>
+            Determines if the MarkerEventData provides additional calculated properties or not
+            </summary>
+        </member>
+        <member name="P:TouchlessLib.Marker.Highlight">
+            <summary>
+            Determines if the marker will be highlighted in images
+            </summary>
+        </member>
+        <member name="P:TouchlessLib.Marker.CurrentData">
+            <summary>
+            Returns the current status of the marker, useful for polling operations
+            </summary>
+            <returns>An instance of the MarkerEventData structure that represents the marker's current state</returns>
+        </member>
+        <member name="P:TouchlessLib.Marker.PreviousData">
+            <summary>
+            Returns the previous status of the marker
+            </summary>
+            <returns>An instance of the MarkerEventData structure that represents the marker's previous state</returns>
+        </member>
+        <member name="P:TouchlessLib.Marker.LastGoodData">
+            <summary>
+            Returns the last known status of the marker
+            </summary>
+            <returns>An instance of the MarkerEventData structure that represents the marker's last state wherein it was present</returns>
+        </member>
+        <member name="E:TouchlessLib.Marker.OnChange">
+            <summary>
+            Event fired when a marker's MarkerEventData is updated
+            </summary>
+            <example>
+            The following is a code snippet that shows how to setup the <c>OnChange</c> event handler
+            <code>
+                TouchlessMgr _touch = new TouchlessMgr();
+                ...
+            
+                // Create a new marker using the current image at a fixed location and size
+                Marker m = _touch.AddMarker("marker", _touch.CurrentCamera.GetCurrentImage(), new Point(100, 100), 10);
+                m.OnChange += new EventHandler&lt;MarkerEventArgs&gt;(Marker_OnChange);
+            
+                ...
+                void Marker_OnChange(object sender, MarkerEventArgs args)
+                {
+                    if (args.EventData.IsPresent)
+                    {
+                        // Do something with args.EventData
+                    }
+                }
+                
+            </code>
+            </example>
+        </member>
+        <member name="T:TouchlessLib.MarkerEventData">
+            <summary>
+            Defines data associated with a Marker
+            </summary>
+        </member>
+        <member name="P:TouchlessLib.MarkerEventData.X">
+            <summary>
+            Current X position of the marker
+            </summary>
+        </member>
+        <member name="P:TouchlessLib.MarkerEventData.Y">
+            <summary>
+            Current Y position of the marker
+            </summary>
+        </member>
+        <member name="P:TouchlessLib.MarkerEventData.DX">
+            <summary>
+            Relative distance in the X axis from the last processed location
+            </summary>
+        </member>
+        <member name="P:TouchlessLib.MarkerEventData.DY">
+            <summary>
+            Relative distance in the Y axis from the last processed location
+            </summary>
+        </member>
+        <member name="P:TouchlessLib.MarkerEventData.Present">
+            <summary>
+            If the marker is currently found
+            </summary>
+        </member>
+        <member name="P:TouchlessLib.MarkerEventData.ColorAvg">
+            <summary>
+            current average color value of the marker
+            </summary>
+        </member>
+        <member name="P:TouchlessLib.MarkerEventData.Area">
+            <summary>
+            The 2D volume of the marker
+            </summary>
+        </member>
+        <member name="P:TouchlessLib.MarkerEventData.Bounds">
+            <summary>
+            Bounding box of the marker area
+            </summary>
+        </member>
+        <member name="P:TouchlessLib.MarkerEventData.Timestamp">
+            <summary>
+            A DateTime that reflects when this data was collected
+            </summary>
+        </member>
+        <member name="T:TouchlessLib.MarkerEventArgs">
+            <summary>
+            Marker specific EventArgs that provides the MarkerEventData
+            </summary>
+        </member>
+        <member name="M:TouchlessLib.MarkerEventArgs.#ctor(TouchlessLib.MarkerEventData,TouchlessLib.Marker)">
+            <summary>
+            A constructor that takes the event data as an argument
+            </summary>
+            <param name="med">The marker event data for this event</param>
+            <param name="m">The marker updated with this event</param>
+        </member>
+        <member name="P:TouchlessLib.MarkerEventArgs.EventData">
+            <summary>
+            Marker state data
+            </summary>
+        </member>
+        <member name="P:TouchlessLib.MarkerEventArgs.EventMarker">
+            <summary>
+            The source marker
+            </summary>
+        </member>
+        <member name="T:TouchlessLib.ScanCommand">
+            <summary>
+            An enumeration used to distinguish between add/rem commands during the image scan loop
+            </summary>
+        </member>
+        <member name="T:TouchlessLib.MarkerScanCommand">
+            <summary>
+            Represents a command to add or remove a marker from consideration in part of the image scan loop
+            </summary>
+        </member>
+    </members>
+</doc>
