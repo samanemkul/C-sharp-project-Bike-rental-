@@ -14,4 +14,8 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = login
+<<<<<<< HEAD
 build_property.ProjectDir = D:\C-sharp-project-Bike-rental-\bike rental cSharp\login\login\
+=======
+build_property.ProjectDir = C:\Users\sandi\Downloads\Github\C-sharp-project-Bike-rental-\bike rental cSharp\login\login\
+>>>>>>> e3a7e1f8d2d555d0307149e1ee1c84f64586d130

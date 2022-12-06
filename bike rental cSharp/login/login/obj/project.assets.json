@@ -470,11 +470,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\HP\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\sandi\\.nuget\\packages\\": {}
+>>>>>>> e3a7e1f8d2d555d0307149e1ee1c84f64586d130
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "D:\\C-sharp-project-Bike-rental-\\bike rental cSharp\\login\\login\\login.csproj",
       "projectName": "login",
       "projectPath": "D:\\C-sharp-project-Bike-rental-\\bike rental cSharp\\login\\login\\login.csproj",
@@ -483,6 +488,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\sandi\\Downloads\\Github\\C-sharp-project-Bike-rental-\\bike rental cSharp\\login\\login\\login.csproj",
+      "projectName": "login",
+      "projectPath": "C:\\Users\\sandi\\Downloads\\Github\\C-sharp-project-Bike-rental-\\bike rental cSharp\\login\\login\\login.csproj",
+      "packagesPath": "C:\\Users\\sandi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sandi\\Downloads\\Github\\C-sharp-project-Bike-rental-\\bike rental cSharp\\login\\login\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\sandi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> e3a7e1f8d2d555d0307149e1ee1c84f64586d130
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
