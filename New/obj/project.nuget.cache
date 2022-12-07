@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "7mBa6LK5niUl3SNVJJtRAUuDWryue26l3lmpK+kEcgSPDPafwpEEluXvT5HIAHELZwzG0zXdvf11PAahfAsQIg==",
+  "success": true,
+  "projectFilePath": "D:\\Hawana\\C-sharp-project-Bike-rental-\\New\\New.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\student3\\.nuget\\packages\\fontawesome\\4.7.0\\fontawesome.4.7.0.nupkg.sha512",
+    "C:\\Users\\student3\\.nuget\\packages\\fontawesome.sharp\\6.1.1\\fontawesome.sharp.6.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
