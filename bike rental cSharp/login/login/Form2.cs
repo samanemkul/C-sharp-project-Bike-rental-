@@ -20,7 +20,7 @@ namespace login
         SqlConnection conn = new SqlConnection
            (@"Data source=.\SQLEXPRESS;
             Initial catalog=bike_rental;
-            Integrated Security=True");
+            user id=sa;password=kist@123;");
 
         private void label7_Click(object sender, EventArgs e)
         {
@@ -59,21 +59,27 @@ namespace login
                     
             }
               
-            }
+        }
 
         private void CheckbxShowPas_CheckedChanged(object sender, EventArgs e)
         {
             if(CheckbxShowPas.Checked)
             {
-                txtpassword.PasswordChar = '\0';
-                txtComPassword.PasswordChar = '\0';
+                txtpassword.UseSystemPasswordChar = true;
+                txtComPassword.UseSystemPasswordChar = true;
             }
             else
             {
-                txtpassword.PasswordChar = '•';
-                txtComPassword.PasswordChar = '•';
+                txtpassword.UseSystemPasswordChar = false;
+                txtComPassword.UseSystemPasswordChar = false;
 
             }
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            txtpassword.UseSystemPasswordChar=false;
+            txtComPassword.UseSystemPasswordChar=true;  
         }
     }
 }

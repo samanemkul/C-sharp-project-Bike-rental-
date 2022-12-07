@@ -10,7 +10,7 @@ namespace login
         SqlConnection conn = new SqlConnection
            (@"Data source=.\SQLEXPRESS;
             Initial catalog=bike_rental;
-            Integrated Security=True");
+            user id=sa;password=kist@123;");
         public Login()
         {
             InitializeComponent();
@@ -62,17 +62,33 @@ namespace login
         {
             if (CheckbxShowPas.Checked)
             {
-                txtpassword.PasswordChar = '\0';
+                txtpassword.UseSystemPasswordChar = true;
             }
             else
             {
-                txtpassword.PasswordChar = '•';
+                txtpassword.UseSystemPasswordChar = false;
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.Close();
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Maximized;
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+            txtpassword.UseSystemPasswordChar = false;   
+        }
+
     }
 }

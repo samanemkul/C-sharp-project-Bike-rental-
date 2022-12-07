@@ -1,41 +1,28 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "D:\\C-sharp-project-Bike-rental-\\bike rental cSharp\\login\\login\\login.csproj": {}
+    "D:\\romiya\\C-sharp-project-Bike-rental-\\bike rental cSharp\\login\\login\\login.csproj": {}
   },
   "projects": {
-    "D:\\C-sharp-project-Bike-rental-\\bike rental cSharp\\login\\login\\login.csproj": {
+    "D:\\romiya\\C-sharp-project-Bike-rental-\\bike rental cSharp\\login\\login\\login.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C-sharp-project-Bike-rental-\\bike rental cSharp\\login\\login\\login.csproj",
+        "projectUniqueName": "D:\\romiya\\C-sharp-project-Bike-rental-\\bike rental cSharp\\login\\login\\login.csproj",
         "projectName": "login",
-        "projectPath": "D:\\C-sharp-project-Bike-rental-\\bike rental cSharp\\login\\login\\login.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\C-sharp-project-Bike-rental-\\bike rental cSharp\\login\\login\\obj\\",
+        "projectPath": "D:\\romiya\\C-sharp-project-Bike-rental-\\bike rental cSharp\\login\\login\\login.csproj",
+        "packagesPath": "C:\\Users\\student3\\.nuget\\packages\\",
+        "outputPath": "D:\\romiya\\C-sharp-project-Bike-rental-\\bike rental cSharp\\login\\login\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-    "C:\\Users\\sandi\\Downloads\\Github\\C-sharp-project-Bike-rental-\\bike rental cSharp\\login\\login\\login.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\sandi\\Downloads\\Github\\C-sharp-project-Bike-rental-\\bike rental cSharp\\login\\login\\login.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\sandi\\Downloads\\Github\\C-sharp-project-Bike-rental-\\bike rental cSharp\\login\\login\\login.csproj",
-        "projectName": "login",
-        "projectPath": "C:\\Users\\sandi\\Downloads\\Github\\C-sharp-project-Bike-rental-\\bike rental cSharp\\login\\login\\login.csproj",
-        "packagesPath": "C:\\Users\\sandi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sandi\\Downloads\\Github\\C-sharp-project-Bike-rental-\\bike rental cSharp\\login\\login\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\sandi\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> e3a7e1f8d2d555d0307149e1ee1c84f64586d130
+          "C:\\Users\\student3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows"
+          "net6.0-windows7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -68,8 +55,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -81,7 +67,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
