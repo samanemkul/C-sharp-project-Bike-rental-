@@ -1,0 +1,78 @@
+using Microsoft.Win32;
+using System.Data;
+using System.Data.SqlClient;
+using System.Windows.Forms;
+
+namespace login
+{
+    public partial class Login : Form
+    {
+        SqlConnection conn = new SqlConnection
+           (@"Data source=.\SQLEXPRESS;
+            Initial catalog=bike_rental;
+            Integrated Security=True");
+        public Login()
+        {
+            InitializeComponent();
+        }
+        private void button1_Paint(object sender, PaintEventArgs e)
+        {
+
+            ControlPaint.DrawBorder(e.Graphics, button1.ClientRectangle,
+            SystemColors.ControlLightLight, 5, ButtonBorderStyle.Outset,
+            SystemColors.ControlLightLight, 5, ButtonBorderStyle.Outset,
+            SystemColors.ControlLightLight, 5, ButtonBorderStyle.Outset,
+            SystemColors.ControlLightLight, 5, ButtonBorderStyle.Outset);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            conn.Open();
+            string login = "SELECT * FROM login WHERE username ='" + txtusername.Text + "' and password = '" + txtpassword.Text + "'";
+            SqlCommand cmd = new SqlCommand(login, conn);
+            cmd.ExecuteNonQuery();
+            var dr = cmd.ExecuteReader();
+            if (dr.Read() == true)
+            {
+                new Form3().Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Invalid username or password ,Please Try Again", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                txtusername.Text = "";
+                txtpassword.Text = "";
+            }
+
+            conn.Close();
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form2 f2 = new Form2();
+            f2.ShowDialog();
+            this.Show();
+
+        }
+
+        private void CheckbxShowPas_CheckedChanged(object sender, EventArgs e)
+        {
+            if (CheckbxShowPas.Checked)
+            {
+                txtpassword.PasswordChar = '\0';
+            }
+            else
+            {
+                txtpassword.PasswordChar = '•';
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+    }
+}
