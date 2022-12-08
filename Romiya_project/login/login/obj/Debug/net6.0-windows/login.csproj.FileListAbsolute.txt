@@ -40,7 +40,6 @@ D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6
 D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.csproj.AssemblyReference.cache
-D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.Dashboard.resources
 D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.Form2.resources
 D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.Form3.resources
 D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.Login.resources
@@ -56,3 +55,5 @@ D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6
 D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.pdb
 D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.genruntimeconfig.cache
 D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\ref\login.dll
+D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.adminDb.resources
+D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.customerDb.resources

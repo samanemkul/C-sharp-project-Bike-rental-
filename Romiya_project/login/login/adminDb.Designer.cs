@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.sidebar = new System.Windows.Forms.Panel();
             this.bikeContainer = new System.Windows.Forms.FlowLayoutPanel();
             this.btn_bikes = new System.Windows.Forms.Button();
@@ -41,6 +42,9 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.projectName = new System.Windows.Forms.Label();
             this.menubtn = new FontAwesome.Sharp.IconPictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btn_rental = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.btn_payment = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
@@ -52,9 +56,8 @@
             this.pnl_history = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pnl_main = new System.Windows.Forms.Panel();
-            this.btn_rental = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.adminSidebar_timer = new System.Windows.Forms.Timer(this.components);
+            this.adminBike_timer = new System.Windows.Forms.Timer(this.components);
             this.sidebar.SuspendLayout();
             this.bikeContainer.SuspendLayout();
             this.panelProfile.SuspendLayout();
@@ -115,6 +118,7 @@
             this.btn_bikes.TabIndex = 0;
             this.btn_bikes.Text = "Bikes";
             this.btn_bikes.UseVisualStyleBackColor = false;
+            this.btn_bikes.Click += new System.EventHandler(this.btn_bikes_Click);
             // 
             // btn_petrol
             // 
@@ -260,6 +264,53 @@
             this.menubtn.Size = new System.Drawing.Size(32, 32);
             this.menubtn.TabIndex = 1;
             this.menubtn.TabStop = false;
+            this.menubtn.Click += new System.EventHandler(this.menubtn_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(3, 180);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(219, 49);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Client Management";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // btn_rental
+            // 
+            this.btn_rental.BackColor = System.Drawing.Color.Transparent;
+            this.btn_rental.FlatAppearance.BorderSize = 0;
+            this.btn_rental.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_rental.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_rental.ForeColor = System.Drawing.Color.White;
+            this.btn_rental.Image = global::login.Properties.Resources.payment;
+            this.btn_rental.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_rental.Location = new System.Drawing.Point(1, 287);
+            this.btn_rental.Name = "btn_rental";
+            this.btn_rental.Size = new System.Drawing.Size(219, 49);
+            this.btn_rental.TabIndex = 0;
+            this.btn_rental.Text = "Rental";
+            this.btn_rental.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Transparent;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.Location = new System.Drawing.Point(0, 385);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(219, 49);
+            this.button4.TabIndex = 0;
+            this.button4.Text = "User Admin";
+            this.button4.UseVisualStyleBackColor = false;
             // 
             // btn_payment
             // 
@@ -352,7 +403,6 @@
             // 
             this.pnl_history.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.pnl_history.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pnl_history.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnl_history.Location = new System.Drawing.Point(4, 113);
             this.pnl_history.Name = "pnl_history";
             this.pnl_history.Size = new System.Drawing.Size(200, 100);
@@ -388,51 +438,15 @@
             this.pnl_main.Size = new System.Drawing.Size(797, 568);
             this.pnl_main.TabIndex = 2;
             // 
-            // btn_rental
+            // adminSidebar_timer
             // 
-            this.btn_rental.BackColor = System.Drawing.Color.Transparent;
-            this.btn_rental.FlatAppearance.BorderSize = 0;
-            this.btn_rental.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_rental.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_rental.ForeColor = System.Drawing.Color.White;
-            this.btn_rental.Image = global::login.Properties.Resources.payment;
-            this.btn_rental.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_rental.Location = new System.Drawing.Point(0, 287);
-            this.btn_rental.Name = "btn_rental";
-            this.btn_rental.Size = new System.Drawing.Size(219, 49);
-            this.btn_rental.TabIndex = 0;
-            this.btn_rental.Text = "Rental";
-            this.btn_rental.UseVisualStyleBackColor = false;
+            this.adminSidebar_timer.Interval = 10;
+            this.adminSidebar_timer.Tick += new System.EventHandler(this.adminSidebar_click);
             // 
-            // button1
+            // adminBike_timer
             // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(3, 180);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(219, 49);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Client Management";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.Transparent;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(0, 385);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(219, 49);
-            this.button4.TabIndex = 0;
-            this.button4.Text = "Admin Management";
-            this.button4.UseVisualStyleBackColor = false;
+            this.adminBike_timer.Interval = 10;
+            this.adminBike_timer.Tick += new System.EventHandler(this.adminBike_click);
             // 
             // adminDb
             // 
@@ -484,5 +498,7 @@
         private Panel pnl_history;
         private Panel panel3;
         private Panel pnl_main;
+        private System.Windows.Forms.Timer adminSidebar_timer;
+        private System.Windows.Forms.Timer adminBike_timer;
     }
 }

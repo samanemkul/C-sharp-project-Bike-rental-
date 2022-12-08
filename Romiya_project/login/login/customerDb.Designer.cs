@@ -222,6 +222,7 @@
             this.btn_profile.TabIndex = 0;
             this.btn_profile.Text = "Profile";
             this.btn_profile.UseVisualStyleBackColor = false;
+            this.btn_profile.Click += new System.EventHandler(this.btn_profile_Click);
             // 
             // panel2
             // 
@@ -233,6 +234,7 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(217, 57);
             this.panel2.TabIndex = 0;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // projectName
             // 
@@ -297,6 +299,7 @@
             this.pnl_main.Name = "pnl_main";
             this.pnl_main.Size = new System.Drawing.Size(716, 568);
             this.pnl_main.TabIndex = 1;
+            this.pnl_main.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_main_Paint);
             // 
             // label1
             // 
@@ -307,6 +310,7 @@
             this.label1.Size = new System.Drawing.Size(123, 19);
             this.label1.TabIndex = 1;
             this.label1.Text = "Home/Dash Board";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button3
             // 
@@ -319,6 +323,7 @@
             this.button3.TabIndex = 2;
             this.button3.Text = "(%)Offers";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // lbl_dashboard
             // 
@@ -329,6 +334,7 @@
             this.lbl_dashboard.Size = new System.Drawing.Size(154, 31);
             this.lbl_dashboard.TabIndex = 0;
             this.lbl_dashboard.Text = "Dash Board";
+            this.lbl_dashboard.Click += new System.EventHandler(this.lbl_dashboard_Click);
             // 
             // button2
             // 
@@ -341,6 +347,7 @@
             this.button2.TabIndex = 2;
             this.button2.Text = "Active Bikes";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // btn_history
             // 
@@ -353,6 +360,7 @@
             this.btn_history.TabIndex = 2;
             this.btn_history.Text = "History";
             this.btn_history.UseVisualStyleBackColor = false;
+            this.btn_history.Click += new System.EventHandler(this.btn_history_Click);
             // 
             // panel6
             // 
@@ -361,6 +369,7 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(200, 100);
             this.panel6.TabIndex = 1;
+            this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint);
             // 
             // panel5
             // 
@@ -369,6 +378,7 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(200, 100);
             this.panel5.TabIndex = 1;
+            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
             // pnl_history
             // 
@@ -379,6 +389,7 @@
             this.pnl_history.Name = "pnl_history";
             this.pnl_history.Size = new System.Drawing.Size(200, 100);
             this.pnl_history.TabIndex = 1;
+            this.pnl_history.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_history_Paint);
             // 
             // panel3
             // 
