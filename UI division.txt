@@ -1,7 +1,7 @@
-Romiya- login, admin rental form db, customer rental form
+Romiya- login, admin rental form db, registration
 Hawana- main admin db, bike db(category, information,etc),main customer db
 Sama - admin customer management db, admin payment db, admin logout, customer logout
-Kushal - Registration, admin user management db, customer bike info
+Kushal - admin user management db, customer bike info, customer rental form
 db= Dashboard 
 Take reference of UI from 
 https://www.inettutor.com/source-code/bike-rental-system-free-template-in-php-and-bootstrap/

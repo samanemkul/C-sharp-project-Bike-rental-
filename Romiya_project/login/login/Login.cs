@@ -90,5 +90,9 @@ namespace login
             txtpassword.UseSystemPasswordChar = false;   
         }
 
+        private void txtusername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
