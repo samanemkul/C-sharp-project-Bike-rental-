@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace login
 {
-    public partial class Dashboard : Form
+    public partial class customerDb : Form
     {
         [DllImport("Gdi32.dll",EntryPoint = "CreateRoundRectRgn")]
         private static extern IntPtr CreateRoundRectRgn
@@ -25,7 +25,7 @@ namespace login
             );
         bool sideBarExpand;
         bool bikeCollapse;
-        public Dashboard()
+        public customerDb()
         {
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.None;
@@ -104,6 +104,11 @@ namespace login
         }
 
         private void btn_about_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void customerDb_Load(object sender, EventArgs e)
         {
 
         }
