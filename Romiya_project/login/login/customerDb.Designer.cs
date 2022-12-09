@@ -49,13 +49,15 @@
             this.button3 = new System.Windows.Forms.Button();
             this.lbl_dashboard = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
-            this.btn_history = new System.Windows.Forms.Button();
+            this.btn_FeedBack = new System.Windows.Forms.Button();
             this.pnl_offers = new System.Windows.Forms.Panel();
             this.pnl_activeBikes = new System.Windows.Forms.Panel();
             this.pnl_history = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.sidebar_timer = new System.Windows.Forms.Timer(this.components);
             this.bike_timer = new System.Windows.Forms.Timer(this.components);
+            this.btn_cuHelp = new FontAwesome.Sharp.IconButton();
+            this.label2 = new System.Windows.Forms.Label();
             this.sidebar.SuspendLayout();
             this.bikeContainer.SuspendLayout();
             this.panelProfile.SuspendLayout();
@@ -306,11 +308,12 @@
             // 
             this.pnl_main.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.pnl_main.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnl_main.Controls.Add(this.label2);
             this.pnl_main.Controls.Add(this.label1);
             this.pnl_main.Controls.Add(this.button3);
             this.pnl_main.Controls.Add(this.lbl_dashboard);
             this.pnl_main.Controls.Add(this.button2);
-            this.pnl_main.Controls.Add(this.btn_history);
+            this.pnl_main.Controls.Add(this.btn_FeedBack);
             this.pnl_main.Controls.Add(this.pnl_offers);
             this.pnl_main.Controls.Add(this.pnl_activeBikes);
             this.pnl_main.Controls.Add(this.pnl_history);
@@ -326,12 +329,13 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(572, 72);
+            this.label1.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.label1.Location = new System.Drawing.Point(554, 72);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(123, 19);
+            this.label1.Size = new System.Drawing.Size(52, 21);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Home/Dash Board";
+            this.label1.Text = "Home";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button3
@@ -339,7 +343,7 @@
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(173)))), ((int)(((byte)(6)))));
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button3.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button3.Location = new System.Drawing.Point(494, 212);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(201, 29);
@@ -351,10 +355,10 @@
             // lbl_dashboard
             // 
             this.lbl_dashboard.AutoSize = true;
-            this.lbl_dashboard.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_dashboard.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbl_dashboard.Location = new System.Drawing.Point(4, 64);
             this.lbl_dashboard.Name = "lbl_dashboard";
-            this.lbl_dashboard.Size = new System.Drawing.Size(154, 31);
+            this.lbl_dashboard.Size = new System.Drawing.Size(157, 37);
             this.lbl_dashboard.TabIndex = 0;
             this.lbl_dashboard.Text = "Dash Board";
             this.lbl_dashboard.Click += new System.EventHandler(this.lbl_dashboard_Click);
@@ -364,7 +368,7 @@
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(150)))), ((int)(((byte)(62)))));
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button2.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button2.Location = new System.Drawing.Point(246, 212);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(200, 29);
@@ -373,19 +377,19 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // btn_history
+            // btn_FeedBack
             // 
-            this.btn_history.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(145)))), ((int)(((byte)(165)))));
-            this.btn_history.FlatAppearance.BorderSize = 0;
-            this.btn_history.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_history.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_history.Location = new System.Drawing.Point(4, 212);
-            this.btn_history.Name = "btn_history";
-            this.btn_history.Size = new System.Drawing.Size(200, 29);
-            this.btn_history.TabIndex = 2;
-            this.btn_history.Text = "History";
-            this.btn_history.UseVisualStyleBackColor = false;
-            this.btn_history.Click += new System.EventHandler(this.btn_history_Click);
+            this.btn_FeedBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(145)))), ((int)(((byte)(165)))));
+            this.btn_FeedBack.FlatAppearance.BorderSize = 0;
+            this.btn_FeedBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_FeedBack.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_FeedBack.Location = new System.Drawing.Point(4, 212);
+            this.btn_FeedBack.Name = "btn_FeedBack";
+            this.btn_FeedBack.Size = new System.Drawing.Size(200, 29);
+            this.btn_FeedBack.TabIndex = 2;
+            this.btn_FeedBack.Text = "FeedBack";
+            this.btn_FeedBack.UseVisualStyleBackColor = false;
+            this.btn_FeedBack.Click += new System.EventHandler(this.btn_history_Click);
             // 
             // pnl_offers
             // 
@@ -419,6 +423,7 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(127)))), ((int)(((byte)(21)))));
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.btn_cuHelp);
             this.panel3.Controls.Add(this.menubtn);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
@@ -435,6 +440,35 @@
             // 
             this.bike_timer.Interval = 10;
             this.bike_timer.Tick += new System.EventHandler(this.bike_timer_Tick);
+            // 
+            // btn_cuHelp
+            // 
+            this.btn_cuHelp.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.btn_cuHelp.BackColor = System.Drawing.Color.Transparent;
+            this.btn_cuHelp.FlatAppearance.BorderSize = 0;
+            this.btn_cuHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_cuHelp.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_cuHelp.IconChar = FontAwesome.Sharp.IconChar.Question;
+            this.btn_cuHelp.IconColor = System.Drawing.Color.White;
+            this.btn_cuHelp.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_cuHelp.IconSize = 20;
+            this.btn_cuHelp.Location = new System.Drawing.Point(664, 12);
+            this.btn_cuHelp.Name = "btn_cuHelp";
+            this.btn_cuHelp.Size = new System.Drawing.Size(29, 34);
+            this.btn_cuHelp.TabIndex = 2;
+            this.btn_cuHelp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_cuHelp.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(602, 72);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(100, 21);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "/ Dash Board";
+            this.label2.Click += new System.EventHandler(this.label1_Click);
             // 
             // customerDb
             // 
@@ -474,7 +508,7 @@
         private Panel pnl_history;
         private Button button3;
         private Button button2;
-        private Button btn_history;
+        private Button btn_FeedBack;
         private FontAwesome.Sharp.IconPictureBox menubtn;
         private System.Windows.Forms.Timer sidebar_timer;
         private System.Windows.Forms.Timer bike_timer;
@@ -489,5 +523,7 @@
         private FontAwesome.Sharp.IconButton btn_customerPetrolBike;
         private Panel pnl_offers;
         private PictureBox pictureBox1;
+        private FontAwesome.Sharp.IconButton btn_cuHelp;
+        private Label label2;
     }
 }
