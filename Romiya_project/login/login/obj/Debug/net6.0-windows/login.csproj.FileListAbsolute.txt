@@ -25,7 +25,6 @@ D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\D
 D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.pdb
 D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.genruntimeconfig.cache
 D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\ref\login.dll
-D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.Dashboard.resources
 D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\FontAwesome.Sharp.dll
 D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\login.exe
 D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\login.deps.json
@@ -57,3 +56,5 @@ D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6
 D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\ref\login.dll
 D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.adminDb.resources
 D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.customerDb.resources
+D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.adminDb.resources
+D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.customerDb.resources
