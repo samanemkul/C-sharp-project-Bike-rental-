@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "GP3szD7Vy92HSAo1xwaJj1GN3qdtNsXFNZ+pqOtDxF0KyJ3cKJimnenJz3WvlqAvlRDoiYhjNx8VNFszDaI6fQ==",
+  "success": true,
+  "projectFilePath": "C:\\Bike rental\\C-sharp-project-Bike-rental-\\petrol bikes\\petrol bikes\\petrol bikes.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
