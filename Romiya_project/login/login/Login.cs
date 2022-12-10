@@ -10,7 +10,7 @@ namespace login
         SqlConnection conn = new SqlConnection
            (@"Data source=.\SQLEXPRESS;
             Initial catalog=bike_rental;
-            user id=sa;password=kist@123;");
+            Integrated Security=True");
         public Login()
         {
             InitializeComponent();
@@ -52,7 +52,7 @@ namespace login
         private void label7_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form2 f2 = new Form2();
+            RegisterForm f2 = new RegisterForm();
             f2.ShowDialog();
             this.Show();
 
@@ -88,11 +88,6 @@ namespace login
         private void Login_Load(object sender, EventArgs e)
         {
             txtpassword.UseSystemPasswordChar = false;   
-        }
-
-        private void txtusername_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
