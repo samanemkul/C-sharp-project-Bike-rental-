@@ -506,11 +506,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\III SEM Project\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\login.csproj",
+      "projectUniqueName": "C:\\III - SEM - Project\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\login.csproj",
       "projectName": "login",
-      "projectPath": "D:\\III SEM Project\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\login.csproj",
+      "projectPath": "C:\\III - SEM - Project\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\login.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "D:\\III SEM Project\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\obj\\",
+      "outputPath": "C:\\III - SEM - Project\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

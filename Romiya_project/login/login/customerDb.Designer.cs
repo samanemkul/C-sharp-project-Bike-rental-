@@ -228,7 +228,6 @@
             // 
             // panelProfile
             // 
-            this.panelProfile.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelProfile.Controls.Add(this.btn_customerProfile);
             this.panelProfile.Location = new System.Drawing.Point(1, 58);
             this.panelProfile.Name = "panelProfile";
@@ -255,7 +254,6 @@
             // 
             // panel2
             // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.projectName);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;

@@ -35,6 +35,9 @@
             this.btn_customerElectricBike = new FontAwesome.Sharp.IconButton();
             this.btn_logOut = new FontAwesome.Sharp.IconButton();
             this.btn_customerHelp = new FontAwesome.Sharp.IconButton();
+            this.btn_rental = new FontAwesome.Sharp.IconButton();
+            this.btn_clientManagement = new FontAwesome.Sharp.IconButton();
+            this.btn_admin = new FontAwesome.Sharp.IconButton();
             this.btn_customerPayment = new FontAwesome.Sharp.IconButton();
             this.btn_customerDb = new FontAwesome.Sharp.IconButton();
             this.panelProfile = new System.Windows.Forms.Panel();
@@ -53,9 +56,6 @@
             this.f = new System.Windows.Forms.Panel();
             this.pnl_offers = new System.Windows.Forms.Panel();
             this.pnl_activeBikes = new System.Windows.Forms.Panel();
-            this.btn_rental = new FontAwesome.Sharp.IconButton();
-            this.btn_admin = new FontAwesome.Sharp.IconButton();
-            this.btn_clientManagement = new FontAwesome.Sharp.IconButton();
             this.sidebar.SuspendLayout();
             this.bikeContainer.SuspendLayout();
             this.panelProfile.SuspendLayout();
@@ -189,6 +189,60 @@
             this.btn_customerHelp.Text = "Help";
             this.btn_customerHelp.UseVisualStyleBackColor = true;
             // 
+            // btn_rental
+            // 
+            this.btn_rental.FlatAppearance.BorderSize = 0;
+            this.btn_rental.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_rental.Font = new System.Drawing.Font("Yu Gothic UI Semilight", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_rental.ForeColor = System.Drawing.Color.White;
+            this.btn_rental.IconChar = FontAwesome.Sharp.IconChar.Motorcycle;
+            this.btn_rental.IconColor = System.Drawing.Color.White;
+            this.btn_rental.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_rental.IconSize = 25;
+            this.btn_rental.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_rental.Location = new System.Drawing.Point(9, 198);
+            this.btn_rental.Name = "btn_rental";
+            this.btn_rental.Size = new System.Drawing.Size(198, 38);
+            this.btn_rental.TabIndex = 0;
+            this.btn_rental.Text = "Rental";
+            this.btn_rental.UseVisualStyleBackColor = true;
+            // 
+            // btn_clientManagement
+            // 
+            this.btn_clientManagement.FlatAppearance.BorderSize = 0;
+            this.btn_clientManagement.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_clientManagement.Font = new System.Drawing.Font("Yu Gothic UI Semilight", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_clientManagement.ForeColor = System.Drawing.Color.White;
+            this.btn_clientManagement.IconChar = FontAwesome.Sharp.IconChar.File;
+            this.btn_clientManagement.IconColor = System.Drawing.Color.White;
+            this.btn_clientManagement.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_clientManagement.IconSize = 25;
+            this.btn_clientManagement.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_clientManagement.Location = new System.Drawing.Point(9, 232);
+            this.btn_clientManagement.Name = "btn_clientManagement";
+            this.btn_clientManagement.Size = new System.Drawing.Size(241, 38);
+            this.btn_clientManagement.TabIndex = 0;
+            this.btn_clientManagement.Text = "Client Management";
+            this.btn_clientManagement.UseVisualStyleBackColor = true;
+            // 
+            // btn_admin
+            // 
+            this.btn_admin.FlatAppearance.BorderSize = 0;
+            this.btn_admin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_admin.Font = new System.Drawing.Font("Yu Gothic UI Semilight", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_admin.ForeColor = System.Drawing.Color.White;
+            this.btn_admin.IconChar = FontAwesome.Sharp.IconChar.PeopleGroup;
+            this.btn_admin.IconColor = System.Drawing.Color.White;
+            this.btn_admin.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_admin.IconSize = 25;
+            this.btn_admin.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_admin.Location = new System.Drawing.Point(9, 267);
+            this.btn_admin.Name = "btn_admin";
+            this.btn_admin.Size = new System.Drawing.Size(198, 38);
+            this.btn_admin.TabIndex = 0;
+            this.btn_admin.Text = "Admin";
+            this.btn_admin.UseVisualStyleBackColor = true;
+            // 
             // btn_customerPayment
             // 
             this.btn_customerPayment.FlatAppearance.BorderSize = 0;
@@ -227,7 +281,6 @@
             // 
             // panelProfile
             // 
-            this.panelProfile.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelProfile.Controls.Add(this.btn_customerProfile);
             this.panelProfile.Location = new System.Drawing.Point(1, 58);
             this.panelProfile.Name = "panelProfile";
@@ -254,7 +307,6 @@
             // 
             // panel2
             // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.projectName);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
@@ -407,60 +459,6 @@
             this.pnl_activeBikes.Name = "pnl_activeBikes";
             this.pnl_activeBikes.Size = new System.Drawing.Size(200, 100);
             this.pnl_activeBikes.TabIndex = 8;
-            // 
-            // btn_rental
-            // 
-            this.btn_rental.FlatAppearance.BorderSize = 0;
-            this.btn_rental.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_rental.Font = new System.Drawing.Font("Yu Gothic UI Semilight", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_rental.ForeColor = System.Drawing.Color.White;
-            this.btn_rental.IconChar = FontAwesome.Sharp.IconChar.Motorcycle;
-            this.btn_rental.IconColor = System.Drawing.Color.White;
-            this.btn_rental.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btn_rental.IconSize = 25;
-            this.btn_rental.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_rental.Location = new System.Drawing.Point(9, 198);
-            this.btn_rental.Name = "btn_rental";
-            this.btn_rental.Size = new System.Drawing.Size(198, 38);
-            this.btn_rental.TabIndex = 0;
-            this.btn_rental.Text = "Rental";
-            this.btn_rental.UseVisualStyleBackColor = true;
-            // 
-            // btn_admin
-            // 
-            this.btn_admin.FlatAppearance.BorderSize = 0;
-            this.btn_admin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_admin.Font = new System.Drawing.Font("Yu Gothic UI Semilight", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_admin.ForeColor = System.Drawing.Color.White;
-            this.btn_admin.IconChar = FontAwesome.Sharp.IconChar.PeopleGroup;
-            this.btn_admin.IconColor = System.Drawing.Color.White;
-            this.btn_admin.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btn_admin.IconSize = 25;
-            this.btn_admin.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_admin.Location = new System.Drawing.Point(9, 267);
-            this.btn_admin.Name = "btn_admin";
-            this.btn_admin.Size = new System.Drawing.Size(198, 38);
-            this.btn_admin.TabIndex = 0;
-            this.btn_admin.Text = "Admin";
-            this.btn_admin.UseVisualStyleBackColor = true;
-            // 
-            // btn_clientManagement
-            // 
-            this.btn_clientManagement.FlatAppearance.BorderSize = 0;
-            this.btn_clientManagement.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_clientManagement.Font = new System.Drawing.Font("Yu Gothic UI Semilight", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_clientManagement.ForeColor = System.Drawing.Color.White;
-            this.btn_clientManagement.IconChar = FontAwesome.Sharp.IconChar.File;
-            this.btn_clientManagement.IconColor = System.Drawing.Color.White;
-            this.btn_clientManagement.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btn_clientManagement.IconSize = 25;
-            this.btn_clientManagement.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_clientManagement.Location = new System.Drawing.Point(9, 232);
-            this.btn_clientManagement.Name = "btn_clientManagement";
-            this.btn_clientManagement.Size = new System.Drawing.Size(241, 38);
-            this.btn_clientManagement.TabIndex = 0;
-            this.btn_clientManagement.Text = "Client Management";
-            this.btn_clientManagement.UseVisualStyleBackColor = true;
             // 
             // adminDb
             // 
