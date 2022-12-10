@@ -31,26 +31,28 @@
             this.components = new System.ComponentModel.Container();
             this.sidebar = new System.Windows.Forms.Panel();
             this.bikeContainer = new System.Windows.Forms.FlowLayoutPanel();
-            this.btn_bikes = new System.Windows.Forms.Button();
-            this.btn_petrol = new System.Windows.Forms.Button();
-            this.btn_electric = new System.Windows.Forms.Button();
-            this.btn_about = new System.Windows.Forms.Button();
-            this.btn_logout = new System.Windows.Forms.Button();
-            this.btn_dashboard = new System.Windows.Forms.Button();
+            this.btn_customerBikes = new FontAwesome.Sharp.IconButton();
+            this.btn_customerPetrolBike = new FontAwesome.Sharp.IconButton();
+            this.btn_customerElectricBike = new FontAwesome.Sharp.IconButton();
+            this.btn_logOut = new FontAwesome.Sharp.IconButton();
+            this.btn_customerHelp = new FontAwesome.Sharp.IconButton();
+            this.btn_customerPayment = new FontAwesome.Sharp.IconButton();
+            this.btn_customerDb = new FontAwesome.Sharp.IconButton();
             this.panelProfile = new System.Windows.Forms.Panel();
-            this.btn_profile = new System.Windows.Forms.Button();
+            this.btn_customerProfile = new FontAwesome.Sharp.IconButton();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.projectName = new System.Windows.Forms.Label();
             this.menubtn = new FontAwesome.Sharp.IconPictureBox();
-            this.btn_payment = new System.Windows.Forms.Button();
             this.pnl_main = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.lbl_dashboard = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
-            this.btn_history = new System.Windows.Forms.Button();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
+            this.btn_FeedBack = new System.Windows.Forms.Button();
+            this.pnl_offers = new System.Windows.Forms.Panel();
+            this.pnl_activeBikes = new System.Windows.Forms.Panel();
             this.pnl_history = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.sidebar_timer = new System.Windows.Forms.Timer(this.components);
@@ -59,20 +61,22 @@
             this.bikeContainer.SuspendLayout();
             this.panelProfile.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.menubtn)).BeginInit();
             this.pnl_main.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // sidebar
             // 
             this.sidebar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.sidebar.Controls.Add(this.bikeContainer);
-            this.sidebar.Controls.Add(this.btn_about);
-            this.sidebar.Controls.Add(this.btn_logout);
-            this.sidebar.Controls.Add(this.btn_dashboard);
+            this.sidebar.Controls.Add(this.btn_logOut);
+            this.sidebar.Controls.Add(this.btn_customerHelp);
+            this.sidebar.Controls.Add(this.btn_customerPayment);
+            this.sidebar.Controls.Add(this.btn_customerDb);
             this.sidebar.Controls.Add(this.panelProfile);
             this.sidebar.Controls.Add(this.panel2);
-            this.sidebar.Controls.Add(this.btn_payment);
             this.sidebar.Dock = System.Windows.Forms.DockStyle.Left;
             this.sidebar.Location = new System.Drawing.Point(0, 0);
             this.sidebar.MaximumSize = new System.Drawing.Size(217, 568);
@@ -84,151 +88,175 @@
             // bikeContainer
             // 
             this.bikeContainer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.bikeContainer.Controls.Add(this.btn_bikes);
-            this.bikeContainer.Controls.Add(this.btn_petrol);
-            this.bikeContainer.Controls.Add(this.btn_electric);
-            this.bikeContainer.Location = new System.Drawing.Point(0, 176);
-            this.bikeContainer.MaximumSize = new System.Drawing.Size(211, 149);
-            this.bikeContainer.MinimumSize = new System.Drawing.Size(217, 49);
+            this.bikeContainer.Controls.Add(this.btn_customerBikes);
+            this.bikeContainer.Controls.Add(this.btn_customerPetrolBike);
+            this.bikeContainer.Controls.Add(this.btn_customerElectricBike);
+            this.bikeContainer.Location = new System.Drawing.Point(12, 159);
+            this.bikeContainer.MaximumSize = new System.Drawing.Size(190, 136);
+            this.bikeContainer.MinimumSize = new System.Drawing.Size(190, 38);
             this.bikeContainer.Name = "bikeContainer";
-            this.bikeContainer.Size = new System.Drawing.Size(217, 49);
+            this.bikeContainer.Size = new System.Drawing.Size(190, 44);
             this.bikeContainer.TabIndex = 3;
             // 
-            // btn_bikes
+            // btn_customerBikes
             // 
-            this.btn_bikes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.btn_bikes.FlatAppearance.BorderSize = 0;
-            this.btn_bikes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bikeContainer.SetFlowBreak(this.btn_bikes, true);
-            this.btn_bikes.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_bikes.ForeColor = System.Drawing.Color.White;
-            this.btn_bikes.Image = global::login.Properties.Resources._7;
-            this.btn_bikes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_bikes.Location = new System.Drawing.Point(3, 3);
-            this.btn_bikes.MaximumSize = new System.Drawing.Size(221, 149);
-            this.btn_bikes.MinimumSize = new System.Drawing.Size(216, 49);
-            this.btn_bikes.Name = "btn_bikes";
-            this.btn_bikes.Size = new System.Drawing.Size(216, 49);
-            this.btn_bikes.TabIndex = 0;
-            this.btn_bikes.Text = "Bikes";
-            this.btn_bikes.UseVisualStyleBackColor = false;
-            this.btn_bikes.Click += new System.EventHandler(this.button4_Click);
+            this.btn_customerBikes.FlatAppearance.BorderSize = 0;
+            this.btn_customerBikes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_customerBikes.Font = new System.Drawing.Font("Yu Gothic UI Semilight", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_customerBikes.ForeColor = System.Drawing.Color.White;
+            this.btn_customerBikes.IconChar = FontAwesome.Sharp.IconChar.Motorcycle;
+            this.btn_customerBikes.IconColor = System.Drawing.Color.White;
+            this.btn_customerBikes.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_customerBikes.IconSize = 25;
+            this.btn_customerBikes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_customerBikes.Location = new System.Drawing.Point(3, 3);
+            this.btn_customerBikes.Name = "btn_customerBikes";
+            this.btn_customerBikes.Size = new System.Drawing.Size(190, 38);
+            this.btn_customerBikes.TabIndex = 0;
+            this.btn_customerBikes.Text = "Bikes";
+            this.btn_customerBikes.UseVisualStyleBackColor = true;
+            this.btn_customerBikes.Click += new System.EventHandler(this.btn_customerBikes_Click);
             // 
-            // btn_petrol
+            // btn_customerPetrolBike
             // 
-            this.btn_petrol.BackColor = System.Drawing.Color.Transparent;
-            this.btn_petrol.FlatAppearance.BorderSize = 0;
-            this.btn_petrol.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_petrol.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_petrol.ForeColor = System.Drawing.Color.White;
-            this.btn_petrol.Image = global::login.Properties.Resources.dot2;
-            this.btn_petrol.Location = new System.Drawing.Point(3, 58);
-            this.btn_petrol.Name = "btn_petrol";
-            this.btn_petrol.Size = new System.Drawing.Size(216, 40);
-            this.btn_petrol.TabIndex = 0;
-            this.btn_petrol.Text = "Petrol Bike";
-            this.btn_petrol.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_petrol.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_petrol.UseVisualStyleBackColor = false;
+            this.btn_customerPetrolBike.FlatAppearance.BorderSize = 0;
+            this.btn_customerPetrolBike.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_customerPetrolBike.Font = new System.Drawing.Font("Yu Gothic UI Semilight", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_customerPetrolBike.ForeColor = System.Drawing.Color.White;
+            this.btn_customerPetrolBike.IconChar = FontAwesome.Sharp.IconChar.DiceOne;
+            this.btn_customerPetrolBike.IconColor = System.Drawing.Color.White;
+            this.btn_customerPetrolBike.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_customerPetrolBike.IconSize = 25;
+            this.btn_customerPetrolBike.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_customerPetrolBike.Location = new System.Drawing.Point(3, 47);
+            this.btn_customerPetrolBike.Name = "btn_customerPetrolBike";
+            this.btn_customerPetrolBike.Size = new System.Drawing.Size(190, 38);
+            this.btn_customerPetrolBike.TabIndex = 0;
+            this.btn_customerPetrolBike.Text = "Petrol Bikes";
+            this.btn_customerPetrolBike.UseVisualStyleBackColor = true;
             // 
-            // btn_electric
+            // btn_customerElectricBike
             // 
-            this.btn_electric.BackColor = System.Drawing.Color.Transparent;
-            this.btn_electric.FlatAppearance.BorderSize = 0;
-            this.btn_electric.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_electric.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_electric.ForeColor = System.Drawing.Color.White;
-            this.btn_electric.Image = global::login.Properties.Resources.dot2;
-            this.btn_electric.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_electric.Location = new System.Drawing.Point(3, 104);
-            this.btn_electric.Name = "btn_electric";
-            this.btn_electric.Size = new System.Drawing.Size(216, 40);
-            this.btn_electric.TabIndex = 0;
-            this.btn_electric.Text = "Electric Bike";
-            this.btn_electric.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_electric.UseVisualStyleBackColor = false;
+            this.btn_customerElectricBike.FlatAppearance.BorderSize = 0;
+            this.btn_customerElectricBike.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_customerElectricBike.Font = new System.Drawing.Font("Yu Gothic UI Semilight", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_customerElectricBike.ForeColor = System.Drawing.Color.White;
+            this.btn_customerElectricBike.IconChar = FontAwesome.Sharp.IconChar.DiceOne;
+            this.btn_customerElectricBike.IconColor = System.Drawing.Color.White;
+            this.btn_customerElectricBike.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_customerElectricBike.IconSize = 25;
+            this.btn_customerElectricBike.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_customerElectricBike.Location = new System.Drawing.Point(3, 91);
+            this.btn_customerElectricBike.Name = "btn_customerElectricBike";
+            this.btn_customerElectricBike.Size = new System.Drawing.Size(190, 38);
+            this.btn_customerElectricBike.TabIndex = 0;
+            this.btn_customerElectricBike.Text = "Electric Bikes";
+            this.btn_customerElectricBike.UseVisualStyleBackColor = true;
             // 
-            // btn_about
+            // btn_logOut
             // 
-            this.btn_about.BackColor = System.Drawing.Color.Transparent;
-            this.btn_about.FlatAppearance.BorderSize = 0;
-            this.btn_about.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_about.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_about.ForeColor = System.Drawing.Color.White;
-            this.btn_about.Image = global::login.Properties.Resources.about;
-            this.btn_about.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_about.Location = new System.Drawing.Point(4, 289);
-            this.btn_about.Name = "btn_about";
-            this.btn_about.Size = new System.Drawing.Size(213, 49);
-            this.btn_about.TabIndex = 0;
-            this.btn_about.Text = "About";
-            this.btn_about.UseVisualStyleBackColor = false;
-            this.btn_about.Click += new System.EventHandler(this.btn_about_Click_1);
+            this.btn_logOut.FlatAppearance.BorderSize = 0;
+            this.btn_logOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_logOut.Font = new System.Drawing.Font("Yu Gothic UI Semilight", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_logOut.ForeColor = System.Drawing.Color.White;
+            this.btn_logOut.IconChar = FontAwesome.Sharp.IconChar.SignOut;
+            this.btn_logOut.IconColor = System.Drawing.Color.White;
+            this.btn_logOut.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_logOut.IconSize = 25;
+            this.btn_logOut.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_logOut.Location = new System.Drawing.Point(13, 527);
+            this.btn_logOut.Name = "btn_logOut";
+            this.btn_logOut.Size = new System.Drawing.Size(188, 38);
+            this.btn_logOut.TabIndex = 0;
+            this.btn_logOut.Text = "Log Out";
+            this.btn_logOut.UseVisualStyleBackColor = true;
             // 
-            // btn_logout
+            // btn_customerHelp
             // 
-            this.btn_logout.BackColor = System.Drawing.Color.Transparent;
-            this.btn_logout.FlatAppearance.BorderSize = 0;
-            this.btn_logout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_logout.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_logout.ForeColor = System.Drawing.Color.White;
-            this.btn_logout.Image = global::login.Properties.Resources.logout;
-            this.btn_logout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_logout.Location = new System.Drawing.Point(8, 514);
-            this.btn_logout.Name = "btn_logout";
-            this.btn_logout.Size = new System.Drawing.Size(209, 49);
-            this.btn_logout.TabIndex = 0;
-            this.btn_logout.Text = "Log Out";
-            this.btn_logout.UseVisualStyleBackColor = false;
-            this.btn_logout.Click += new System.EventHandler(this.btn_about_Click);
+            this.btn_customerHelp.FlatAppearance.BorderSize = 0;
+            this.btn_customerHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_customerHelp.Font = new System.Drawing.Font("Yu Gothic UI Semilight", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_customerHelp.ForeColor = System.Drawing.Color.White;
+            this.btn_customerHelp.IconChar = FontAwesome.Sharp.IconChar.Question;
+            this.btn_customerHelp.IconColor = System.Drawing.Color.White;
+            this.btn_customerHelp.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_customerHelp.IconSize = 25;
+            this.btn_customerHelp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_customerHelp.Location = new System.Drawing.Point(13, 258);
+            this.btn_customerHelp.Name = "btn_customerHelp";
+            this.btn_customerHelp.Size = new System.Drawing.Size(197, 38);
+            this.btn_customerHelp.TabIndex = 0;
+            this.btn_customerHelp.Text = "Help";
+            this.btn_customerHelp.UseVisualStyleBackColor = true;
             // 
-            // btn_dashboard
+            // btn_customerPayment
             // 
-            this.btn_dashboard.BackColor = System.Drawing.Color.Transparent;
-            this.btn_dashboard.FlatAppearance.BorderSize = 0;
-            this.btn_dashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_dashboard.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_dashboard.ForeColor = System.Drawing.Color.White;
-            this.btn_dashboard.Image = global::login.Properties.Resources.dashboard21;
-            this.btn_dashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_dashboard.Location = new System.Drawing.Point(8, 121);
-            this.btn_dashboard.Name = "btn_dashboard";
-            this.btn_dashboard.Size = new System.Drawing.Size(209, 49);
-            this.btn_dashboard.TabIndex = 0;
-            this.btn_dashboard.Text = "  Dash Board";
-            this.btn_dashboard.UseVisualStyleBackColor = false;
+            this.btn_customerPayment.FlatAppearance.BorderSize = 0;
+            this.btn_customerPayment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_customerPayment.Font = new System.Drawing.Font("Yu Gothic UI Semilight", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_customerPayment.ForeColor = System.Drawing.Color.White;
+            this.btn_customerPayment.IconChar = FontAwesome.Sharp.IconChar.DollarSign;
+            this.btn_customerPayment.IconColor = System.Drawing.Color.White;
+            this.btn_customerPayment.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_customerPayment.IconSize = 25;
+            this.btn_customerPayment.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_customerPayment.Location = new System.Drawing.Point(12, 214);
+            this.btn_customerPayment.Name = "btn_customerPayment";
+            this.btn_customerPayment.Size = new System.Drawing.Size(198, 38);
+            this.btn_customerPayment.TabIndex = 0;
+            this.btn_customerPayment.Text = "Payment";
+            this.btn_customerPayment.UseVisualStyleBackColor = true;
+            // 
+            // btn_customerDb
+            // 
+            this.btn_customerDb.FlatAppearance.BorderSize = 0;
+            this.btn_customerDb.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_customerDb.Font = new System.Drawing.Font("Yu Gothic UI Semilight", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_customerDb.ForeColor = System.Drawing.Color.White;
+            this.btn_customerDb.IconChar = FontAwesome.Sharp.IconChar.TachometerAlt;
+            this.btn_customerDb.IconColor = System.Drawing.Color.White;
+            this.btn_customerDb.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_customerDb.IconSize = 25;
+            this.btn_customerDb.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_customerDb.Location = new System.Drawing.Point(12, 115);
+            this.btn_customerDb.Name = "btn_customerDb";
+            this.btn_customerDb.Size = new System.Drawing.Size(190, 38);
+            this.btn_customerDb.TabIndex = 0;
+            this.btn_customerDb.Text = "    Dash Board";
+            this.btn_customerDb.UseVisualStyleBackColor = true;
             // 
             // panelProfile
             // 
             this.panelProfile.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panelProfile.Controls.Add(this.btn_profile);
+            this.panelProfile.Controls.Add(this.btn_customerProfile);
             this.panelProfile.Location = new System.Drawing.Point(1, 58);
             this.panelProfile.Name = "panelProfile";
-            this.panelProfile.Size = new System.Drawing.Size(216, 57);
+            this.panelProfile.Size = new System.Drawing.Size(216, 46);
             this.panelProfile.TabIndex = 1;
             // 
-            // btn_profile
+            // btn_customerProfile
             // 
-            this.btn_profile.BackColor = System.Drawing.Color.Transparent;
-            this.btn_profile.FlatAppearance.BorderSize = 0;
-            this.btn_profile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_profile.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_profile.ForeColor = System.Drawing.Color.White;
-            this.btn_profile.Image = global::login.Properties.Resources.profile;
-            this.btn_profile.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_profile.Location = new System.Drawing.Point(3, 4);
-            this.btn_profile.Name = "btn_profile";
-            this.btn_profile.Size = new System.Drawing.Size(206, 49);
-            this.btn_profile.TabIndex = 0;
-            this.btn_profile.Text = "Profile";
-            this.btn_profile.UseVisualStyleBackColor = false;
-            this.btn_profile.Click += new System.EventHandler(this.btn_profile_Click);
+            this.btn_customerProfile.FlatAppearance.BorderSize = 0;
+            this.btn_customerProfile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_customerProfile.Font = new System.Drawing.Font("Yu Gothic UI Semilight", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_customerProfile.ForeColor = System.Drawing.Color.White;
+            this.btn_customerProfile.IconChar = FontAwesome.Sharp.IconChar.User;
+            this.btn_customerProfile.IconColor = System.Drawing.Color.White;
+            this.btn_customerProfile.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_customerProfile.IconSize = 25;
+            this.btn_customerProfile.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_customerProfile.Location = new System.Drawing.Point(10, 7);
+            this.btn_customerProfile.Name = "btn_customerProfile";
+            this.btn_customerProfile.Size = new System.Drawing.Size(191, 38);
+            this.btn_customerProfile.TabIndex = 0;
+            this.btn_customerProfile.Text = "Profile";
+            this.btn_customerProfile.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.projectName);
-            this.panel2.Controls.Add(this.menubtn);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
@@ -236,61 +264,57 @@
             this.panel2.TabIndex = 0;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = global::login.Properties.Resources.Logo2;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Image = global::login.Properties.Resources.Logo1;
+            this.pictureBox1.Location = new System.Drawing.Point(2, 1);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(60, 60);
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
             // projectName
             // 
             this.projectName.AutoSize = true;
             this.projectName.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.projectName.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.projectName.Font = new System.Drawing.Font("Yu Gothic UI Semilight", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.projectName.ForeColor = System.Drawing.Color.White;
-            this.projectName.Location = new System.Drawing.Point(80, 11);
+            this.projectName.Location = new System.Drawing.Point(62, 20);
             this.projectName.Name = "projectName";
-            this.projectName.Size = new System.Drawing.Size(68, 27);
+            this.projectName.Size = new System.Drawing.Size(139, 21);
             this.projectName.TabIndex = 0;
-            this.projectName.Text = "Menu";
+            this.projectName.Text = "Bike Rental System";
             // 
             // menubtn
             // 
-            this.menubtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.menubtn.BackgroundImage = global::login.Properties.Resources.bars1;
+            this.menubtn.BackColor = System.Drawing.Color.Transparent;
             this.menubtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.menubtn.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.menubtn.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.menubtn.IconColor = System.Drawing.SystemColors.ControlText;
+            this.menubtn.IconChar = FontAwesome.Sharp.IconChar.CaretDown;
+            this.menubtn.IconColor = System.Drawing.Color.White;
             this.menubtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.menubtn.Location = new System.Drawing.Point(11, 11);
+            this.menubtn.IconSize = 27;
+            this.menubtn.Location = new System.Drawing.Point(3, 12);
             this.menubtn.Name = "menubtn";
-            this.menubtn.Size = new System.Drawing.Size(32, 32);
+            this.menubtn.Size = new System.Drawing.Size(29, 27);
             this.menubtn.TabIndex = 1;
             this.menubtn.TabStop = false;
             this.menubtn.Click += new System.EventHandler(this.menubtn_Click);
-            // 
-            // btn_payment
-            // 
-            this.btn_payment.BackColor = System.Drawing.Color.Transparent;
-            this.btn_payment.FlatAppearance.BorderSize = 0;
-            this.btn_payment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_payment.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_payment.ForeColor = System.Drawing.Color.White;
-            this.btn_payment.Image = global::login.Properties.Resources.payment;
-            this.btn_payment.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_payment.Location = new System.Drawing.Point(0, 234);
-            this.btn_payment.Name = "btn_payment";
-            this.btn_payment.Size = new System.Drawing.Size(219, 49);
-            this.btn_payment.TabIndex = 0;
-            this.btn_payment.Text = "Payment";
-            this.btn_payment.UseVisualStyleBackColor = false;
             // 
             // pnl_main
             // 
             this.pnl_main.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.pnl_main.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnl_main.Controls.Add(this.label2);
             this.pnl_main.Controls.Add(this.label1);
             this.pnl_main.Controls.Add(this.button3);
             this.pnl_main.Controls.Add(this.lbl_dashboard);
             this.pnl_main.Controls.Add(this.button2);
-            this.pnl_main.Controls.Add(this.btn_history);
-            this.pnl_main.Controls.Add(this.panel6);
-            this.pnl_main.Controls.Add(this.panel5);
+            this.pnl_main.Controls.Add(this.btn_FeedBack);
+            this.pnl_main.Controls.Add(this.pnl_offers);
+            this.pnl_main.Controls.Add(this.pnl_activeBikes);
             this.pnl_main.Controls.Add(this.pnl_history);
             this.pnl_main.Controls.Add(this.panel3);
             this.pnl_main.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -301,22 +325,35 @@
             this.pnl_main.TabIndex = 1;
             this.pnl_main.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_main_Paint);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(602, 72);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(100, 21);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "/ Dash Board";
+            this.label2.Click += new System.EventHandler(this.label1_Click);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(572, 72);
+            this.label1.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.label1.Location = new System.Drawing.Point(554, 72);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(123, 19);
+            this.label1.Size = new System.Drawing.Size(52, 21);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Home/Dash Board";
+            this.label1.Text = "Home";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.Yellow;
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(173)))), ((int)(((byte)(6)))));
+            this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button3.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button3.Location = new System.Drawing.Point(494, 212);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(201, 29);
@@ -328,19 +365,20 @@
             // lbl_dashboard
             // 
             this.lbl_dashboard.AutoSize = true;
-            this.lbl_dashboard.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_dashboard.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbl_dashboard.Location = new System.Drawing.Point(4, 64);
             this.lbl_dashboard.Name = "lbl_dashboard";
-            this.lbl_dashboard.Size = new System.Drawing.Size(154, 31);
+            this.lbl_dashboard.Size = new System.Drawing.Size(157, 37);
             this.lbl_dashboard.TabIndex = 0;
             this.lbl_dashboard.Text = "Dash Board";
             this.lbl_dashboard.Click += new System.EventHandler(this.lbl_dashboard_Click);
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(150)))), ((int)(((byte)(62)))));
+            this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button2.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button2.Location = new System.Drawing.Point(246, 212);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(200, 29);
@@ -349,42 +387,42 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // btn_history
+            // btn_FeedBack
             // 
-            this.btn_history.BackColor = System.Drawing.Color.Cyan;
-            this.btn_history.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_history.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_history.Location = new System.Drawing.Point(4, 212);
-            this.btn_history.Name = "btn_history";
-            this.btn_history.Size = new System.Drawing.Size(200, 29);
-            this.btn_history.TabIndex = 2;
-            this.btn_history.Text = "History";
-            this.btn_history.UseVisualStyleBackColor = false;
-            this.btn_history.Click += new System.EventHandler(this.btn_history_Click);
+            this.btn_FeedBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(145)))), ((int)(((byte)(165)))));
+            this.btn_FeedBack.FlatAppearance.BorderSize = 0;
+            this.btn_FeedBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_FeedBack.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_FeedBack.Location = new System.Drawing.Point(4, 212);
+            this.btn_FeedBack.Name = "btn_FeedBack";
+            this.btn_FeedBack.Size = new System.Drawing.Size(200, 29);
+            this.btn_FeedBack.TabIndex = 2;
+            this.btn_FeedBack.Text = "FeedBack";
+            this.btn_FeedBack.UseVisualStyleBackColor = false;
+            this.btn_FeedBack.Click += new System.EventHandler(this.btn_history_Click);
             // 
-            // panel6
+            // pnl_offers
             // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.panel6.Location = new System.Drawing.Point(494, 113);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(200, 100);
-            this.panel6.TabIndex = 1;
-            this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint);
+            this.pnl_offers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(195)))), ((int)(((byte)(9)))));
+            this.pnl_offers.Location = new System.Drawing.Point(494, 113);
+            this.pnl_offers.Name = "pnl_offers";
+            this.pnl_offers.Size = new System.Drawing.Size(200, 100);
+            this.pnl_offers.TabIndex = 1;
+            this.pnl_offers.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
-            // panel5
+            // pnl_activeBikes
             // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.panel5.Location = new System.Drawing.Point(246, 113);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(200, 100);
-            this.panel5.TabIndex = 1;
-            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
+            this.pnl_activeBikes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(167)))), ((int)(((byte)(69)))));
+            this.pnl_activeBikes.Location = new System.Drawing.Point(246, 113);
+            this.pnl_activeBikes.Name = "pnl_activeBikes";
+            this.pnl_activeBikes.Size = new System.Drawing.Size(200, 100);
+            this.pnl_activeBikes.TabIndex = 1;
+            this.pnl_activeBikes.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
             // pnl_history
             // 
-            this.pnl_history.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.pnl_history.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
             this.pnl_history.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pnl_history.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnl_history.Location = new System.Drawing.Point(4, 113);
             this.pnl_history.Name = "pnl_history";
             this.pnl_history.Size = new System.Drawing.Size(200, 100);
@@ -393,8 +431,9 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(127)))), ((int)(((byte)(21)))));
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.menubtn);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
@@ -426,9 +465,11 @@
             this.panelProfile.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.menubtn)).EndInit();
             this.pnl_main.ResumeLayout(false);
             this.pnl_main.PerformLayout();
+            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -437,29 +478,31 @@
 
         private Panel sidebar;
         private Panel panelProfile;
-        private Button btn_profile;
         private Panel panel2;
         private Label projectName;
         private Panel pnl_main;
-        private Button btn_dashboard;
-        private Button btn_logout;
         private Panel panel3;
         private Label label1;
         private Label lbl_dashboard;
-        private Panel panel6;
-        private Panel panel5;
+        private Panel pnl_activeBikes;
         private Panel pnl_history;
-        private Button btn_payment;
         private Button button3;
         private Button button2;
-        private Button btn_history;
-        private Button btn_about;
+        private Button btn_FeedBack;
         private FontAwesome.Sharp.IconPictureBox menubtn;
         private System.Windows.Forms.Timer sidebar_timer;
-        private Button btn_bikes;
         private System.Windows.Forms.Timer bike_timer;
+        private FontAwesome.Sharp.IconButton btn_customerDb;
+        private FontAwesome.Sharp.IconButton btn_customerProfile;
+        private FontAwesome.Sharp.IconButton btn_logOut;
+        private FontAwesome.Sharp.IconButton btn_customerHelp;
+        private FontAwesome.Sharp.IconButton btn_customerPayment;
         private FlowLayoutPanel bikeContainer;
-        private Button btn_petrol;
-        private Button btn_electric;
+        private FontAwesome.Sharp.IconButton btn_customerBikes;
+        private FontAwesome.Sharp.IconButton btn_customerElectricBike;
+        private FontAwesome.Sharp.IconButton btn_customerPetrolBike;
+        private Panel pnl_offers;
+        private PictureBox pictureBox1;
+        private Label label2;
     }
 }
