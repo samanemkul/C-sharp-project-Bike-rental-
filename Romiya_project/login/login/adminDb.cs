@@ -4,16 +4,15 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Runtime.InteropServices;
 
 namespace login
 {
     public partial class adminDb : Form
     {
-
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
         private static extern IntPtr CreateRoundRectRgn
             (
@@ -35,58 +34,7 @@ namespace login
 
         private void menubtn_Click(object sender, EventArgs e)
         {
-            adminSidebar_timer.Start();
-        }
 
-        private void adminSidebar_click(object sender, EventArgs e)
-        {
-
-            if (sideBarExpand)
-            {
-                //if sidebar is expanded, minimize
-                sidebar.Width -= 10;
-                if (sidebar.Width == sidebar.MinimumSize.Width)
-                {
-                    sideBarExpand = false;
-                    adminSidebar_timer.Stop();
-                }
-            }
-            else
-            {
-                sidebar.Width += 10;
-                if (sidebar.Width == sidebar.MaximumSize.Width)
-                {
-                    sideBarExpand = true;
-                    adminSidebar_timer.Stop();
-                }
-            }
-        }
-
-        private void btn_bikes_Click(object sender, EventArgs e)
-        {
-            adminBike_timer.Start();
-        }
-
-        private void adminBike_click(object sender, EventArgs e)
-        {
-            if (bikeCollapse)
-            {
-                bikeContainer.Height += 10;
-                if (bikeContainer.Height == bikeContainer.MaximumSize.Height)
-                {
-                    bikeCollapse = false;
-                    adminBike_timer.Stop();
-                }
-            }
-            else
-            {
-                bikeContainer.Height -= 10;
-                if (bikeContainer.Height == bikeContainer.MinimumSize.Height)
-                {
-                    bikeCollapse = true;
-                    adminBike_timer.Stop();
-                }
-            }
         }
     }
 }
