@@ -4,16 +4,15 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Runtime.InteropServices;
 
 namespace login
 {
     public partial class adminDb : Form
     {
-
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
         private static extern IntPtr CreateRoundRectRgn
             (
@@ -38,14 +37,13 @@ namespace login
             adminSidebar_timer.Start();
         }
 
-        private void adminSidebar_click(object sender, EventArgs e)
+        private void sidebar_click(object sender, EventArgs e)
         {
-
-            if (sideBarExpand)
+            if(sideBarExpand)
             {
-                //if sidebar is expanded, minimize
+                //if sidebar is expanded minimize
                 sidebar.Width -= 10;
-                if (sidebar.Width == sidebar.MinimumSize.Width)
+                if(sidebar.Width == sidebar.MinimumSize.Width)
                 {
                     sideBarExpand = false;
                     adminSidebar_timer.Stop();
@@ -54,7 +52,7 @@ namespace login
             else
             {
                 sidebar.Width += 10;
-                if (sidebar.Width == sidebar.MaximumSize.Width)
+                if(sidebar.Width == sidebar.MaximumSize.Width)
                 {
                     sideBarExpand = true;
                     adminSidebar_timer.Stop();
@@ -62,26 +60,26 @@ namespace login
             }
         }
 
-        private void btn_bikes_Click(object sender, EventArgs e)
+        private void adminBike_Click(object sender, EventArgs e)
         {
             adminBike_timer.Start();
         }
 
-        private void adminBike_click(object sender, EventArgs e)
+        private void btn_adminBikes_Click(object sender, EventArgs e)
         {
-            if (bikeCollapse)
+           if(bikeCollapse)
             {
                 bikeContainer.Height += 10;
-                if (bikeContainer.Height == bikeContainer.MaximumSize.Height)
+                if(bikeContainer.Height == bikeContainer.MaximumSize.Height)
                 {
                     bikeCollapse = false;
                     adminBike_timer.Stop();
                 }
             }
-            else
+           else
             {
                 bikeContainer.Height -= 10;
-                if (bikeContainer.Height == bikeContainer.MinimumSize.Height)
+                if(bikeContainer.Height == bikeContainer.MinimumSize.Height)
                 {
                     bikeCollapse = true;
                     adminBike_timer.Stop();

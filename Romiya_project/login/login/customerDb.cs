@@ -100,7 +100,7 @@ namespace login
 
         private void button4_Click(object sender, EventArgs e)
         {
-            bike_timer.Start();
+            //bike_timer.Start();
         }
 
         private void btn_about_Click_1(object sender, EventArgs e)
@@ -164,6 +164,16 @@ namespace login
         }
 
         private void btn_profile_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_customerBikes_Click(object sender, EventArgs e)
+        {
+            bike_timer.Start();
+        }
+
+        private void sidebar_Paint(object sender, PaintEventArgs e)
         {
 
         }

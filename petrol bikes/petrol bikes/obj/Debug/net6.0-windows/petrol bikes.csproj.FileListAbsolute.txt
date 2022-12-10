@@ -1,0 +1,9 @@
+C:\Bike rental\C-sharp-project-Bike-rental-\petrol bikes\petrol bikes\obj\Debug\net6.0-windows\petrol bikes.csproj.AssemblyReference.cache
+C:\Bike rental\C-sharp-project-Bike-rental-\petrol bikes\petrol bikes\obj\Debug\net6.0-windows\petrol_bikes.Electric_bike.resources
+C:\Bike rental\C-sharp-project-Bike-rental-\petrol bikes\petrol bikes\obj\Debug\net6.0-windows\petrol_bikes.Form1.resources
+C:\Bike rental\C-sharp-project-Bike-rental-\petrol bikes\petrol bikes\obj\Debug\net6.0-windows\petrol_bikes.Properties.Resources.resources
+C:\Bike rental\C-sharp-project-Bike-rental-\petrol bikes\petrol bikes\obj\Debug\net6.0-windows\petrol bikes.csproj.GenerateResource.cache
+C:\Bike rental\C-sharp-project-Bike-rental-\petrol bikes\petrol bikes\obj\Debug\net6.0-windows\petrol bikes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Bike rental\C-sharp-project-Bike-rental-\petrol bikes\petrol bikes\obj\Debug\net6.0-windows\petrol bikes.AssemblyInfoInputs.cache
+C:\Bike rental\C-sharp-project-Bike-rental-\petrol bikes\petrol bikes\obj\Debug\net6.0-windows\petrol bikes.AssemblyInfo.cs
+C:\Bike rental\C-sharp-project-Bike-rental-\petrol bikes\petrol bikes\obj\Debug\net6.0-windows\petrol bikes.csproj.CoreCompileInputs.cache

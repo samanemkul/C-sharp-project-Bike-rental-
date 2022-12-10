@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\login.exe
 D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\login.deps.json
 D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\login.runtimeconfig.json
@@ -87,3 +88,95 @@ C:\Users\sandi\Downloads\Github\C-sharp-project-Bike-rental-\Romiya_project\logi
 C:\Users\sandi\Downloads\Github\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.genruntimeconfig.cache
 C:\Users\sandi\Downloads\Github\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\ref\login.dll
 C:\Users\sandi\Downloads\Github\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.RegisterForm.resources
+=======
+D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\login.exe
+D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\login.deps.json
+D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\login.runtimeconfig.json
+D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\login.dll
+D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\login.pdb
+D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.csproj.AssemblyReference.cache
+D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.Login.resources
+D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.Form2.resources
+D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.Form3.resources
+D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.Properties.Resources.resources
+D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.csproj.GenerateResource.cache
+D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.GeneratedMSBuildEditorConfig.editorconfig
+D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.AssemblyInfoInputs.cache
+D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.AssemblyInfo.cs
+D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.csproj.CoreCompileInputs.cache
+D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.csproj.CopyComplete
+D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.dll
+D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\refint\login.dll
+D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.pdb
+D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.genruntimeconfig.cache
+D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\ref\login.dll
+D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\FontAwesome.Sharp.dll
+D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\login.exe
+D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\login.deps.json
+D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\login.runtimeconfig.json
+D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\login.dll
+D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\login.pdb
+D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\FontAwesome.Sharp.dll
+D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.csproj.AssemblyReference.cache
+D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.Form2.resources
+D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.Form3.resources
+D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.Login.resources
+D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.Properties.Resources.resources
+D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.csproj.GenerateResource.cache
+D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.AssemblyInfoInputs.cache
+D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.AssemblyInfo.cs
+D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.csproj.CoreCompileInputs.cache
+D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.csproj.CopyComplete
+D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.dll
+D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\refint\login.dll
+D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.pdb
+D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.genruntimeconfig.cache
+D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\ref\login.dll
+D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.adminDb.resources
+D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.customerDb.resources
+D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.adminDb.resources
+D:\III SEM Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.customerDb.resources
+C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\login.exe
+C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\login.deps.json
+C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\login.runtimeconfig.json
+C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\login.dll
+C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\login.pdb
+C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\FontAwesome.Sharp.dll
+C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.csproj.AssemblyReference.cache
+C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.adminDb.resources
+C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.customerDb.resources
+C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.Form2.resources
+C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.Form3.resources
+C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.Login.resources
+C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.Properties.Resources.resources
+C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.csproj.GenerateResource.cache
+C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.GeneratedMSBuildEditorConfig.editorconfig
+C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.AssemblyInfoInputs.cache
+C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.AssemblyInfo.cs
+C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.csproj.CoreCompileInputs.cache
+C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.csproj.CopyComplete
+C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.dll
+C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\refint\login.dll
+C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.pdb
+C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.genruntimeconfig.cache
+C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\ref\login.dll
+>>>>>>> 59ac68c15793a70ec9be79f402a5327d6a303b5c
