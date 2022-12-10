@@ -441,12 +441,12 @@
             // 
             // sidebar_timer
             // 
-            this.sidebar_timer.Interval = 10;
+            this.sidebar_timer.Interval = 5;
             this.sidebar_timer.Tick += new System.EventHandler(this.sidebar_click);
             // 
             // bike_timer
             // 
-            this.bike_timer.Interval = 10;
+            this.bike_timer.Interval = 5;
             this.bike_timer.Tick += new System.EventHandler(this.bike_timer_Tick);
             // 
             // customerDb

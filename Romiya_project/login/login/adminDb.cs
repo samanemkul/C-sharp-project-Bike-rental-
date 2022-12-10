@@ -34,7 +34,57 @@ namespace login
 
         private void menubtn_Click(object sender, EventArgs e)
         {
+            adminSidebar_timer.Start();
+        }
 
+        private void sidebar_click(object sender, EventArgs e)
+        {
+            if(sideBarExpand)
+            {
+                //if sidebar is expanded minimize
+                sidebar.Width -= 10;
+                if(sidebar.Width == sidebar.MinimumSize.Width)
+                {
+                    sideBarExpand = false;
+                    adminSidebar_timer.Stop();
+                }
+            }
+            else
+            {
+                sidebar.Width += 10;
+                if(sidebar.Width == sidebar.MaximumSize.Width)
+                {
+                    sideBarExpand = true;
+                    adminSidebar_timer.Stop();
+                }
+            }
+        }
+
+        private void adminBike_Click(object sender, EventArgs e)
+        {
+            adminBike_timer.Start();
+        }
+
+        private void btn_adminBikes_Click(object sender, EventArgs e)
+        {
+           if(bikeCollapse)
+            {
+                bikeContainer.Height += 10;
+                if(bikeContainer.Height == bikeContainer.MaximumSize.Height)
+                {
+                    bikeCollapse = false;
+                    adminBike_timer.Stop();
+                }
+            }
+           else
+            {
+                bikeContainer.Height -= 10;
+                if(bikeContainer.Height == bikeContainer.MinimumSize.Height)
+                {
+                    bikeCollapse = true;
+                    adminBike_timer.Stop();
+                }
+            }
         }
     }
 }
