@@ -1,5 +1,6 @@
 using System.Data;
 using System.Data.SqlClient;
+
 namespace petrol_bikes
 {
     public partial class Form1 : Form
@@ -29,6 +30,7 @@ namespace petrol_bikes
             cmd.Parameters.AddWithValue("@bikeno", pno.Text);
             cmd.Parameters.AddWithValue("@year", pyear.Text);
             cmd.ExecuteNonQuery();
+            MessageBox.Show("Saved successfully");
             con.Close();
         }
 
@@ -39,7 +41,7 @@ namespace petrol_bikes
             string query = "update Pbike set name='" + pname.Text + "',bikeno='" + pno.Text + "' ,year ='" + pyear.Text + "' where id = '" + PID.Text + "' ";
             SqlCommand cmd = new SqlCommand(query, con);
             cmd.ExecuteNonQuery();
-            MessageBox.Show("Update successfully");
+            MessageBox.Show("Updated successfully");
             con.Close();
             DisplayData();
         }
@@ -78,7 +80,7 @@ namespace petrol_bikes
             string query = "delete from Pbike where id = '" + PID.Text + "'";
             SqlCommand cmd = new SqlCommand(query, con);
             cmd.ExecuteNonQuery();
-            MessageBox.Show("Delete successfully");
+            MessageBox.Show("Deleted successfully");
             con.Close();
             DisplayData();
         }
@@ -86,12 +88,23 @@ namespace petrol_bikes
         private void button4_Click(object sender, EventArgs e)
         {
             DataGridViewRow data = dataGridView1.CurrentRow;
-            string name = data.Cells["name"].Value.ToString();
-            string bikeno = data.Cells["bikeno"].Value.ToString();
-            string year = data.Cells["year"].Value.ToString();
-            string id = data.Cells["id"].Value.ToString();
+            string name = data.Cells[1].Value.ToString();
+            string bikeno = data.Cells[2].Value.ToString();
+            string year = data.Cells[3].Value.ToString();
+            string id = data.Cells[0].Value.ToString();
+
             MessageBox.Show("Selected name: " + name);
+            MessageBox.Show("Selected bikeno: " + bikeno);
+            MessageBox.Show("Selected year: " + year);
             pname.Text = name;
+            pno.Text = bikeno;
+            pyear.Text = year;
+            PID.Text = id;
+        }
+
+        private void PID_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

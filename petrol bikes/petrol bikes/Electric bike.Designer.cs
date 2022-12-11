@@ -102,6 +102,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Cornsilk;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Location = new System.Drawing.Point(112, 427);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(112, 34);
@@ -113,6 +114,7 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Cornsilk;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Location = new System.Drawing.Point(282, 427);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(112, 34);
@@ -124,6 +126,7 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.Cornsilk;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Location = new System.Drawing.Point(443, 427);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(112, 34);
@@ -135,6 +138,7 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.Cornsilk;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Location = new System.Drawing.Point(618, 427);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(112, 36);

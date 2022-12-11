@@ -15,7 +15,7 @@ namespace petrol_bikes
     public partial class Electric_bike : Form
     {
         private SqlConnection con = new SqlConnection(@"Data Source = .\SQLEXPRESS;
-                                                Initial Catalog=Electricbikes;
+                                                Initial Catalog=Petrolbikes;
                                                 Integrated Security=True");
         public Electric_bike()
         {
@@ -34,6 +34,7 @@ namespace petrol_bikes
             cmd.Parameters.AddWithValue("@bikeno", Eno.Text);
             cmd.Parameters.AddWithValue("@year", Eyear.Text);
             cmd.ExecuteNonQuery();
+            MessageBox.Show("Saved successfully");
             con.Close();
         }
 
@@ -44,7 +45,7 @@ namespace petrol_bikes
             string query = "update Ebike set name='" + Ename.Text + "',bikeno='" + Eno.Text + "' ,year ='" + Eyear.Text + "' where id = '" + EID.Text + "' ";
             SqlCommand cmd = new SqlCommand(query, con);
             cmd.ExecuteNonQuery();
-            MessageBox.Show("Update successfully");
+            MessageBox.Show("Updated successfully");
             con.Close();
             DisplayData();
         }
@@ -52,10 +53,10 @@ namespace petrol_bikes
         private void button3_Click(object sender, EventArgs e)
         {
             con.Open();
-            string query = "delete from Ebike where id = '" + PID.Text + "'";
+            string query = "delete from Ebike where id = '" + EID.Text + "'";
             SqlCommand cmd = new SqlCommand(query, con);
             cmd.ExecuteNonQuery();
-            MessageBox.Show("Delete successfully");
+            MessageBox.Show("Deleted successfully");
             con.Close();
             DisplayData();
         }
@@ -68,7 +69,12 @@ namespace petrol_bikes
             string year = data.Cells["year"].Value.ToString();
             string id = data.Cells["id"].Value.ToString();
             MessageBox.Show("Selected name: " + name);
+            MessageBox.Show("Selected bikeno: " + bikeno);
+            MessageBox.Show("Selected year: " + year);
             Ename.Text = name;
+            Eno.Text = bikeno;
+            Eyear.Text = year;
+            EID.Text = id;
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -83,7 +89,7 @@ namespace petrol_bikes
         private void DisplayData()
         {
             dataGridView1.Rows.Clear();
-            string query = "select * from Pbike";
+            string query = "select * from Ebike";
             SqlCommand command = new SqlCommand(query, con);
             SqlDataAdapter adapter = new SqlDataAdapter(command);
             DataTable table = new DataTable();

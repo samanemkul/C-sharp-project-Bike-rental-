@@ -1,0 +1,17 @@
+C:\Bike rental\C-sharp-project-Bike-rental-\Payment db\Payment db\bin\Debug\net6.0-windows\Payment db.exe
+C:\Bike rental\C-sharp-project-Bike-rental-\Payment db\Payment db\bin\Debug\net6.0-windows\Payment db.deps.json
+C:\Bike rental\C-sharp-project-Bike-rental-\Payment db\Payment db\bin\Debug\net6.0-windows\Payment db.runtimeconfig.json
+C:\Bike rental\C-sharp-project-Bike-rental-\Payment db\Payment db\bin\Debug\net6.0-windows\Payment db.dll
+C:\Bike rental\C-sharp-project-Bike-rental-\Payment db\Payment db\bin\Debug\net6.0-windows\Payment db.pdb
+C:\Bike rental\C-sharp-project-Bike-rental-\Payment db\Payment db\obj\Debug\net6.0-windows\Payment db.csproj.AssemblyReference.cache
+C:\Bike rental\C-sharp-project-Bike-rental-\Payment db\Payment db\obj\Debug\net6.0-windows\Payment_db.Form1.resources
+C:\Bike rental\C-sharp-project-Bike-rental-\Payment db\Payment db\obj\Debug\net6.0-windows\Payment db.csproj.GenerateResource.cache
+C:\Bike rental\C-sharp-project-Bike-rental-\Payment db\Payment db\obj\Debug\net6.0-windows\Payment db.GeneratedMSBuildEditorConfig.editorconfig
+C:\Bike rental\C-sharp-project-Bike-rental-\Payment db\Payment db\obj\Debug\net6.0-windows\Payment db.AssemblyInfoInputs.cache
+C:\Bike rental\C-sharp-project-Bike-rental-\Payment db\Payment db\obj\Debug\net6.0-windows\Payment db.AssemblyInfo.cs
+C:\Bike rental\C-sharp-project-Bike-rental-\Payment db\Payment db\obj\Debug\net6.0-windows\Payment db.csproj.CoreCompileInputs.cache
+C:\Bike rental\C-sharp-project-Bike-rental-\Payment db\Payment db\obj\Debug\net6.0-windows\Payment db.dll
+C:\Bike rental\C-sharp-project-Bike-rental-\Payment db\Payment db\obj\Debug\net6.0-windows\refint\Payment db.dll
+C:\Bike rental\C-sharp-project-Bike-rental-\Payment db\Payment db\obj\Debug\net6.0-windows\Payment db.pdb
+C:\Bike rental\C-sharp-project-Bike-rental-\Payment db\Payment db\obj\Debug\net6.0-windows\Payment db.genruntimeconfig.cache
+C:\Bike rental\C-sharp-project-Bike-rental-\Payment db\Payment db\obj\Debug\net6.0-windows\ref\Payment db.dll

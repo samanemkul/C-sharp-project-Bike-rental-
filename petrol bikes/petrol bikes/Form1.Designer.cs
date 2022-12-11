@@ -30,7 +30,7 @@
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bikename = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bikeno = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.manfyear = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -64,7 +64,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn7,
-            this.dataGridViewTextBoxColumn8,
+            this.bikename,
             this.bikeno,
             this.manfyear,
             this.id});
@@ -83,12 +83,12 @@
             this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
             this.dataGridViewTextBoxColumn7.Width = 150;
             // 
-            // dataGridViewTextBoxColumn8
+            // bikename
             // 
-            this.dataGridViewTextBoxColumn8.HeaderText = "Name";
-            this.dataGridViewTextBoxColumn8.MinimumWidth = 8;
-            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
-            this.dataGridViewTextBoxColumn8.Width = 150;
+            this.bikename.HeaderText = "Name";
+            this.bikename.MinimumWidth = 8;
+            this.bikename.Name = "bikename";
+            this.bikename.Width = 150;
             // 
             // bikeno
             // 
@@ -171,6 +171,7 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Cornsilk;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Location = new System.Drawing.Point(64, 451);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(112, 34);
@@ -189,6 +190,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Cornsilk;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Location = new System.Drawing.Point(221, 451);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(112, 34);
@@ -214,6 +216,7 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.Cornsilk;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Location = new System.Drawing.Point(372, 451);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(112, 34);
@@ -225,6 +228,7 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.Cornsilk;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.ForeColor = System.Drawing.Color.Blue;
             this.button4.Location = new System.Drawing.Point(515, 451);
             this.button4.Name = "button4";
@@ -268,6 +272,7 @@
             this.PID.Name = "PID";
             this.PID.Size = new System.Drawing.Size(60, 31);
             this.PID.TabIndex = 3;
+            this.PID.TextChanged += new System.EventHandler(this.PID_TextChanged);
             // 
             // label4
             // 
@@ -317,7 +322,7 @@
         private DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
         private DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
         private DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
-        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
+       // private DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
         private DataGridViewTextBoxColumn bikeno;
         private DataGridViewTextBoxColumn manfyear;
         private DataGridViewTextBoxColumn id;
@@ -335,5 +340,6 @@
         private Label label3;
         private TextBox PID;
         private Label label4;
+        private DataGridViewTextBoxColumn bikename;
     }
 }

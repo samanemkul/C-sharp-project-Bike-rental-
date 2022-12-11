@@ -7,3 +7,20 @@ C:\Bike rental\C-sharp-project-Bike-rental-\petrol bikes\petrol bikes\obj\Debug\
 C:\Bike rental\C-sharp-project-Bike-rental-\petrol bikes\petrol bikes\obj\Debug\net6.0-windows\petrol bikes.AssemblyInfoInputs.cache
 C:\Bike rental\C-sharp-project-Bike-rental-\petrol bikes\petrol bikes\obj\Debug\net6.0-windows\petrol bikes.AssemblyInfo.cs
 C:\Bike rental\C-sharp-project-Bike-rental-\petrol bikes\petrol bikes\obj\Debug\net6.0-windows\petrol bikes.csproj.CoreCompileInputs.cache
+C:\Bike rental\C-sharp-project-Bike-rental-\petrol bikes\petrol bikes\bin\Debug\net6.0-windows\petrol bikes.exe
+C:\Bike rental\C-sharp-project-Bike-rental-\petrol bikes\petrol bikes\bin\Debug\net6.0-windows\petrol bikes.deps.json
+C:\Bike rental\C-sharp-project-Bike-rental-\petrol bikes\petrol bikes\bin\Debug\net6.0-windows\petrol bikes.runtimeconfig.json
+C:\Bike rental\C-sharp-project-Bike-rental-\petrol bikes\petrol bikes\bin\Debug\net6.0-windows\petrol bikes.dll
+C:\Bike rental\C-sharp-project-Bike-rental-\petrol bikes\petrol bikes\bin\Debug\net6.0-windows\petrol bikes.pdb
+C:\Bike rental\C-sharp-project-Bike-rental-\petrol bikes\petrol bikes\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Bike rental\C-sharp-project-Bike-rental-\petrol bikes\petrol bikes\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Bike rental\C-sharp-project-Bike-rental-\petrol bikes\petrol bikes\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Bike rental\C-sharp-project-Bike-rental-\petrol bikes\petrol bikes\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Bike rental\C-sharp-project-Bike-rental-\petrol bikes\petrol bikes\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Bike rental\C-sharp-project-Bike-rental-\petrol bikes\petrol bikes\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Bike rental\C-sharp-project-Bike-rental-\petrol bikes\petrol bikes\obj\Debug\net6.0-windows\petrol bikes.csproj.CopyComplete
+C:\Bike rental\C-sharp-project-Bike-rental-\petrol bikes\petrol bikes\obj\Debug\net6.0-windows\petrol bikes.dll
+C:\Bike rental\C-sharp-project-Bike-rental-\petrol bikes\petrol bikes\obj\Debug\net6.0-windows\refint\petrol bikes.dll
+C:\Bike rental\C-sharp-project-Bike-rental-\petrol bikes\petrol bikes\obj\Debug\net6.0-windows\petrol bikes.pdb
+C:\Bike rental\C-sharp-project-Bike-rental-\petrol bikes\petrol bikes\obj\Debug\net6.0-windows\petrol bikes.genruntimeconfig.cache
+C:\Bike rental\C-sharp-project-Bike-rental-\petrol bikes\petrol bikes\obj\Debug\net6.0-windows\ref\petrol bikes.dll
