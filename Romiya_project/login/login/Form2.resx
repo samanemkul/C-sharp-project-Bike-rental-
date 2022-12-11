@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-﻿<root>
+<root>
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -58,8 +57,8 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-=======
-﻿<root>
+<!--=======-->
+﻿<!--<root>
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -2479,5 +2478,5 @@
         SZIkSZKk6tRXvvL/AaE+RdRBd9atAAAAAElFTkSuQmCC
 </value>
   </data>
->>>>>>> 59ac68c15793a70ec9be79f402a5327d6a303b5c
+>>>>>>> 59ac68c15793a70ec9be79f402a5327d6a303b5c-->
 </root>
