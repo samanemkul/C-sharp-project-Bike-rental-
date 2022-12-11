@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "runtimeOptions": {
     "tfm": "net6.0",
@@ -13,34 +12,13 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\sandi\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\sandi\\.nuget\\packages"
+      "C:\\Users\\student3\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\student3\\.nuget\\packages",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
     }
   }
-=======
-{
-  "runtimeOptions": {
-    "tfm": "net6.0",
-    "frameworks": [
-      {
-        "name": "Microsoft.NETCore.App",
-        "version": "6.0.0"
-      },
-      {
-        "name": "Microsoft.WindowsDesktop.App",
-        "version": "6.0.0"
-      }
-    ],
-    "additionalProbingPaths": [
-      "C:\\Users\\HP\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\HP\\.nuget\\packages"
-    ],
-    "configProperties": {
-      "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
-    }
-  }
->>>>>>> 59ac68c15793a70ec9be79f402a5327d6a303b5c
 }

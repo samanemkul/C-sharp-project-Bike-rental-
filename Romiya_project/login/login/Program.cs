@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+/*<<<<<<< HEAD
 namespace login
 {
     internal static class Program
@@ -15,7 +15,7 @@ namespace login
             Application.Run(new Login());
         }
     }
-=======
+=======*/
 namespace login
 {
     internal static class Program
@@ -32,5 +32,5 @@ namespace login
             Application.Run(new adminDb());
         }
     }
->>>>>>> 59ac68c15793a70ec9be79f402a5327d6a303b5c
+
 }
