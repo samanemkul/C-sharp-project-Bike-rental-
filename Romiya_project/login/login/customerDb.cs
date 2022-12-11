@@ -172,5 +172,10 @@ namespace login
         {
             bike_timer.Start();
         }
+
+        private void sidebar_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
