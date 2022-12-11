@@ -19,6 +19,9 @@
     <Compile Update="pnlCustomer.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="pnl_admin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Update="Form2.resx">
