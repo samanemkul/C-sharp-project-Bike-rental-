@@ -1,0 +1,14 @@
+D:\bike\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net5.0-windows\login.csproj.AssemblyReference.cache
+D:\bike\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net5.0-windows\login.adminDb.resources
+D:\bike\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net5.0-windows\login.customerDb.resources
+D:\bike\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net5.0-windows\login.Login.resources
+D:\bike\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net5.0-windows\login.NewRenForm.resources
+D:\bike\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net5.0-windows\login.pnlCustomer.resources
+D:\bike\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net5.0-windows\login.pnl_admin.resources
+D:\bike\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net5.0-windows\login.Properties.Resources.resources
+D:\bike\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net5.0-windows\login.RegisterForm.resources
+D:\bike\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net5.0-windows\login.csproj.GenerateResource.cache
+D:\bike\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net5.0-windows\login.GeneratedMSBuildEditorConfig.editorconfig
+D:\bike\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net5.0-windows\login.AssemblyInfoInputs.cache
+D:\bike\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net5.0-windows\login.AssemblyInfo.cs
+D:\bike\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net5.0-windows\login.csproj.CoreCompileInputs.cache

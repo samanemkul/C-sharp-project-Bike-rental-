@@ -10,10 +10,7 @@
     <Compile Update="Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Form2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Form3.cs">
+    <Compile Update="NewRenForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="pnlCustomer.cs">
@@ -22,11 +19,11 @@
     <Compile Update="pnl_admin.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Update="Form2.resx">
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <EmbeddedResource Update="Properties\Resources.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>

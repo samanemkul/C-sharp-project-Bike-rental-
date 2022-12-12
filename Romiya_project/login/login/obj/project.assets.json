@@ -14,6 +14,21 @@
           "Microsoft.WindowsDesktop.App"
         ]
       },
+      "FontAwesome.Sharp.Pro/6.1.1": {
+        "type": "package",
+        "dependencies": {
+          "FontAwesome.Sharp": "6.1.1"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/FontAwesome.Sharp.Pro.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/FontAwesome.Sharp.Pro.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      },
       "Microsoft.NETCore.Platforms/3.1.0": {
         "type": "package",
         "compile": {
@@ -30,14 +45,10 @@
           "System.Security.Principal.Windows": "4.7.0"
         },
         "compile": {
-          "ref/netstandard2.0/_._": {
-            "related": ".xml"
-          }
+          "ref/netstandard2.0/_._": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {}
         },
         "runtimeTargets": {
           "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
@@ -93,14 +104,10 @@
           "runtime.native.System.Data.SqlClient.sni": "4.7.0"
         },
         "compile": {
-          "ref/netcoreapp2.1/System.Data.SqlClient.dll": {
-            "related": ".xml"
-          }
+          "ref/netcoreapp2.1/System.Data.SqlClient.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp2.1/System.Data.SqlClient.dll": {
-            "related": ".xml"
-          }
+          "lib/netcoreapp2.1/System.Data.SqlClient.dll": {}
         },
         "runtimeTargets": {
           "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
@@ -120,14 +127,10 @@
           "System.Security.Principal.Windows": "4.7.0"
         },
         "compile": {
-          "ref/netstandard2.0/_._": {
-            "related": ".xml"
-          }
+          "ref/netstandard2.0/_._": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Security.AccessControl.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {}
         },
         "runtimeTargets": {
           "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll": {
@@ -139,14 +142,10 @@
       "System.Security.Principal.Windows/4.7.0": {
         "type": "package",
         "compile": {
-          "ref/netcoreapp3.0/_._": {
-            "related": ".xml"
-          }
+          "ref/netcoreapp3.0/_._": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {}
         },
         "runtimeTargets": {
           "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
@@ -178,6 +177,24 @@
         "lib/net5.0-windows7.0/FontAwesome.Sharp.dll",
         "lib/net6.0-windows7.0/FontAwesome.Sharp.dll",
         "lib/netcoreapp3.1/FontAwesome.Sharp.dll"
+      ]
+    },
+    "FontAwesome.Sharp.Pro/6.1.1": {
+      "sha512": "XHT458hIx0MMGsHEex6T3pTDXV5+JpzJmZeBoADbFYI6aynrdIdanhjZQKTRAmLimOSDbu5w6qCBI0zD7kwFpQ==",
+      "type": "package",
+      "path": "fontawesome.sharp.pro/6.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fontawesome.sharp.pro.6.1.1.nupkg.sha512",
+        "fontawesome.sharp.pro.nuspec",
+        "lib/net40/FontAwesome.Sharp.Pro.dll",
+        "lib/net45/FontAwesome.Sharp.Pro.dll",
+        "lib/net472/FontAwesome.Sharp.Pro.dll",
+        "lib/net48/FontAwesome.Sharp.Pro.dll",
+        "lib/net5.0-windows7.0/FontAwesome.Sharp.Pro.dll",
+        "lib/net6.0-windows7.0/FontAwesome.Sharp.Pro.dll",
+        "lib/netcoreapp3.1/FontAwesome.Sharp.Pro.dll"
       ]
     },
     "Microsoft.NETCore.Platforms/3.1.0": {
@@ -497,52 +514,36 @@
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "FontAwesome.Sharp >= 6.1.1",
+      "FontAwesome.Sharp.Pro >= 6.1.1",
       "System.Data.SqlClient >= 4.8.5"
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Users\\student3\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
-=======
-    "C:\\Users\\sandi\\.nuget\\packages\\": {}
->>>>>>> ac1232f783784dc478096c141a1db5eb60be59ee
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Bike rental\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\login.csproj",
+      "projectUniqueName": "D:\\bike\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\login.csproj",
       "projectName": "login",
-      "projectPath": "C:\\Bike rental\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\login.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Bike rental\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\sandi\\Downloads\\Github\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\login.csproj",
-      "projectName": "login",
-      "projectPath": "C:\\Users\\sandi\\Downloads\\Github\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\login.csproj",
-      "packagesPath": "C:\\Users\\sandi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sandi\\Downloads\\Github\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\obj\\",
->>>>>>> ac1232f783784dc478096c141a1db5eb60be59ee
+      "projectPath": "D:\\bike\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\login.csproj",
+      "packagesPath": "C:\\Users\\student3\\.nuget\\packages\\",
+      "outputPath": "D:\\bike\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-<<<<<<< HEAD
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\student3\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-=======
-        "C:\\Users\\sandi\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> ac1232f783784dc478096c141a1db5eb60be59ee
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0-windows"
+        "net6.0-windows7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -565,6 +566,10 @@
             "target": "Package",
             "version": "[6.1.1, )"
           },
+          "FontAwesome.Sharp.Pro": {
+            "target": "Package",
+            "version": "[6.1.1, )"
+          },
           "System.Data.SqlClient": {
             "target": "Package",
             "version": "[4.8.5, )"
@@ -576,8 +581,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -589,16 +593,8 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\sandi\\Downloads\\Github\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
