@@ -125,3 +125,6 @@ C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\o
 D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.pnlCustomer.resources
 C:\Users\sandi\Downloads\Github\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.pnlCustomer.resources
 C:\Users\sandi\Downloads\Github\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.pnl_admin.resources
+C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.RegisterForm.resources
+C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.pnlCustomer.resources
+C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.pnl_admin.resources

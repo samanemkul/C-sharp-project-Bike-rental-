@@ -322,12 +322,11 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-           // this.pictureBox1.BackgroundImage = global::login.Properties.Resources.Logo2;
+            this.pictureBox1.BackgroundImage = global::login.Properties.Resources.Logo4;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-           // this.pictureBox1.Image = global::login.Properties.Resources.Logo1;
-            this.pictureBox1.Location = new System.Drawing.Point(2, 1);
+            this.pictureBox1.Location = new System.Drawing.Point(3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(60, 60);
+            this.pictureBox1.Size = new System.Drawing.Size(58, 50);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 

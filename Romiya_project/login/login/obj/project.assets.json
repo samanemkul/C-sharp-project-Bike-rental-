@@ -501,19 +501,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sandi\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sandi\\Downloads\\Github\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\login.csproj",
+      "projectUniqueName": "C:\\III - SEM - Project\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\login.csproj",
       "projectName": "login",
-      "projectPath": "C:\\Users\\sandi\\Downloads\\Github\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\login.csproj",
-      "packagesPath": "C:\\Users\\sandi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sandi\\Downloads\\Github\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\obj\\",
+      "projectPath": "C:\\III - SEM - Project\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\login.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\III - SEM - Project\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\sandi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -570,13 +570,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\sandi\\Downloads\\Github\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
