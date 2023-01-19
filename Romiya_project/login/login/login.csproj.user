@@ -4,6 +4,12 @@
     <Compile Update="adminDb.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="category.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="categoryElectric.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="customerDb.cs">
       <SubType>Form</SubType>
     </Compile>

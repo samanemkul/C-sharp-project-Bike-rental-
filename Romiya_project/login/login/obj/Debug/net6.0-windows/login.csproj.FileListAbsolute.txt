@@ -125,3 +125,37 @@ C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\o
 D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.pnlCustomer.resources
 C:\Users\sandi\Downloads\Github\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.pnlCustomer.resources
 C:\Users\sandi\Downloads\Github\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.pnl_admin.resources
+C:\III - SEM - Project\Romiya_project\login\login\bin\Debug\net6.0-windows\login.exe
+C:\III - SEM - Project\Romiya_project\login\login\bin\Debug\net6.0-windows\login.deps.json
+C:\III - SEM - Project\Romiya_project\login\login\bin\Debug\net6.0-windows\login.runtimeconfig.json
+C:\III - SEM - Project\Romiya_project\login\login\bin\Debug\net6.0-windows\login.dll
+C:\III - SEM - Project\Romiya_project\login\login\bin\Debug\net6.0-windows\login.pdb
+C:\III - SEM - Project\Romiya_project\login\login\bin\Debug\net6.0-windows\FontAwesome.Sharp.dll
+C:\III - SEM - Project\Romiya_project\login\login\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\III - SEM - Project\Romiya_project\login\login\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\III - SEM - Project\Romiya_project\login\login\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\III - SEM - Project\Romiya_project\login\login\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\III - SEM - Project\Romiya_project\login\login\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\III - SEM - Project\Romiya_project\login\login\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.csproj.AssemblyReference.cache
+C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.adminDb.resources
+C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.category.resources
+C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.customerDb.resources
+C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.RegisterForm.resources
+C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.Form3.resources
+C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.Login.resources
+C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.pnlCustomer.resources
+C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.pnl_admin.resources
+C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.Properties.Resources.resources
+C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.csproj.GenerateResource.cache
+C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.GeneratedMSBuildEditorConfig.editorconfig
+C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.AssemblyInfoInputs.cache
+C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.AssemblyInfo.cs
+C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.csproj.CoreCompileInputs.cache
+C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.csproj.CopyComplete
+C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.dll
+C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\refint\login.dll
+C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.pdb
+C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.genruntimeconfig.cache
+C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\ref\login.dll
+C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.categoryElectric.resources

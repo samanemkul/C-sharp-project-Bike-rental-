@@ -13,23 +13,12 @@ namespace login
 {
     public partial class customerDb : Form
     {
-        [DllImport("Gdi32.dll",EntryPoint = "CreateRoundRectRgn")]
-        private static extern IntPtr CreateRoundRectRgn
-            (
-                int nLeftRect,
-                int nTopRect,
-                int nRightRect,
-                int nBottomRect,
-                int nWidthEllipse,
-                int nHeightEllipse
-            );
         bool sideBarExpand;
         bool bikeCollapse;
         public customerDb()
         {
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.None;
-            Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 20, 20));
         }
 
         private void menuBike_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
@@ -176,6 +165,25 @@ namespace login
         private void sidebar_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void btn_customerPetrolBike_Click(object sender, EventArgs e)
+        {
+            //categorypetrolbike
+            this.Hide();
+            category f2 = new category();
+            f2.ShowDialog();
+            f2.Show();
+
+        }
+
+        private void btn_customerElectricBike_Click(object sender, EventArgs e)
+        {
+            //categoryelectricbike
+            this.Hide();
+            categoryElectric f3 = new categoryElectric();
+            f3.ShowDialog();
+            f3.Show();
         }
     }
 }

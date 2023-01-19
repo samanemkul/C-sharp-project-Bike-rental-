@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net6.0-windows7.0": {
-      "FontAwesome.Sharp/6.1.1": {
+      "FontAwesome.Sharp/6.2.1": {
         "type": "package",
         "compile": {
           "lib/net6.0-windows7.0/FontAwesome.Sharp.dll": {}
@@ -162,20 +162,17 @@
     }
   },
   "libraries": {
-    "FontAwesome.Sharp/6.1.1": {
-      "sha512": "p6dnSMcKQg790vGSJgvFk6S8gXQnEcCugfaJ21WFxZz9h+9KyxL+sX6kbGv8p4iVoX/e5BAMnTV4QJFJvx8QxQ==",
+    "FontAwesome.Sharp/6.2.1": {
+      "sha512": "eYpj85+70pOjV4cOfB/Et/Rj6m56WRlCKU2G4ivWCohb7sF7DwHz/3jy8XIWp9utgb/R2Pqm+HsaBwV33FBNbg==",
       "type": "package",
-      "path": "fontawesome.sharp/6.1.1",
+      "path": "fontawesome.sharp/6.2.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "fontawesome.sharp.6.1.1.nupkg.sha512",
+        "fontawesome.sharp.6.2.1.nupkg.sha512",
         "fontawesome.sharp.nuspec",
-        "lib/net40/FontAwesome.Sharp.dll",
-        "lib/net45/FontAwesome.Sharp.dll",
         "lib/net472/FontAwesome.Sharp.dll",
         "lib/net48/FontAwesome.Sharp.dll",
-        "lib/net5.0-windows7.0/FontAwesome.Sharp.dll",
         "lib/net6.0-windows7.0/FontAwesome.Sharp.dll",
         "lib/netcoreapp3.1/FontAwesome.Sharp.dll"
       ]
@@ -496,45 +493,24 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "FontAwesome.Sharp >= 6.1.1",
+      "FontAwesome.Sharp >= 6.2.1",
       "System.Data.SqlClient >= 4.8.5"
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\user\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
-=======
-    "C:\\Users\\sandi\\.nuget\\packages\\": {}
->>>>>>> ac1232f783784dc478096c141a1db5eb60be59ee
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Bike rental\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\login.csproj",
+      "projectUniqueName": "C:\\III - SEM - Project\\Romiya_project\\login\\login\\login.csproj",
       "projectName": "login",
-      "projectPath": "C:\\Bike rental\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\login.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Bike rental\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\sandi\\Downloads\\Github\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\login.csproj",
-      "projectName": "login",
-      "projectPath": "C:\\Users\\sandi\\Downloads\\Github\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\login.csproj",
-      "packagesPath": "C:\\Users\\sandi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sandi\\Downloads\\Github\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\obj\\",
->>>>>>> ac1232f783784dc478096c141a1db5eb60be59ee
+      "projectPath": "C:\\III - SEM - Project\\Romiya_project\\login\\login\\login.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\III - SEM - Project\\Romiya_project\\login\\login\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-<<<<<<< HEAD
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-=======
-        "C:\\Users\\sandi\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> ac1232f783784dc478096c141a1db5eb60be59ee
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -542,7 +518,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -563,7 +538,7 @@
         "dependencies": {
           "FontAwesome.Sharp": {
             "target": "Package",
-            "version": "[6.1.1, )"
+            "version": "[6.2.1, )"
           },
           "System.Data.SqlClient": {
             "target": "Package",
@@ -589,16 +564,8 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\sandi\\Downloads\\Github\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

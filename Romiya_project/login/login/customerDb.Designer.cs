@@ -92,11 +92,11 @@
             this.bikeContainer.Controls.Add(this.btn_customerBikes);
             this.bikeContainer.Controls.Add(this.btn_customerPetrolBike);
             this.bikeContainer.Controls.Add(this.btn_customerElectricBike);
-            this.bikeContainer.Location = new System.Drawing.Point(9, 159);
+            this.bikeContainer.Location = new System.Drawing.Point(0, 159);
             this.bikeContainer.MaximumSize = new System.Drawing.Size(190, 136);
             this.bikeContainer.MinimumSize = new System.Drawing.Size(190, 38);
             this.bikeContainer.Name = "bikeContainer";
-            this.bikeContainer.Size = new System.Drawing.Size(190, 44);
+            this.bikeContainer.Size = new System.Drawing.Size(190, 39);
             this.bikeContainer.TabIndex = 3;
             // 
             // btn_customerBikes
@@ -112,7 +112,7 @@
             this.btn_customerBikes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_customerBikes.Location = new System.Drawing.Point(3, 3);
             this.btn_customerBikes.Name = "btn_customerBikes";
-            this.btn_customerBikes.Size = new System.Drawing.Size(193, 38);
+            this.btn_customerBikes.Size = new System.Drawing.Size(214, 38);
             this.btn_customerBikes.TabIndex = 0;
             this.btn_customerBikes.Text = "Bikes";
             this.btn_customerBikes.UseVisualStyleBackColor = true;
@@ -135,6 +135,7 @@
             this.btn_customerPetrolBike.TabIndex = 0;
             this.btn_customerPetrolBike.Text = "Petrol Bikes";
             this.btn_customerPetrolBike.UseVisualStyleBackColor = true;
+            this.btn_customerPetrolBike.Click += new System.EventHandler(this.btn_customerPetrolBike_Click);
             // 
             // btn_customerElectricBike
             // 
@@ -153,6 +154,7 @@
             this.btn_customerElectricBike.TabIndex = 0;
             this.btn_customerElectricBike.Text = "Electric Bikes";
             this.btn_customerElectricBike.UseVisualStyleBackColor = true;
+            this.btn_customerElectricBike.Click += new System.EventHandler(this.btn_customerElectricBike_Click);
             // 
             // btn_logOut
             // 
@@ -160,14 +162,14 @@
             this.btn_logOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_logOut.Font = new System.Drawing.Font("Yu Gothic UI Semilight", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_logOut.ForeColor = System.Drawing.Color.White;
-            this.btn_logOut.IconChar = FontAwesome.Sharp.IconChar.SignOut;
+            this.btn_logOut.IconChar = FontAwesome.Sharp.IconChar.ArrowRightFromBracket;
             this.btn_logOut.IconColor = System.Drawing.Color.White;
             this.btn_logOut.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_logOut.IconSize = 25;
             this.btn_logOut.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_logOut.Location = new System.Drawing.Point(13, 527);
+            this.btn_logOut.Location = new System.Drawing.Point(0, 527);
             this.btn_logOut.Name = "btn_logOut";
-            this.btn_logOut.Size = new System.Drawing.Size(188, 38);
+            this.btn_logOut.Size = new System.Drawing.Size(217, 38);
             this.btn_logOut.TabIndex = 0;
             this.btn_logOut.Text = "Log Out";
             this.btn_logOut.UseVisualStyleBackColor = true;
@@ -183,9 +185,9 @@
             this.btn_customerHelp.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_customerHelp.IconSize = 25;
             this.btn_customerHelp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_customerHelp.Location = new System.Drawing.Point(10, 258);
+            this.btn_customerHelp.Location = new System.Drawing.Point(0, 258);
             this.btn_customerHelp.Name = "btn_customerHelp";
-            this.btn_customerHelp.Size = new System.Drawing.Size(198, 38);
+            this.btn_customerHelp.Size = new System.Drawing.Size(217, 38);
             this.btn_customerHelp.TabIndex = 0;
             this.btn_customerHelp.Text = "Help";
             this.btn_customerHelp.UseVisualStyleBackColor = true;
@@ -196,14 +198,14 @@
             this.btn_customerPayment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_customerPayment.Font = new System.Drawing.Font("Yu Gothic UI Semilight", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_customerPayment.ForeColor = System.Drawing.Color.White;
-            this.btn_customerPayment.IconChar = FontAwesome.Sharp.IconChar.DollarSign;
+            this.btn_customerPayment.IconChar = FontAwesome.Sharp.IconChar.Dollar;
             this.btn_customerPayment.IconColor = System.Drawing.Color.White;
             this.btn_customerPayment.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_customerPayment.IconSize = 25;
             this.btn_customerPayment.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_customerPayment.Location = new System.Drawing.Point(10, 214);
+            this.btn_customerPayment.Location = new System.Drawing.Point(1, 214);
             this.btn_customerPayment.Name = "btn_customerPayment";
-            this.btn_customerPayment.Size = new System.Drawing.Size(198, 38);
+            this.btn_customerPayment.Size = new System.Drawing.Size(216, 38);
             this.btn_customerPayment.TabIndex = 0;
             this.btn_customerPayment.Text = "Payment";
             this.btn_customerPayment.UseVisualStyleBackColor = true;
@@ -214,14 +216,14 @@
             this.btn_customerDb.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_customerDb.Font = new System.Drawing.Font("Yu Gothic UI Semilight", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_customerDb.ForeColor = System.Drawing.Color.White;
-            this.btn_customerDb.IconChar = FontAwesome.Sharp.IconChar.TachometerAlt;
+            this.btn_customerDb.IconChar = FontAwesome.Sharp.IconChar.GaugeHigh;
             this.btn_customerDb.IconColor = System.Drawing.Color.White;
             this.btn_customerDb.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_customerDb.IconSize = 25;
             this.btn_customerDb.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_customerDb.Location = new System.Drawing.Point(10, 115);
+            this.btn_customerDb.Location = new System.Drawing.Point(0, 115);
             this.btn_customerDb.Name = "btn_customerDb";
-            this.btn_customerDb.Size = new System.Drawing.Size(190, 38);
+            this.btn_customerDb.Size = new System.Drawing.Size(217, 38);
             this.btn_customerDb.TabIndex = 0;
             this.btn_customerDb.Text = "    Dash Board";
             this.btn_customerDb.UseVisualStyleBackColor = true;
@@ -245,9 +247,9 @@
             this.btn_customerProfile.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_customerProfile.IconSize = 25;
             this.btn_customerProfile.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_customerProfile.Location = new System.Drawing.Point(10, 7);
+            this.btn_customerProfile.Location = new System.Drawing.Point(0, 7);
             this.btn_customerProfile.Name = "btn_customerProfile";
-            this.btn_customerProfile.Size = new System.Drawing.Size(191, 38);
+            this.btn_customerProfile.Size = new System.Drawing.Size(216, 38);
             this.btn_customerProfile.TabIndex = 0;
             this.btn_customerProfile.Text = "Profile";
             this.btn_customerProfile.UseVisualStyleBackColor = true;
@@ -266,12 +268,11 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-           // this.pictureBox1.BackgroundImage = global::login.Properties.Resources.Logo2;
+            this.pictureBox1.BackgroundImage = global::login.Properties.Resources.Logo;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-           // this.pictureBox1.Image = global::login.Properties.Resources.Logo1;
             this.pictureBox1.Location = new System.Drawing.Point(2, 1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(60, 60);
+            this.pictureBox1.Size = new System.Drawing.Size(54, 53);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
