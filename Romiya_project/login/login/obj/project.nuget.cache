@@ -1,10 +1,18 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "Kpb5pKJ0OZ5pzU4Jg8hv3b9M3hFtmpalOZLHbWbRdZW5GVlvXNDds1wt54XzPfO+AmVPZ6h7Pnq13F+qAZfZyQ==",
   "success": true,
   "projectFilePath": "C:\\III - SEM - Project\\Romiya_project\\login\\login\\login.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\fontawesome.sharp\\6.2.1\\fontawesome.sharp.6.2.1.nupkg.sha512",
+=======
+  "dgSpecHash": "AHWue11C88+hqXXeA7h8seWZ3Hbq8ygB4qrb8G501Ww6bMHhY/i3ShAS0euaYHdrUNiVrS5sRHJnNJPGU9Udrw==",
+  "success": true,
+  "projectFilePath": "C:\\III - SEM - Project\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\login.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\fontawesome.sharp\\6.1.1\\fontawesome.sharp.6.1.1.nupkg.sha512",
+>>>>>>> 7d3963ff792de4dd3192ed4950ebc2479a651c8b
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
