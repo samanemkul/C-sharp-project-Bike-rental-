@@ -84,6 +84,7 @@
             // 
             // textBox1
             // 
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.textBox1.Location = new System.Drawing.Point(25, 98);
             this.textBox1.Margin = new System.Windows.Forms.Padding(5);
@@ -91,7 +92,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(220, 25);
             this.textBox1.TabIndex = 2;
-            this.textBox1.Text = "Enter Bike Name";
+            this.textBox1.Text = "Enter Bike Name..";
             // 
             // label3
             // 
@@ -105,6 +106,7 @@
             // 
             // textBox2
             // 
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.textBox2.Location = new System.Drawing.Point(25, 157);
             this.textBox2.Margin = new System.Windows.Forms.Padding(5);
@@ -112,7 +114,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(220, 25);
             this.textBox2.TabIndex = 2;
-            this.textBox2.Text = "Enter Year";
+            this.textBox2.Text = "Enter Year..";
             // 
             // label4
             // 
@@ -126,6 +128,7 @@
             // 
             // textBox3
             // 
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.textBox3.Location = new System.Drawing.Point(25, 269);
             this.textBox3.Margin = new System.Windows.Forms.Padding(5);
@@ -133,7 +136,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(220, 25);
             this.textBox3.TabIndex = 2;
-            this.textBox3.Text = "Enter Max Power";
+            this.textBox3.Text = "Enter Max Power..";
             // 
             // label5
             // 
@@ -147,6 +150,7 @@
             // 
             // textBox4
             // 
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.textBox4.Location = new System.Drawing.Point(25, 325);
             this.textBox4.Margin = new System.Windows.Forms.Padding(5);
@@ -154,7 +158,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(220, 25);
             this.textBox4.TabIndex = 2;
-            this.textBox4.Text = "Enter Max Torque";
+            this.textBox4.Text = "Enter Max Torque..";
             // 
             // label6
             // 
@@ -168,6 +172,7 @@
             // 
             // textBox5
             // 
+            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.textBox5.Location = new System.Drawing.Point(25, 381);
             this.textBox5.Margin = new System.Windows.Forms.Padding(5);
@@ -175,7 +180,7 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(220, 25);
             this.textBox5.TabIndex = 2;
-            this.textBox5.Text = "Enter Rental Price";
+            this.textBox5.Text = "Enter Rental Price..";
             // 
             // label7
             // 
@@ -189,6 +194,7 @@
             // 
             // textBox6
             // 
+            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.textBox6.Location = new System.Drawing.Point(25, 213);
             this.textBox6.Margin = new System.Windows.Forms.Padding(5);
@@ -196,7 +202,7 @@
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(220, 25);
             this.textBox6.TabIndex = 2;
-            this.textBox6.Text = "Enter Bike No";
+            this.textBox6.Text = "Enter Bike No..";
             // 
             // panel2
             // 

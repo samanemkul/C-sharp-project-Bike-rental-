@@ -4,6 +4,9 @@
     <Compile Update="addelectricbike.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="addPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="addpetrolbike.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -14,6 +17,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="adminDb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="adminPayment.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="category.cs">

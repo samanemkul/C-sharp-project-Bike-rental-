@@ -101,6 +101,7 @@
             // 
             // textBox6
             // 
+            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.textBox6.Location = new System.Drawing.Point(25, 210);
             this.textBox6.Margin = new System.Windows.Forms.Padding(5);
@@ -108,10 +109,11 @@
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(220, 25);
             this.textBox6.TabIndex = 6;
-            this.textBox6.Text = "Enter Bike No";
+            this.textBox6.Text = "Enter Bike No..";
             // 
             // textBox5
             // 
+            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.textBox5.Location = new System.Drawing.Point(25, 378);
             this.textBox5.Margin = new System.Windows.Forms.Padding(5);
@@ -119,10 +121,11 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(220, 25);
             this.textBox5.TabIndex = 7;
-            this.textBox5.Text = "Enter Rental Price";
+            this.textBox5.Text = "Enter Rental Price..";
             // 
             // textBox4
             // 
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.textBox4.Location = new System.Drawing.Point(25, 322);
             this.textBox4.Margin = new System.Windows.Forms.Padding(5);
@@ -130,10 +133,11 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(220, 25);
             this.textBox4.TabIndex = 8;
-            this.textBox4.Text = "Enter Max Torque";
+            this.textBox4.Text = "Enter Max Torque..";
             // 
             // textBox3
             // 
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.textBox3.Location = new System.Drawing.Point(25, 266);
             this.textBox3.Margin = new System.Windows.Forms.Padding(5);
@@ -141,10 +145,11 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(220, 25);
             this.textBox3.TabIndex = 9;
-            this.textBox3.Text = "Enter Max Power";
+            this.textBox3.Text = "Enter Max Power..";
             // 
             // textBox2
             // 
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.textBox2.Location = new System.Drawing.Point(25, 154);
             this.textBox2.Margin = new System.Windows.Forms.Padding(5);
@@ -152,10 +157,11 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(220, 25);
             this.textBox2.TabIndex = 10;
-            this.textBox2.Text = "Enter Year";
+            this.textBox2.Text = "Enter Year..";
             // 
             // textBox1
             // 
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.textBox1.Location = new System.Drawing.Point(25, 98);
             this.textBox1.Margin = new System.Windows.Forms.Padding(5);
@@ -163,7 +169,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(220, 25);
             this.textBox1.TabIndex = 11;
-            this.textBox1.Text = "Enter Bike Name";
+            this.textBox1.Text = "Enter Bike Name..";
             // 
             // label2
             // 
@@ -214,15 +220,15 @@
             // 
             this.iconButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(123)))), ((int)(((byte)(253)))));
             this.iconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.iconButton2.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.iconButton2.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.iconButton2.ForeColor = System.Drawing.Color.White;
             this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.Check;
             this.iconButton2.IconColor = System.Drawing.Color.White;
             this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton2.IconSize = 20;
-            this.iconButton2.Location = new System.Drawing.Point(178, 12);
+            this.iconButton2.Location = new System.Drawing.Point(189, 13);
             this.iconButton2.Name = "iconButton2";
-            this.iconButton2.Size = new System.Drawing.Size(92, 32);
+            this.iconButton2.Size = new System.Drawing.Size(79, 32);
             this.iconButton2.TabIndex = 0;
             this.iconButton2.Text = "Submit";
             this.iconButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -232,7 +238,7 @@
             // 
             this.iconButton1.BackColor = System.Drawing.Color.Red;
             this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.iconButton1.Font = new System.Drawing.Font("Yu Gothic UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.iconButton1.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.iconButton1.ForeColor = System.Drawing.Color.White;
             this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.CircleMinus;
             this.iconButton1.IconColor = System.Drawing.Color.White;

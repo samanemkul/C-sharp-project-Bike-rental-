@@ -36,7 +36,6 @@
             this.btn_customerElectricBike = new FontAwesome.Sharp.IconButton();
             this.btn_logOut = new FontAwesome.Sharp.IconButton();
             this.btn_customerHelp = new FontAwesome.Sharp.IconButton();
-            this.btn_customerPayment = new FontAwesome.Sharp.IconButton();
             this.btn_customerDb = new FontAwesome.Sharp.IconButton();
             this.panelProfile = new System.Windows.Forms.Panel();
             this.btn_customerProfile = new FontAwesome.Sharp.IconButton();
@@ -71,7 +70,6 @@
             this.sidebar.Controls.Add(this.bikeContainer);
             this.sidebar.Controls.Add(this.btn_logOut);
             this.sidebar.Controls.Add(this.btn_customerHelp);
-            this.sidebar.Controls.Add(this.btn_customerPayment);
             this.sidebar.Controls.Add(this.btn_customerDb);
             this.sidebar.Controls.Add(this.panelProfile);
             this.sidebar.Controls.Add(this.panel2);
@@ -183,30 +181,12 @@
             this.btn_customerHelp.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_customerHelp.IconSize = 25;
             this.btn_customerHelp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_customerHelp.Location = new System.Drawing.Point(0, 258);
+            this.btn_customerHelp.Location = new System.Drawing.Point(0, 204);
             this.btn_customerHelp.Name = "btn_customerHelp";
             this.btn_customerHelp.Size = new System.Drawing.Size(217, 38);
             this.btn_customerHelp.TabIndex = 0;
             this.btn_customerHelp.Text = "Help";
             this.btn_customerHelp.UseVisualStyleBackColor = true;
-            // 
-            // btn_customerPayment
-            // 
-            this.btn_customerPayment.FlatAppearance.BorderSize = 0;
-            this.btn_customerPayment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_customerPayment.Font = new System.Drawing.Font("Yu Gothic UI Semilight", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_customerPayment.ForeColor = System.Drawing.Color.White;
-            this.btn_customerPayment.IconChar = FontAwesome.Sharp.IconChar.Dollar;
-            this.btn_customerPayment.IconColor = System.Drawing.Color.White;
-            this.btn_customerPayment.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btn_customerPayment.IconSize = 25;
-            this.btn_customerPayment.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_customerPayment.Location = new System.Drawing.Point(1, 214);
-            this.btn_customerPayment.Name = "btn_customerPayment";
-            this.btn_customerPayment.Size = new System.Drawing.Size(216, 38);
-            this.btn_customerPayment.TabIndex = 0;
-            this.btn_customerPayment.Text = "Payment";
-            this.btn_customerPayment.UseVisualStyleBackColor = true;
             // 
             // btn_customerDb
             // 
@@ -481,7 +461,6 @@
         private FontAwesome.Sharp.IconButton btn_customerProfile;
         private FontAwesome.Sharp.IconButton btn_logOut;
         private FontAwesome.Sharp.IconButton btn_customerHelp;
-        private FontAwesome.Sharp.IconButton btn_customerPayment;
         private FlowLayoutPanel bikeContainer;
         private FontAwesome.Sharp.IconButton btn_customerBikes;
         private FontAwesome.Sharp.IconButton btn_customerElectricBike;
