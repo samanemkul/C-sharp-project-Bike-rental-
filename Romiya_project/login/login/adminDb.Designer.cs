@@ -44,7 +44,6 @@
             this.panelProfile = new System.Windows.Forms.Panel();
             this.btn_adminProfile = new FontAwesome.Sharp.IconButton();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.projectName = new System.Windows.Forms.Label();
             this.menubtn = new FontAwesome.Sharp.IconPictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -63,7 +62,6 @@
             this.bikeContainer.SuspendLayout();
             this.panelProfile.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.menubtn)).BeginInit();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
@@ -95,11 +93,11 @@
             this.bikeContainer.Controls.Add(this.btn_adminBikes);
             this.bikeContainer.Controls.Add(this.btn_customerPetrolBike);
             this.bikeContainer.Controls.Add(this.btn_customerElectricBike);
-            this.bikeContainer.Location = new System.Drawing.Point(9, 150);
+            this.bikeContainer.Location = new System.Drawing.Point(0, 159);
             this.bikeContainer.MaximumSize = new System.Drawing.Size(190, 136);
             this.bikeContainer.MinimumSize = new System.Drawing.Size(190, 38);
             this.bikeContainer.Name = "bikeContainer";
-            this.bikeContainer.Size = new System.Drawing.Size(190, 44);
+            this.bikeContainer.Size = new System.Drawing.Size(190, 38);
             this.bikeContainer.TabIndex = 3;
             // 
             // btn_adminBikes
@@ -115,7 +113,7 @@
             this.btn_adminBikes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_adminBikes.Location = new System.Drawing.Point(3, 3);
             this.btn_adminBikes.Name = "btn_adminBikes";
-            this.btn_adminBikes.Size = new System.Drawing.Size(190, 38);
+            this.btn_adminBikes.Size = new System.Drawing.Size(221, 38);
             this.btn_adminBikes.TabIndex = 0;
             this.btn_adminBikes.Text = "Bikes";
             this.btn_adminBikes.UseVisualStyleBackColor = true;
@@ -138,6 +136,7 @@
             this.btn_customerPetrolBike.TabIndex = 0;
             this.btn_customerPetrolBike.Text = "Petrol Bikes";
             this.btn_customerPetrolBike.UseVisualStyleBackColor = true;
+            this.btn_customerPetrolBike.Click += new System.EventHandler(this.btn_customerPetrolBike_Click);
             // 
             // btn_customerElectricBike
             // 
@@ -156,6 +155,7 @@
             this.btn_customerElectricBike.TabIndex = 0;
             this.btn_customerElectricBike.Text = "Electric Bikes";
             this.btn_customerElectricBike.UseVisualStyleBackColor = true;
+            this.btn_customerElectricBike.Click += new System.EventHandler(this.btn_customerElectricBike_Click);
             // 
             // btn_logOut
             // 
@@ -163,14 +163,14 @@
             this.btn_logOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_logOut.Font = new System.Drawing.Font("Yu Gothic UI Semilight", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_logOut.ForeColor = System.Drawing.Color.White;
-            this.btn_logOut.IconChar = FontAwesome.Sharp.IconChar.SignOut;
+            this.btn_logOut.IconChar = FontAwesome.Sharp.IconChar.ArrowRightFromBracket;
             this.btn_logOut.IconColor = System.Drawing.Color.White;
             this.btn_logOut.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_logOut.IconSize = 25;
             this.btn_logOut.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_logOut.Location = new System.Drawing.Point(13, 527);
+            this.btn_logOut.Location = new System.Drawing.Point(0, 527);
             this.btn_logOut.Name = "btn_logOut";
-            this.btn_logOut.Size = new System.Drawing.Size(188, 38);
+            this.btn_logOut.Size = new System.Drawing.Size(217, 38);
             this.btn_logOut.TabIndex = 0;
             this.btn_logOut.Text = "Log Out";
             this.btn_logOut.UseVisualStyleBackColor = true;
@@ -186,9 +186,9 @@
             this.btn_adminHelp.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_adminHelp.IconSize = 25;
             this.btn_adminHelp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_adminHelp.Location = new System.Drawing.Point(9, 332);
+            this.btn_adminHelp.Location = new System.Drawing.Point(-2, 379);
             this.btn_adminHelp.Name = "btn_adminHelp";
-            this.btn_adminHelp.Size = new System.Drawing.Size(197, 38);
+            this.btn_adminHelp.Size = new System.Drawing.Size(216, 38);
             this.btn_adminHelp.TabIndex = 0;
             this.btn_adminHelp.Text = "Help";
             this.btn_adminHelp.UseVisualStyleBackColor = true;
@@ -204,9 +204,9 @@
             this.btn_rental.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_rental.IconSize = 25;
             this.btn_rental.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_rental.Location = new System.Drawing.Point(9, 198);
+            this.btn_rental.Location = new System.Drawing.Point(-2, 203);
             this.btn_rental.Name = "btn_rental";
-            this.btn_rental.Size = new System.Drawing.Size(198, 38);
+            this.btn_rental.Size = new System.Drawing.Size(213, 38);
             this.btn_rental.TabIndex = 0;
             this.btn_rental.Text = "Rental";
             this.btn_rental.UseVisualStyleBackColor = true;
@@ -222,9 +222,9 @@
             this.btn_clientManagement.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_clientManagement.IconSize = 25;
             this.btn_clientManagement.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_clientManagement.Location = new System.Drawing.Point(9, 232);
+            this.btn_clientManagement.Location = new System.Drawing.Point(-2, 247);
             this.btn_clientManagement.Name = "btn_clientManagement";
-            this.btn_clientManagement.Size = new System.Drawing.Size(241, 38);
+            this.btn_clientManagement.Size = new System.Drawing.Size(219, 38);
             this.btn_clientManagement.TabIndex = 0;
             this.btn_clientManagement.Text = "   Client Management";
             this.btn_clientManagement.UseVisualStyleBackColor = true;
@@ -240,9 +240,9 @@
             this.btn_admin.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_admin.IconSize = 25;
             this.btn_admin.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_admin.Location = new System.Drawing.Point(9, 267);
+            this.btn_admin.Location = new System.Drawing.Point(1, 291);
             this.btn_admin.Name = "btn_admin";
-            this.btn_admin.Size = new System.Drawing.Size(198, 38);
+            this.btn_admin.Size = new System.Drawing.Size(216, 38);
             this.btn_admin.TabIndex = 0;
             this.btn_admin.Text = "Admin";
             this.btn_admin.UseVisualStyleBackColor = true;
@@ -253,14 +253,14 @@
             this.btn_adminPayment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_adminPayment.Font = new System.Drawing.Font("Yu Gothic UI Semilight", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_adminPayment.ForeColor = System.Drawing.Color.White;
-            this.btn_adminPayment.IconChar = FontAwesome.Sharp.IconChar.DollarSign;
+            this.btn_adminPayment.IconChar = FontAwesome.Sharp.IconChar.Dollar;
             this.btn_adminPayment.IconColor = System.Drawing.Color.White;
             this.btn_adminPayment.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_adminPayment.IconSize = 25;
             this.btn_adminPayment.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_adminPayment.Location = new System.Drawing.Point(9, 299);
+            this.btn_adminPayment.Location = new System.Drawing.Point(0, 335);
             this.btn_adminPayment.Name = "btn_adminPayment";
-            this.btn_adminPayment.Size = new System.Drawing.Size(198, 38);
+            this.btn_adminPayment.Size = new System.Drawing.Size(217, 38);
             this.btn_adminPayment.TabIndex = 0;
             this.btn_adminPayment.Text = "Payment";
             this.btn_adminPayment.UseVisualStyleBackColor = true;
@@ -271,14 +271,14 @@
             this.btn_adminDb.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_adminDb.Font = new System.Drawing.Font("Yu Gothic UI Semilight", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_adminDb.ForeColor = System.Drawing.Color.White;
-            this.btn_adminDb.IconChar = FontAwesome.Sharp.IconChar.TachometerAlt;
+            this.btn_adminDb.IconChar = FontAwesome.Sharp.IconChar.GaugeHigh;
             this.btn_adminDb.IconColor = System.Drawing.Color.White;
             this.btn_adminDb.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_adminDb.IconSize = 25;
             this.btn_adminDb.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_adminDb.Location = new System.Drawing.Point(10, 115);
+            this.btn_adminDb.Location = new System.Drawing.Point(0, 115);
             this.btn_adminDb.Name = "btn_adminDb";
-            this.btn_adminDb.Size = new System.Drawing.Size(190, 38);
+            this.btn_adminDb.Size = new System.Drawing.Size(217, 38);
             this.btn_adminDb.TabIndex = 0;
             this.btn_adminDb.Text = "    Dash Board";
             this.btn_adminDb.UseVisualStyleBackColor = true;
@@ -302,16 +302,15 @@
             this.btn_adminProfile.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_adminProfile.IconSize = 25;
             this.btn_adminProfile.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_adminProfile.Location = new System.Drawing.Point(10, 7);
+            this.btn_adminProfile.Location = new System.Drawing.Point(0, 7);
             this.btn_adminProfile.Name = "btn_adminProfile";
-            this.btn_adminProfile.Size = new System.Drawing.Size(191, 38);
+            this.btn_adminProfile.Size = new System.Drawing.Size(216, 38);
             this.btn_adminProfile.TabIndex = 0;
             this.btn_adminProfile.Text = "Profile";
             this.btn_adminProfile.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.projectName);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
@@ -319,24 +318,13 @@
             this.panel2.Size = new System.Drawing.Size(217, 57);
             this.panel2.TabIndex = 0;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::login.Properties.Resources.Logo4;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(58, 50);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
             // projectName
             // 
             this.projectName.AutoSize = true;
             this.projectName.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.projectName.Font = new System.Drawing.Font("Yu Gothic UI Semilight", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.projectName.ForeColor = System.Drawing.Color.White;
-            this.projectName.Location = new System.Drawing.Point(68, 19);
+            this.projectName.Location = new System.Drawing.Point(34, 19);
             this.projectName.Name = "projectName";
             this.projectName.Size = new System.Drawing.Size(139, 21);
             this.projectName.TabIndex = 0;
@@ -496,7 +484,6 @@
             this.panelProfile.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.menubtn)).EndInit();
             this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -518,7 +505,6 @@
         private Panel panelProfile;
         private FontAwesome.Sharp.IconButton btn_adminProfile;
         private Panel panel2;
-        private PictureBox pictureBox1;
         private Label projectName;
         private FontAwesome.Sharp.IconPictureBox menubtn;
         private Panel panel3;

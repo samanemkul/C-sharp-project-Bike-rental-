@@ -125,7 +125,6 @@ C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\o
 D:\Hawana\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.pnlCustomer.resources
 C:\Users\sandi\Downloads\Github\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.pnlCustomer.resources
 C:\Users\sandi\Downloads\Github\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.pnl_admin.resources
-<<<<<<< HEAD
 C:\III - SEM - Project\Romiya_project\login\login\bin\Debug\net6.0-windows\login.exe
 C:\III - SEM - Project\Romiya_project\login\login\bin\Debug\net6.0-windows\login.deps.json
 C:\III - SEM - Project\Romiya_project\login\login\bin\Debug\net6.0-windows\login.runtimeconfig.json
@@ -160,8 +159,10 @@ C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login
 C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.genruntimeconfig.cache
 C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\ref\login.dll
 C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.categoryElectric.resources
-=======
 C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.RegisterForm.resources
 C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.pnlCustomer.resources
 C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.pnl_admin.resources
 >>>>>>> 7d3963ff792de4dd3192ed4950ebc2479a651c8b
+C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.addpetrolbike.resources
+C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.adminCatElectric.resources
+C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.adminCatPetrol.resources

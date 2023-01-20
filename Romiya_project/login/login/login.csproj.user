@@ -1,6 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="addelectricbike.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="addpetrolbike.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="adminCatElectric.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="adminCatPetrol.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="adminDb.cs">
       <SubType>Form</SubType>
     </Compile>

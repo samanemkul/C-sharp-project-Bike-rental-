@@ -86,5 +86,19 @@ namespace login
                 }
             }
         }
+
+        private void btn_customerPetrolBike_Click(object sender, EventArgs e)
+        {
+            //admin bike category for petrol bikes
+            this.Hide();
+            adminCatPetrol adminCat1 = new adminCatPetrol();
+            adminCat1.ShowDialog();
+            this.Show();
+        }
+
+        private void btn_customerElectricBike_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

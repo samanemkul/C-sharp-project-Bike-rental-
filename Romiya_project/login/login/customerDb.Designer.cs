@@ -41,7 +41,6 @@
             this.panelProfile = new System.Windows.Forms.Panel();
             this.btn_customerProfile = new FontAwesome.Sharp.IconButton();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.projectName = new System.Windows.Forms.Label();
             this.menubtn = new FontAwesome.Sharp.IconPictureBox();
             this.pnl_main = new System.Windows.Forms.Panel();
@@ -61,7 +60,6 @@
             this.bikeContainer.SuspendLayout();
             this.panelProfile.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.menubtn)).BeginInit();
             this.pnl_main.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -256,7 +254,6 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.projectName);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
@@ -264,25 +261,6 @@
             this.panel2.Size = new System.Drawing.Size(217, 57);
             this.panel2.TabIndex = 0;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-<<<<<<< HEAD
-            this.pictureBox1.BackgroundImage = global::login.Properties.Resources.Logo;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(2, 1);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(54, 53);
-=======
-            this.pictureBox1.BackgroundImage = global::login.Properties.Resources.Logo4;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(2, 1);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(58, 50);
->>>>>>> 7d3963ff792de4dd3192ed4950ebc2479a651c8b
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
             // 
             // projectName
             // 
@@ -473,7 +451,6 @@
             this.panelProfile.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.menubtn)).EndInit();
             this.pnl_main.ResumeLayout(false);
             this.pnl_main.PerformLayout();
@@ -510,7 +487,6 @@
         private FontAwesome.Sharp.IconButton btn_customerElectricBike;
         private FontAwesome.Sharp.IconButton btn_customerPetrolBike;
         private Panel f;
-        private PictureBox pictureBox1;
         private Label label2;
     }
 }
