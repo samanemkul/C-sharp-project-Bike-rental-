@@ -17,7 +17,7 @@ namespace login
         public category()
         {
             InitializeComponent();
-            this.FormBorderStyle = FormBorderStyle.None;
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -25,6 +25,9 @@ namespace login
             
         }
 
-     
+        private void btn_customerBikes_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

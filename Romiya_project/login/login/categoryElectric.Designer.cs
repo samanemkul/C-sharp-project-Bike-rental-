@@ -80,6 +80,7 @@
             this.categorypanel.Name = "categorypanel";
             this.categorypanel.Size = new System.Drawing.Size(847, 513);
             this.categorypanel.TabIndex = 8;
+            this.categorypanel.Paint += new System.Windows.Forms.PaintEventHandler(this.categorypanel_Paint);
             // 
             // rights
             // 
@@ -414,7 +415,6 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::login.Properties.Resources.Logo;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Location = new System.Drawing.Point(2, 1);
             this.pictureBox1.Name = "pictureBox1";

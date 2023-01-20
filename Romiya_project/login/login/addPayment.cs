@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace login
 {
-    public partial class addpetrolbike : Form
+    public partial class addPayment : Form
     {
-        public addpetrolbike()
+        public addPayment()
         {
             InitializeComponent();
-            this.FormBorderStyle = FormBorderStyle.FixedSingle;
-        }
-
-        private void iconButton1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

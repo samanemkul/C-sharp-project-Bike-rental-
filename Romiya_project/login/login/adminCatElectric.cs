@@ -15,6 +15,7 @@ namespace login
         public adminCatElectric()
         {
             InitializeComponent();
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
         }
 
         private void addbtn_Click(object sender, EventArgs e)

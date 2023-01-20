@@ -15,6 +15,12 @@ namespace login
         public categoryElectric()
         {
             InitializeComponent();
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+        }
+
+        private void categorypanel_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

@@ -44,10 +44,30 @@
             this.btn_adminProfile = new FontAwesome.Sharp.IconButton();
             this.panel2 = new System.Windows.Forms.Panel();
             this.projectName = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.menubtn = new FontAwesome.Sharp.IconPictureBox();
+            this.paymentpanel = new System.Windows.Forms.Panel();
+            this.rights = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.addbtn = new FontAwesome.Sharp.IconButton();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.sidebar.SuspendLayout();
             this.bikeContainer.SuspendLayout();
             this.panelProfile.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.menubtn)).BeginInit();
+            this.paymentpanel.SuspendLayout();
+            this.rights.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // sidebar
@@ -311,11 +331,187 @@
             this.projectName.TabIndex = 0;
             this.projectName.Text = "Bike Rental System";
             // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(127)))), ((int)(((byte)(21)))));
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.menubtn);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(217, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(847, 55);
+            this.panel3.TabIndex = 5;
+            // 
+            // menubtn
+            // 
+            this.menubtn.BackColor = System.Drawing.Color.Transparent;
+            this.menubtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.menubtn.IconChar = FontAwesome.Sharp.IconChar.CaretDown;
+            this.menubtn.IconColor = System.Drawing.Color.White;
+            this.menubtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.menubtn.IconSize = 27;
+            this.menubtn.Location = new System.Drawing.Point(3, 12);
+            this.menubtn.Name = "menubtn";
+            this.menubtn.Size = new System.Drawing.Size(29, 27);
+            this.menubtn.TabIndex = 1;
+            this.menubtn.TabStop = false;
+            // 
+            // paymentpanel
+            // 
+            this.paymentpanel.Controls.Add(this.rights);
+            this.paymentpanel.Controls.Add(this.panel1);
+            this.paymentpanel.Controls.Add(this.label3);
+            this.paymentpanel.Controls.Add(this.label2);
+            this.paymentpanel.Controls.Add(this.label1);
+            this.paymentpanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.paymentpanel.Location = new System.Drawing.Point(217, 55);
+            this.paymentpanel.Name = "paymentpanel";
+            this.paymentpanel.Size = new System.Drawing.Size(847, 513);
+            this.paymentpanel.TabIndex = 7;
+            // 
+            // rights
+            // 
+            this.rights.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.rights.Controls.Add(this.label4);
+            this.rights.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.rights.Location = new System.Drawing.Point(0, 473);
+            this.rights.Name = "rights";
+            this.rights.Size = new System.Drawing.Size(847, 40);
+            this.rights.TabIndex = 6;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Yu Gothic UI Semilight", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label4.Location = new System.Drawing.Point(5, 10);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(221, 17);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Bike Rental System. All rights reserved";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.label6);
+            this.panel1.Controls.Add(this.panel4);
+            this.panel1.Location = new System.Drawing.Point(6, 72);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(830, 344);
+            this.panel1.TabIndex = 5;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox1.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox1.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.textBox1.Location = new System.Drawing.Point(688, 63);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(133, 25);
+            this.textBox1.TabIndex = 2;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label6.ForeColor = System.Drawing.Color.Black;
+            this.label6.Location = new System.Drawing.Point(619, 68);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(63, 20);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "Search :";
+            // 
+            // panel4
+            // 
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel4.Controls.Add(this.addbtn);
+            this.panel4.Controls.Add(this.label5);
+            this.panel4.Location = new System.Drawing.Point(-1, -1);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(830, 53);
+            this.panel4.TabIndex = 0;
+            // 
+            // addbtn
+            // 
+            this.addbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.addbtn.FlatAppearance.BorderSize = 0;
+            this.addbtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(139)))), ((int)(((byte)(59)))));
+            this.addbtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.addbtn.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.addbtn.ForeColor = System.Drawing.Color.White;
+            this.addbtn.IconChar = FontAwesome.Sharp.IconChar.Plus;
+            this.addbtn.IconColor = System.Drawing.Color.White;
+            this.addbtn.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.addbtn.IconSize = 22;
+            this.addbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.addbtn.Location = new System.Drawing.Point(746, 12);
+            this.addbtn.Name = "addbtn";
+            this.addbtn.Size = new System.Drawing.Size(75, 32);
+            this.addbtn.TabIndex = 1;
+            this.addbtn.Text = "Add";
+            this.addbtn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.addbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.addbtn.UseVisualStyleBackColor = false;
+            this.addbtn.Click += new System.EventHandler(this.addbtn_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.Location = new System.Drawing.Point(4, 18);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(186, 21);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Payment Form Data Table";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(0, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(147, 45);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Payment";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(734, 19);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(81, 21);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "/ Payment";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.label1.Location = new System.Drawing.Point(686, 19);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(52, 21);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Home";
+            // 
             // adminPayment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1064, 568);
+            this.Controls.Add(this.paymentpanel);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.sidebar);
             this.Name = "adminPayment";
             this.Text = "adminPayment";
@@ -324,6 +520,16 @@
             this.panelProfile.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.menubtn)).EndInit();
+            this.paymentpanel.ResumeLayout(false);
+            this.paymentpanel.PerformLayout();
+            this.rights.ResumeLayout(false);
+            this.rights.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -346,5 +552,19 @@
         private FontAwesome.Sharp.IconButton btn_adminProfile;
         private Panel panel2;
         private Label projectName;
+        private Panel panel3;
+        private FontAwesome.Sharp.IconPictureBox menubtn;
+        private Panel paymentpanel;
+        private Panel rights;
+        private Label label4;
+        private Panel panel1;
+        private TextBox textBox1;
+        private Label label6;
+        private Panel panel4;
+        private FontAwesome.Sharp.IconButton addbtn;
+        private Label label5;
+        private Label label3;
+        private Label label2;
+        private Label label1;
     }
 }
