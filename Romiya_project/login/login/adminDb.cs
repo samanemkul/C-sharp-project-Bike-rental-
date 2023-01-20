@@ -100,5 +100,14 @@ namespace login
         {
 
         }
+
+        private void btn_adminPayment_Click(object sender, EventArgs e)
+        {
+            //admin payment
+            this.Hide();
+            adminPayment adpay = new adminPayment();
+            adpay.ShowDialog();
+            this.Show();
+        }
     }
 }

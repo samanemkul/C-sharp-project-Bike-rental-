@@ -264,6 +264,7 @@
             this.btn_adminPayment.TabIndex = 0;
             this.btn_adminPayment.Text = "Payment";
             this.btn_adminPayment.UseVisualStyleBackColor = true;
+            this.btn_adminPayment.Click += new System.EventHandler(this.btn_adminPayment_Click);
             // 
             // btn_adminDb
             // 
@@ -353,7 +354,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(217, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(716, 55);
+            this.panel3.Size = new System.Drawing.Size(847, 55);
             this.panel3.TabIndex = 2;
             // 
             // label2
@@ -465,7 +466,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(933, 568);
+            this.ClientSize = new System.Drawing.Size(1064, 568);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_feedback);

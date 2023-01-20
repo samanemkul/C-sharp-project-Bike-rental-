@@ -22,7 +22,7 @@ namespace login
             //add electric data
             this.Hide();
             addelectricbike aeb = new addelectricbike();
-            this.ShowDialog();
+            aeb.ShowDialog();
             this.Show();
         }
     }

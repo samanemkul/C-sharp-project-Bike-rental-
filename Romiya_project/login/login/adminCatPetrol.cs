@@ -22,7 +22,7 @@ namespace login
             //add bike 
             this.Hide();
             addpetrolbike apb1 = new addpetrolbike();
-            this.ShowDialog();
+            apb1.ShowDialog();
             this.Show();
         }
     }
