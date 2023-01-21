@@ -69,6 +69,7 @@
             // sidebar
             // 
             this.sidebar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.sidebar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.sidebar.Controls.Add(this.bikeContainer);
             this.sidebar.Controls.Add(this.btn_logOut);
             this.sidebar.Controls.Add(this.btn_adminHelp);
@@ -318,7 +319,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(217, 57);
+            this.panel2.Size = new System.Drawing.Size(215, 57);
             this.panel2.TabIndex = 0;
             // 
             // projectName

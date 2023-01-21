@@ -53,11 +53,11 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.addbtn = new FontAwesome.Sharp.IconButton();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.addbtn = new FontAwesome.Sharp.IconButton();
             this.sidebar.SuspendLayout();
             this.bikeContainer.SuspendLayout();
             this.panelProfile.SuspendLayout();
@@ -73,6 +73,7 @@
             // sidebar
             // 
             this.sidebar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.sidebar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.sidebar.Controls.Add(this.bikeContainer);
             this.sidebar.Controls.Add(this.btn_logOut);
             this.sidebar.Controls.Add(this.btn_adminHelp);
@@ -316,7 +317,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(217, 57);
+            this.panel2.Size = new System.Drawing.Size(215, 57);
             this.panel2.TabIndex = 0;
             // 
             // projectName
@@ -435,6 +436,29 @@
             this.panel4.Size = new System.Drawing.Size(830, 53);
             this.panel4.TabIndex = 0;
             // 
+            // addbtn
+            // 
+            this.addbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.addbtn.FlatAppearance.BorderSize = 0;
+            this.addbtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(139)))), ((int)(((byte)(59)))));
+            this.addbtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.addbtn.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.addbtn.ForeColor = System.Drawing.Color.White;
+            this.addbtn.IconChar = FontAwesome.Sharp.IconChar.Plus;
+            this.addbtn.IconColor = System.Drawing.Color.White;
+            this.addbtn.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.addbtn.IconSize = 22;
+            this.addbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.addbtn.Location = new System.Drawing.Point(746, 12);
+            this.addbtn.Name = "addbtn";
+            this.addbtn.Size = new System.Drawing.Size(75, 32);
+            this.addbtn.TabIndex = 1;
+            this.addbtn.Text = "Add";
+            this.addbtn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.addbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.addbtn.UseVisualStyleBackColor = false;
+            this.addbtn.Click += new System.EventHandler(this.addbtn_Click);
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -481,29 +505,6 @@
             this.label1.Size = new System.Drawing.Size(84, 21);
             this.label1.TabIndex = 3;
             this.label1.Text = "Petrol Bike";
-            // 
-            // addbtn
-            // 
-            this.addbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.addbtn.FlatAppearance.BorderSize = 0;
-            this.addbtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(139)))), ((int)(((byte)(59)))));
-            this.addbtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.addbtn.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.addbtn.ForeColor = System.Drawing.Color.White;
-            this.addbtn.IconChar = FontAwesome.Sharp.IconChar.Plus;
-            this.addbtn.IconColor = System.Drawing.Color.White;
-            this.addbtn.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.addbtn.IconSize = 22;
-            this.addbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.addbtn.Location = new System.Drawing.Point(746, 12);
-            this.addbtn.Name = "addbtn";
-            this.addbtn.Size = new System.Drawing.Size(75, 32);
-            this.addbtn.TabIndex = 1;
-            this.addbtn.Text = "Add";
-            this.addbtn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.addbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.addbtn.UseVisualStyleBackColor = false;
-            this.addbtn.Click += new System.EventHandler(this.addbtn_Click);
             // 
             // adminCatPetrol
             // 
