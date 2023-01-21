@@ -118,5 +118,14 @@ namespace login
             adcm.ShowDialog();
             this.Show();
         }
+
+        private void btn_rental_Click(object sender, EventArgs e)
+        {
+            //admin rental
+            this.Hide();
+            adminRental adr = new adminRental();
+            adr.ShowDialog();
+            this.Show();
+        }
     }
 }

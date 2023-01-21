@@ -210,6 +210,7 @@
             this.btn_rental.TabIndex = 0;
             this.btn_rental.Text = "Rental";
             this.btn_rental.UseVisualStyleBackColor = true;
+            this.btn_rental.Click += new System.EventHandler(this.btn_rental_Click);
             // 
             // btn_clientManagement
             // 
