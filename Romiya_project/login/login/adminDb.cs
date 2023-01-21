@@ -109,5 +109,14 @@ namespace login
             adpay.ShowDialog();
             this.Show();
         }
+
+        private void btn_clientManagement_Click(object sender, EventArgs e)
+        {
+            // admin Client Management
+            this.Hide();
+            adminClientManagement adcm = new adminClientManagement();
+            adcm.ShowDialog();
+            this.Show();
+        }
     }
 }

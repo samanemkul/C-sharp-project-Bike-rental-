@@ -308,7 +308,6 @@ namespace login
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::login.Properties.Resources.close;
             this.pictureBox2.Location = new System.Drawing.Point(2, 2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(15, 15);

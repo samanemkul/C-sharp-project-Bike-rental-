@@ -287,7 +287,7 @@
             this.pnl_main.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.pnl_main.Location = new System.Drawing.Point(217, 0);
             this.pnl_main.Name = "pnl_main";
-            this.pnl_main.Size = new System.Drawing.Size(716, 568);
+            this.pnl_main.Size = new System.Drawing.Size(847, 568);
             this.pnl_main.TabIndex = 1;
             this.pnl_main.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_main_Paint);
             // 
@@ -403,7 +403,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(712, 55);
+            this.panel3.Size = new System.Drawing.Size(843, 55);
             this.panel3.TabIndex = 0;
             // 
             // sidebar_timer
@@ -420,7 +420,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(933, 568);
+            this.ClientSize = new System.Drawing.Size(1064, 568);
             this.Controls.Add(this.pnl_main);
             this.Controls.Add(this.sidebar);
             this.Name = "customerDb";

@@ -166,3 +166,6 @@ C:\III - SEM - Project\C-sharp-project-Bike-rental-\Romiya_project\login\login\o
 C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.addpetrolbike.resources
 C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.adminCatElectric.resources
 C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.adminCatPetrol.resources
+C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.addelectricbike.resources
+C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.addPayment.resources
+C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.adminPayment.resources

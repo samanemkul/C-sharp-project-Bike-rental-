@@ -228,6 +228,7 @@
             this.btn_clientManagement.TabIndex = 0;
             this.btn_clientManagement.Text = "   Client Management";
             this.btn_clientManagement.UseVisualStyleBackColor = true;
+            this.btn_clientManagement.Click += new System.EventHandler(this.btn_clientManagement_Click);
             // 
             // btn_admin
             // 
