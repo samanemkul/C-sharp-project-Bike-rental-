@@ -19,6 +19,10 @@ namespace login
         {
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.None;
+//<<<<<<< Updated upstream
+//=======
+            
+//>>>>>>> Stashed changes
         }
 
         private void menuBike_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
@@ -169,9 +173,9 @@ namespace login
 
         private void btn_customerPetrolBike_Click(object sender, EventArgs e)
         {
-            //categorypetrolbike
+            //typespetrolbike
             this.Hide();
-            category f2 = new category();
+            petrolbikeCustomer f2 = new petrolbikeCustomer();
             f2.ShowDialog();
             f2.Show();
 
@@ -181,7 +185,7 @@ namespace login
         {
             //categoryelectricbike
             this.Hide();
-            categoryElectric f3 = new categoryElectric();
+            electricbikeCustomer f3 = new electricbikeCustomer();
             f3.ShowDialog();
             f3.Show();
         }

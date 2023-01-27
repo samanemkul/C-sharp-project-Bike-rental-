@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\III - SEM - Project\\Romiya_project\\login\\login\\login.csproj": {}
+    "C:\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\login.csproj": {}
   },
   "projects": {
-    "C:\\III - SEM - Project\\Romiya_project\\login\\login\\login.csproj": {
+    "C:\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\login.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\III - SEM - Project\\Romiya_project\\login\\login\\login.csproj",
+        "projectUniqueName": "C:\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\login.csproj",
         "projectName": "login",
-        "projectPath": "C:\\III - SEM - Project\\Romiya_project\\login\\login\\login.csproj",
+        "projectPath": "C:\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\login.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\III - SEM - Project\\Romiya_project\\login\\login\\obj\\",
+        "outputPath": "C:\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

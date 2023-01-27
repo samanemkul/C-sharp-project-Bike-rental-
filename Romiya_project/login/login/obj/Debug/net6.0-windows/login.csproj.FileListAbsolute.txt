@@ -169,3 +169,47 @@ C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login
 C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.addelectricbike.resources
 C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.addPayment.resources
 C:\III - SEM - Project\Romiya_project\login\login\obj\Debug\net6.0-windows\login.adminPayment.resources
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.csproj.AssemblyReference.cache
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.addClient.resources
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.addelectricbike.resources
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.addPayment.resources
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.addpetrolbike.resources
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.addRental.resources
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.adminCatElectric.resources
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.adminCatPetrol.resources
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.adminClientManagement.resources
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.adminDb.resources
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.adminPayment.resources
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.adminRental.resources
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.customerDb.resources
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.electricbikeCustomer.resources
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.RegisterForm.resources
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.Form3.resources
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.Login.resources
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.petrolbikeCustomer.resources
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.pnlCustomer.resources
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.pnl_admin.resources
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.csproj.GenerateResource.cache
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.dll
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\refint\login.dll
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.pdb
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\login.exe
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\login.deps.json
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\login.runtimeconfig.json
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\login.dll
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\login.pdb
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\FontAwesome.Sharp.dll
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.Properties.Resources.resources
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.GeneratedMSBuildEditorConfig.editorconfig
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.AssemblyInfoInputs.cache
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.AssemblyInfo.cs
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.csproj.CoreCompileInputs.cache
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.csproj.CopyComplete
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.genruntimeconfig.cache
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\ref\login.dll

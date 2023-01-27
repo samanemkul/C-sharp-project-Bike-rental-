@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace login
 {
-    public partial class categoryElectric : Form
+    public partial class petrolbikeCustomer : Form
     {
-        public categoryElectric()
+        public petrolbikeCustomer()
         {
             InitializeComponent();
-            this.FormBorderStyle = FormBorderStyle.FixedSingle;
-        }
-
-        private void categorypanel_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }
