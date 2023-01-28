@@ -52,7 +52,31 @@
     <Compile Update="pBike1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="pBike10.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="pBike2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pBike3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pBike4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pBike5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pBike6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pBike7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pBike8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pBike9.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="petrolbikeCustomer.cs">

@@ -71,5 +71,41 @@ namespace login
             pB6.ShowDialog();
             this.Show();
         }
+
+        private void bikeName7_Click(object sender, EventArgs e)
+        {
+            // For Jawa Classic 300
+
+            pBike7 pB7 = new pBike7();
+            pB7.ShowDialog();
+            this.Show();
+        }
+
+        private void bikeName8_Click(object sender, EventArgs e)
+        {
+            // For Pulsar NS 200
+
+            pBike8 pB8 = new pBike8();
+            pB8.ShowDialog();
+            this.Show();
+        }
+
+        private void bikeName9_Click(object sender, EventArgs e)
+        {
+            // For MT - 15 
+
+            pBike9 pB9 = new pBike9();
+            pB9.ShowDialog();
+            pB9.Show();
+        }
+
+        private void bikeName10_Click(object sender, EventArgs e)
+        {
+            // For Apache RTR 200
+
+            pBike10 pB10 = new pBike10();
+            pB10.ShowDialog();
+            this.Show();
+        }
     }
 }

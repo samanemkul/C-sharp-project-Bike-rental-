@@ -345,7 +345,7 @@
             this.pictureBox2.Image = global::login.Properties.Resources.OIP;
             this.pictureBox2.Location = new System.Drawing.Point(484, 55);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(315, 264);
+            this.pictureBox2.Size = new System.Drawing.Size(314, 264);
             this.pictureBox2.TabIndex = 9;
             this.pictureBox2.TabStop = false;
             // 
@@ -399,6 +399,7 @@
             this.e4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.e4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.e4.UseVisualStyleBackColor = false;
+            this.e4.Click += new System.EventHandler(this.e4_Click);
             // 
             // e3
             // 
@@ -417,6 +418,7 @@
             this.e3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.e3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.e3.UseVisualStyleBackColor = false;
+            this.e3.Click += new System.EventHandler(this.e3_Click);
             // 
             // e2
             // 
@@ -435,6 +437,7 @@
             this.e2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.e2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.e2.UseVisualStyleBackColor = false;
+            this.e2.Click += new System.EventHandler(this.e2_Click);
             // 
             // e1
             // 
@@ -453,6 +456,7 @@
             this.e1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.e1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.e1.UseVisualStyleBackColor = false;
+            this.e1.Click += new System.EventHandler(this.e1_Click);
             // 
             // rights
             // 
@@ -519,7 +523,7 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.sidebar);
             this.Name = "electricbikeCustomer";
-            this.Text = "electricbikeCustomer";
+            this.Text = " ";
             this.sidebar.ResumeLayout(false);
             this.bikeContainer.ResumeLayout(false);
             this.panelProfile.ResumeLayout(false);

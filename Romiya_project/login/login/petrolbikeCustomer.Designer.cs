@@ -410,6 +410,7 @@
             this.bikeName10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.bikeName10.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.bikeName10.UseVisualStyleBackColor = false;
+            this.bikeName10.Click += new System.EventHandler(this.bikeName10_Click);
             // 
             // bikeName9
             // 
@@ -428,6 +429,7 @@
             this.bikeName9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.bikeName9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.bikeName9.UseVisualStyleBackColor = false;
+            this.bikeName9.Click += new System.EventHandler(this.bikeName9_Click);
             // 
             // bikeName8
             // 
@@ -446,6 +448,7 @@
             this.bikeName8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.bikeName8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.bikeName8.UseVisualStyleBackColor = false;
+            this.bikeName8.Click += new System.EventHandler(this.bikeName8_Click);
             // 
             // bikeName7
             // 
@@ -460,10 +463,11 @@
             this.bikeName7.Name = "bikeName7";
             this.bikeName7.Size = new System.Drawing.Size(368, 71);
             this.bikeName7.TabIndex = 0;
-            this.bikeName7.Text = "Jawa Classic ";
+            this.bikeName7.Text = "Jawa Classic 300";
             this.bikeName7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.bikeName7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.bikeName7.UseVisualStyleBackColor = false;
+            this.bikeName7.Click += new System.EventHandler(this.bikeName7_Click);
             // 
             // bikeName6
             // 
