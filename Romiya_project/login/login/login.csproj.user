@@ -37,6 +37,21 @@
     <Compile Update="customerDb.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="eBike1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="eBike2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="eBike3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="eBike4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="eBike5.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="electricbikeCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -47,6 +62,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Option.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="pBike1.cs">
