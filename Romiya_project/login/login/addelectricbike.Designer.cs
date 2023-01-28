@@ -177,9 +177,9 @@
             this.label2.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.Location = new System.Drawing.Point(12, 74);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(39, 21);
+            this.label2.Size = new System.Drawing.Size(85, 21);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Bike";
+            this.label2.Text = "Bike Name";
             // 
             // panel1
             // 

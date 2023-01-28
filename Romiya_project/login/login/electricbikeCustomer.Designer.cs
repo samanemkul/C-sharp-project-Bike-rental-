@@ -45,13 +45,16 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.menubtn = new FontAwesome.Sharp.IconPictureBox();
             this.categorypanel = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.e5 = new FontAwesome.Sharp.IconButton();
+            this.e4 = new FontAwesome.Sharp.IconButton();
+            this.e3 = new FontAwesome.Sharp.IconButton();
+            this.e2 = new FontAwesome.Sharp.IconButton();
+            this.e1 = new FontAwesome.Sharp.IconButton();
             this.rights = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -63,9 +66,10 @@
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.menubtn)).BeginInit();
             this.categorypanel.SuspendLayout();
-            this.rights.SuspendLayout();
-            this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel1.SuspendLayout();
+            this.rights.SuspendLayout();
             this.SuspendLayout();
             // 
             // sidebar
@@ -312,8 +316,8 @@
             // 
             // categorypanel
             // 
+            this.categorypanel.Controls.Add(this.panel4);
             this.categorypanel.Controls.Add(this.rights);
-            this.categorypanel.Controls.Add(this.panel1);
             this.categorypanel.Controls.Add(this.label3);
             this.categorypanel.Controls.Add(this.label2);
             this.categorypanel.Controls.Add(this.label1);
@@ -322,6 +326,133 @@
             this.categorypanel.Name = "categorypanel";
             this.categorypanel.Size = new System.Drawing.Size(847, 513);
             this.categorypanel.TabIndex = 7;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.Snow;
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel4.Controls.Add(this.pictureBox2);
+            this.panel4.Controls.Add(this.panel1);
+            this.panel4.Location = new System.Drawing.Point(20, 70);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(816, 370);
+            this.panel4.TabIndex = 7;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox2.Image = global::login.Properties.Resources.OIP;
+            this.pictureBox2.Location = new System.Drawing.Point(484, 55);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(315, 264);
+            this.pictureBox2.TabIndex = 9;
+            this.pictureBox2.TabStop = false;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Snow;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.e5);
+            this.panel1.Controls.Add(this.e4);
+            this.panel1.Controls.Add(this.e3);
+            this.panel1.Controls.Add(this.e2);
+            this.panel1.Controls.Add(this.e1);
+            this.panel1.Location = new System.Drawing.Point(17, 22);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(368, 331);
+            this.panel1.TabIndex = 8;
+            // 
+            // e5
+            // 
+            this.e5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.e5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.e5.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.e5.ForeColor = System.Drawing.Color.White;
+            this.e5.IconChar = FontAwesome.Sharp.IconChar.Motorcycle;
+            this.e5.IconColor = System.Drawing.Color.White;
+            this.e5.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.e5.Location = new System.Drawing.Point(-1, 259);
+            this.e5.Name = "e5";
+            this.e5.Size = new System.Drawing.Size(368, 71);
+            this.e5.TabIndex = 0;
+            this.e5.Text = "Doohan Scooter";
+            this.e5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.e5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.e5.UseVisualStyleBackColor = false;
+            this.e5.Click += new System.EventHandler(this.eBike5_Click);
+            // 
+            // e4
+            // 
+            this.e4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.e4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.e4.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.e4.ForeColor = System.Drawing.Color.White;
+            this.e4.IconChar = FontAwesome.Sharp.IconChar.Motorcycle;
+            this.e4.IconColor = System.Drawing.Color.White;
+            this.e4.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.e4.Location = new System.Drawing.Point(-1, 192);
+            this.e4.Name = "e4";
+            this.e4.Size = new System.Drawing.Size(368, 71);
+            this.e4.TabIndex = 0;
+            this.e4.Text = "Bella Scooter";
+            this.e4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.e4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.e4.UseVisualStyleBackColor = false;
+            // 
+            // e3
+            // 
+            this.e3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.e3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.e3.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.e3.ForeColor = System.Drawing.Color.White;
+            this.e3.IconChar = FontAwesome.Sharp.IconChar.Motorcycle;
+            this.e3.IconColor = System.Drawing.Color.White;
+            this.e3.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.e3.Location = new System.Drawing.Point(-1, 128);
+            this.e3.Name = "e3";
+            this.e3.Size = new System.Drawing.Size(368, 71);
+            this.e3.TabIndex = 0;
+            this.e3.Text = "NIU Scooter";
+            this.e3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.e3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.e3.UseVisualStyleBackColor = false;
+            // 
+            // e2
+            // 
+            this.e2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.e2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.e2.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.e2.ForeColor = System.Drawing.Color.White;
+            this.e2.IconChar = FontAwesome.Sharp.IconChar.Motorcycle;
+            this.e2.IconColor = System.Drawing.Color.White;
+            this.e2.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.e2.Location = new System.Drawing.Point(-1, 66);
+            this.e2.Name = "e2";
+            this.e2.Size = new System.Drawing.Size(368, 71);
+            this.e2.TabIndex = 0;
+            this.e2.Text = "Super Soco";
+            this.e2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.e2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.e2.UseVisualStyleBackColor = false;
+            // 
+            // e1
+            // 
+            this.e1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.e1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.e1.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.e1.ForeColor = System.Drawing.Color.White;
+            this.e1.IconChar = FontAwesome.Sharp.IconChar.Motorcycle;
+            this.e1.IconColor = System.Drawing.Color.White;
+            this.e1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.e1.Location = new System.Drawing.Point(-1, -1);
+            this.e1.Name = "e1";
+            this.e1.Size = new System.Drawing.Size(368, 71);
+            this.e1.TabIndex = 0;
+            this.e1.Text = "Yatri P1";
+            this.e1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.e1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.e1.UseVisualStyleBackColor = false;
             // 
             // rights
             // 
@@ -344,68 +475,12 @@
             this.label4.TabIndex = 0;
             this.label4.Text = "Bike Rental System. All rights reserved";
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.panel4);
-            this.panel1.Location = new System.Drawing.Point(6, 72);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(830, 344);
-            this.panel1.TabIndex = 5;
-            // 
-            // textBox1
-            // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.textBox1.Location = new System.Drawing.Point(688, 63);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(133, 25);
-            this.textBox1.TabIndex = 2;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(619, 68);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(63, 20);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "Search :";
-            // 
-            // panel4
-            // 
-            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel4.Controls.Add(this.label5);
-            this.panel4.Location = new System.Drawing.Point(-1, -1);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(830, 53);
-            this.panel4.TabIndex = 0;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(4, 18);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(181, 21);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Bike Category Data Table";
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(0, 0);
+            this.label3.Location = new System.Drawing.Point(16, 11);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(222, 45);
             this.label3.TabIndex = 4;
@@ -429,11 +504,11 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.label1.Location = new System.Drawing.Point(674, 19);
+            this.label1.Location = new System.Drawing.Point(665, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 21);
+            this.label1.Size = new System.Drawing.Size(92, 21);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Petrol Bike";
+            this.label1.Text = "Electric Bike";
             // 
             // electricbikeCustomer
             // 
@@ -455,12 +530,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.menubtn)).EndInit();
             this.categorypanel.ResumeLayout(false);
             this.categorypanel.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.rights.ResumeLayout(false);
             this.rights.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -486,13 +560,16 @@
         private Panel categorypanel;
         private Panel rights;
         private Label label4;
-        private Panel panel1;
-        private TextBox textBox1;
-        private Label label6;
-        private Panel panel4;
-        private Label label5;
         private Label label3;
         private Label label2;
         private Label label1;
+        private Panel panel1;
+        private FontAwesome.Sharp.IconButton e5;
+        private FontAwesome.Sharp.IconButton e4;
+        private FontAwesome.Sharp.IconButton e3;
+        private FontAwesome.Sharp.IconButton e2;
+        private FontAwesome.Sharp.IconButton e1;
+        private PictureBox pictureBox2;
+        private Panel panel4;
     }
 }

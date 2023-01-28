@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace login
 {
-    public partial class electricbikeCustomer : Form
+    public partial class pBike1 : Form
     {
-        public electricbikeCustomer()
+        public pBike1()
         {
             InitializeComponent();
-            this.FormBorderStyle = FormBorderStyle.FixedSingle;
-        }
-
-        private void eBike5_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

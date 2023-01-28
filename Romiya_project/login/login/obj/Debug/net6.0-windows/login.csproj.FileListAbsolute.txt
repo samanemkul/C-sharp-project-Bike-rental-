@@ -213,3 +213,5 @@ C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-wind
 C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.csproj.CopyComplete
 C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.genruntimeconfig.cache
 C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\ref\login.dll
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.pBike1.resources
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.pBike2.resources
