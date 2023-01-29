@@ -21,8 +21,8 @@ namespace login
         private void iconButton2_Click(object sender, EventArgs e)
         {
             //for option
-            Option Opt = new Option();
-            Opt.ShowDialog();
+            rulesAndRegulation rAR = new rulesAndRegulation();
+            rAR.ShowDialog();
             this.Show();
         }
     }

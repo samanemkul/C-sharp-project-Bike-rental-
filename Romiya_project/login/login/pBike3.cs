@@ -20,10 +20,9 @@ namespace login
 
         private void iconButton2_Click(object sender, EventArgs e)
         {
-            //For option
-
-            Option Opt = new Option();
-            Opt.ShowDialog();
+            //For rules and regulations
+            rulesAndRegulation rAR = new rulesAndRegulation();
+            rAR.ShowDialog();
             this.Show();
         }
     }

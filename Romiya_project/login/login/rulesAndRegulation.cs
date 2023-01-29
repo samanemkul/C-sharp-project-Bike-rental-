@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace login
 {
-    public partial class eBike3 : Form
+    public partial class rulesAndRegulation : Form
     {
-        public eBike3()
+        public rulesAndRegulation()
         {
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
@@ -20,9 +20,9 @@ namespace login
 
         private void iconButton2_Click(object sender, EventArgs e)
         {
-            //for rules and regulation
-            rulesAndRegulation rAR = new rulesAndRegulation();
-            rAR.ShowDialog();
+            //for payment option
+            Option Opt = new Option();
+            Opt.ShowDialog();
             this.Show();
         }
     }

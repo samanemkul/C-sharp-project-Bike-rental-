@@ -15,6 +15,14 @@ namespace login
         public perDayCustomer()
         {
             InitializeComponent();
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
         }
+
+        private void iconButton2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+       
     }
 }

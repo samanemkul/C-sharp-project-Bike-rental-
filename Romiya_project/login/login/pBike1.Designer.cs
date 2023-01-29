@@ -36,10 +36,12 @@
             this.label4 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -85,7 +87,7 @@
             this.panel2.Controls.Add(this.iconButton2);
             this.panel2.Controls.Add(this.iconButton1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 421);
+            this.panel2.Location = new System.Drawing.Point(0, 431);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(374, 60);
             this.panel2.TabIndex = 4;
@@ -93,7 +95,8 @@
             // iconButton2
             // 
             this.iconButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(123)))), ((int)(((byte)(253)))));
-            this.iconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.iconButton2.FlatAppearance.BorderSize = 0;
+            this.iconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButton2.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.iconButton2.ForeColor = System.Drawing.Color.White;
             this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.Check;
@@ -112,7 +115,8 @@
             // iconButton1
             // 
             this.iconButton1.BackColor = System.Drawing.Color.Red;
-            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.iconButton1.FlatAppearance.BorderSize = 0;
+            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButton1.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.iconButton1.ForeColor = System.Drawing.Color.White;
             this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.CircleMinus;
@@ -143,10 +147,12 @@
             this.panel3.BackColor = System.Drawing.Color.Snow;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.label16);
+            this.panel3.Controls.Add(this.label17);
             this.panel3.Controls.Add(this.label14);
             this.panel3.Controls.Add(this.label7);
             this.panel3.Controls.Add(this.label6);
             this.panel3.Controls.Add(this.label5);
+            this.panel3.Controls.Add(this.label18);
             this.panel3.Controls.Add(this.label15);
             this.panel3.Controls.Add(this.label13);
             this.panel3.Controls.Add(this.label3);
@@ -157,9 +163,9 @@
             this.panel3.Controls.Add(this.label9);
             this.panel3.Controls.Add(this.label8);
             this.panel3.Controls.Add(this.label4);
-            this.panel3.Location = new System.Drawing.Point(13, 96);
+            this.panel3.Location = new System.Drawing.Point(13, 81);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(348, 296);
+            this.panel3.Size = new System.Drawing.Size(348, 334);
             this.panel3.TabIndex = 5;
             // 
             // label16
@@ -167,11 +173,21 @@
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Yu Gothic UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label16.ForeColor = System.Drawing.Color.Gray;
-            this.label16.Location = new System.Drawing.Point(68, 279);
+            this.label16.Location = new System.Drawing.Point(74, 317);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(191, 15);
             this.label16.TabIndex = 5;
             this.label16.Text = "( Well conditioned with Insurance )";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label17.Location = new System.Drawing.Point(5, 266);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(163, 25);
+            this.label17.TabIndex = 5;
+            this.label17.Text = "Deposit Amount :";
             // 
             // label14
             // 
@@ -213,15 +229,25 @@
             this.label5.TabIndex = 5;
             this.label5.Text = "Max Power    : ";
             // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label18.Location = new System.Drawing.Point(174, 269);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(76, 21);
+            this.label18.TabIndex = 5;
+            this.label18.Text = "Rs 20000";
+            // 
             // label15
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label15.Location = new System.Drawing.Point(149, 235);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(46, 21);
+            this.label15.Size = new System.Drawing.Size(67, 21);
             this.label15.TabIndex = 5;
-            this.label15.Text = "2600";
+            this.label15.Text = "Rs 2600";
             // 
             // label13
             // 
@@ -229,9 +255,9 @@
             this.label13.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label13.Location = new System.Drawing.Point(158, 200);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(37, 21);
+            this.label13.Size = new System.Drawing.Size(58, 21);
             this.label13.TabIndex = 5;
-            this.label13.Text = "110";
+            this.label13.Text = "Rs 110";
             // 
             // label3
             // 
@@ -308,7 +334,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(374, 481);
+            this.ClientSize = new System.Drawing.Size(374, 491);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -346,5 +372,7 @@
         private Label label10;
         private Label label9;
         private Label label8;
+        private Label label17;
+        private Label label18;
     }
 }
