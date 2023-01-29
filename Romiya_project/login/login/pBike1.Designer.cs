@@ -35,20 +35,20 @@
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.label4 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -107,6 +107,7 @@
             this.iconButton2.Text = "Proceed";
             this.iconButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton2.UseVisualStyleBackColor = false;
+            this.iconButton2.Click += new System.EventHandler(this.iconButton2_Click);
             // 
             // iconButton1
             // 
@@ -161,116 +162,16 @@
             this.panel3.Size = new System.Drawing.Size(348, 296);
             this.panel3.TabIndex = 5;
             // 
-            // label2
+            // label16
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Snow;
-            this.label2.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(3, 50);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(140, 25);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Bike Year        : ";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(4, 86);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(139, 25);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Bike No          : ";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(5, 122);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(138, 25);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "Max Power    : ";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(3, 159);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(138, 25);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Max Torque   : ";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label8.Location = new System.Drawing.Point(149, 17);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(126, 21);
-            this.label8.TabIndex = 5;
-            this.label8.Text = "Yamaha XTZ 150";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label9.Location = new System.Drawing.Point(149, 54);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(46, 21);
-            this.label9.TabIndex = 5;
-            this.label9.Text = "2020";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label10.Location = new System.Drawing.Point(149, 89);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(19, 21);
-            this.label10.TabIndex = 5;
-            this.label10.Text = "1";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label11.Location = new System.Drawing.Point(149, 126);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(28, 21);
-            this.label11.TabIndex = 5;
-            this.label11.Text = "15";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label12.Location = new System.Drawing.Point(149, 163);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(28, 21);
-            this.label12.TabIndex = 5;
-            this.label12.Text = "13";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label13.Location = new System.Drawing.Point(158, 200);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(37, 21);
-            this.label13.TabIndex = 5;
-            this.label13.Text = "110";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(5, 197);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(154, 25);
-            this.label7.TabIndex = 5;
-            this.label7.Text = "Price hour rent : ";
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Yu Gothic UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label16.ForeColor = System.Drawing.Color.Gray;
+            this.label16.Location = new System.Drawing.Point(68, 279);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(191, 15);
+            this.label16.TabIndex = 5;
+            this.label16.Text = "( Well conditioned with Insurance )";
             // 
             // label14
             // 
@@ -282,6 +183,36 @@
             this.label14.TabIndex = 5;
             this.label14.Text = "Price day rent : ";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label7.Location = new System.Drawing.Point(5, 197);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(154, 25);
+            this.label7.TabIndex = 5;
+            this.label7.Text = "Price hour rent : ";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label6.Location = new System.Drawing.Point(3, 159);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(138, 25);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Max Torque   : ";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label5.Location = new System.Drawing.Point(5, 122);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(138, 25);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "Max Power    : ";
+            // 
             // label15
             // 
             this.label15.AutoSize = true;
@@ -292,16 +223,86 @@
             this.label15.TabIndex = 5;
             this.label15.Text = "2600";
             // 
-            // label16
+            // label13
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Yu Gothic UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label16.ForeColor = System.Drawing.Color.Gray;
-            this.label16.Location = new System.Drawing.Point(68, 279);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(191, 15);
-            this.label16.TabIndex = 5;
-            this.label16.Text = "( Well conditioned with Insurance )";
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label13.Location = new System.Drawing.Point(158, 200);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(37, 21);
+            this.label13.TabIndex = 5;
+            this.label13.Text = "110";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(4, 86);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(139, 25);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Bike No          : ";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Snow;
+            this.label2.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(3, 50);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(140, 25);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Bike Year        : ";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label12.Location = new System.Drawing.Point(149, 163);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(28, 21);
+            this.label12.TabIndex = 5;
+            this.label12.Text = "13";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label11.Location = new System.Drawing.Point(149, 126);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(28, 21);
+            this.label11.TabIndex = 5;
+            this.label11.Text = "15";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label10.Location = new System.Drawing.Point(149, 89);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(19, 21);
+            this.label10.TabIndex = 5;
+            this.label10.Text = "1";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label9.Location = new System.Drawing.Point(149, 54);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(46, 21);
+            this.label9.TabIndex = 5;
+            this.label9.Text = "2020";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label8.Location = new System.Drawing.Point(149, 17);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(126, 21);
+            this.label8.TabIndex = 5;
+            this.label8.Text = "Yamaha XTZ 150";
             // 
             // pBike1
             // 
