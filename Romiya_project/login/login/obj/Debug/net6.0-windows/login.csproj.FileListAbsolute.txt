@@ -231,3 +231,4 @@ C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-wind
 C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.Option.resources
 C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.perDayCustomer.resources
 C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.perHourCustomer.resources
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.rulesAndRegulation.resources

@@ -15,6 +15,7 @@ namespace login
         public perHourCustomer()
         {
             InitializeComponent();
+            this.FormBorderStyle = FormBorderStyle.None;
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
         }
 
