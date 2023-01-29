@@ -15,6 +15,15 @@ namespace login
         public pBike4()
         {
             InitializeComponent();
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+        }
+
+        private void iconButton2_Click(object sender, EventArgs e)
+        {
+            //for option
+            Option Opt = new Option();
+            Opt.ShowDialog();
+            this.Show();
         }
     }
 }
