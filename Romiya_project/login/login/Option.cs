@@ -15,6 +15,25 @@ namespace login
         public Option()
         {
             InitializeComponent();
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+        }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            //for per hour payment
+
+            perHourCustomer pHC = new perHourCustomer();
+            pHC.ShowDialog();
+            this.Show();
+        }
+
+        private void iconButton2_Click(object sender, EventArgs e)
+        {
+            // for per day payment
+
+            perDayCustomer pDC = new perDayCustomer();
+            pDC.ShowDialog();
+            this.Show();
         }
     }
 }

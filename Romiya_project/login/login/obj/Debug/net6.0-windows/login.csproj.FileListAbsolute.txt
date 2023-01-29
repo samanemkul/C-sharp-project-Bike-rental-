@@ -223,3 +223,11 @@ C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-wind
 C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.pBike7.resources
 C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.pBike8.resources
 C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.pBike9.resources
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.eBike1.resources
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.eBike2.resources
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.eBike3.resources
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.eBike4.resources
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.eBike5.resources
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.Option.resources
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.perDayCustomer.resources
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.perHourCustomer.resources

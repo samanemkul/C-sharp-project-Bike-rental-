@@ -97,6 +97,12 @@
     <Compile Update="pBike9.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="perDayCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="perHourCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="petrolbikeCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
