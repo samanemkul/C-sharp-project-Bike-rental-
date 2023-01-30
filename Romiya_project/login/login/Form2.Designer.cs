@@ -120,6 +120,7 @@ namespace login
             this.txtfirstname.TabIndex = 200;
             this.txtfirstname.Text = "first name";
             this.txtfirstname.UseSystemPasswordChar = true;
+            this.txtfirstname.TextChanged += new System.EventHandler(this.txtfirstname_TextChanged);
             this.txtfirstname.Enter += new System.EventHandler(this.txtfirstname_Enter);
             this.txtfirstname.Leave += new System.EventHandler(this.txtfirstname_Leave_1);
             // 
@@ -184,6 +185,7 @@ namespace login
             this.txtemail.TabIndex = 14;
             this.txtemail.Text = "email address";
             this.txtemail.UseSystemPasswordChar = true;
+            this.txtemail.TextChanged += new System.EventHandler(this.txtemail_TextChanged);
             this.txtemail.Enter += new System.EventHandler(this.txtemail_Enter);
             this.txtemail.Leave += new System.EventHandler(this.txtemail_Leave);
             // 
@@ -308,9 +310,11 @@ namespace login
             // 
             // pictureBox2
             // 
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBox2.Image = global::login.Properties.Resources.close;
             this.pictureBox2.Location = new System.Drawing.Point(2, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(15, 15);
+            this.pictureBox2.Size = new System.Drawing.Size(18, 18);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 201;
             this.pictureBox2.TabStop = false;

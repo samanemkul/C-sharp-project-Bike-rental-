@@ -97,15 +97,20 @@
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.Window;
             this.textBox1.Font = new System.Drawing.Font("Yu Gothic UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textBox1.ForeColor = System.Drawing.Color.Silver;
             this.textBox1.Location = new System.Drawing.Point(12, 98);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
+            this.textBox1.PasswordChar = '•';
             this.textBox1.Size = new System.Drawing.Size(189, 23);
-            this.textBox1.TabIndex = 2;
-            this.textBox1.Text = "- First Name - ";
+            this.textBox1.TabIndex = 200;
+            this.textBox1.Text = "First Name";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox1.UseSystemPasswordChar = true;
+            this.textBox1.Enter += new System.EventHandler(this.textBox1_Enter);
+            this.textBox1.Leave += new System.EventHandler(this.textBox1_Leave);
             // 
             // label3
             // 
@@ -124,10 +129,14 @@
             this.textBox2.Location = new System.Drawing.Point(235, 98);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '•';
             this.textBox2.Size = new System.Drawing.Size(189, 23);
             this.textBox2.TabIndex = 2;
-            this.textBox2.Text = "- Middle Name -";
+            this.textBox2.Text = "Middle Name";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox2.UseSystemPasswordChar = true;
+            this.textBox2.Enter += new System.EventHandler(this.textBox2_Enter);
+            this.textBox2.Leave += new System.EventHandler(this.textBox2_Leave);
             // 
             // label4
             // 
@@ -146,10 +155,14 @@
             this.textBox3.Location = new System.Drawing.Point(462, 98);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
+            this.textBox3.PasswordChar = '•';
             this.textBox3.Size = new System.Drawing.Size(189, 23);
             this.textBox3.TabIndex = 2;
-            this.textBox3.Text = "- Last Name -";
+            this.textBox3.Text = "Last Name";
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox3.UseSystemPasswordChar = true;
+            this.textBox3.Enter += new System.EventHandler(this.textBox3_Enter);
+            this.textBox3.Leave += new System.EventHandler(this.textBox3_Leave);
             // 
             // label5
             // 
@@ -188,9 +201,13 @@
             this.textBox4.Location = new System.Drawing.Point(12, 162);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
+            this.textBox4.PasswordChar = '•';
             this.textBox4.Size = new System.Drawing.Size(189, 23);
             this.textBox4.TabIndex = 2;
-            this.textBox4.Text = "Enter Complete Address..";
+            this.textBox4.Text = "Enter Complete Address";
+            this.textBox4.UseSystemPasswordChar = true;
+            this.textBox4.Enter += new System.EventHandler(this.textBox4_Enter);
+            this.textBox4.Leave += new System.EventHandler(this.textBox4_Leave);
             // 
             // textBox5
             // 
@@ -199,9 +216,13 @@
             this.textBox5.Location = new System.Drawing.Point(235, 162);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
+            this.textBox5.PasswordChar = '•';
             this.textBox5.Size = new System.Drawing.Size(189, 23);
             this.textBox5.TabIndex = 2;
-            this.textBox5.Text = "Enter Contact Number..";
+            this.textBox5.Text = "Enter Contact Number";
+            this.textBox5.UseSystemPasswordChar = true;
+            this.textBox5.Enter += new System.EventHandler(this.textBox5_Enter);
+            this.textBox5.Leave += new System.EventHandler(this.textBox5_Leave);
             // 
             // textBox6
             // 
@@ -210,9 +231,13 @@
             this.textBox6.Location = new System.Drawing.Point(462, 162);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
+            this.textBox6.PasswordChar = '•';
             this.textBox6.Size = new System.Drawing.Size(189, 23);
             this.textBox6.TabIndex = 2;
-            this.textBox6.Text = "Enter Email Address..";
+            this.textBox6.Text = "Enter Email Address";
+            this.textBox6.UseSystemPasswordChar = true;
+            this.textBox6.Enter += new System.EventHandler(this.textBox6_Enter);
+            this.textBox6.Leave += new System.EventHandler(this.textBox6_Leave);
             // 
             // label8
             // 
@@ -226,6 +251,8 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.Font = new System.Drawing.Font("Yu Gothic UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.comboBox1.ForeColor = System.Drawing.Color.Silver;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "Male",
@@ -234,6 +261,9 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(145, 23);
             this.comboBox1.TabIndex = 3;
+            this.comboBox1.Text = "Gender";
+            this.comboBox1.Enter += new System.EventHandler(this.comboBox1_Enter);
+            this.comboBox1.Leave += new System.EventHandler(this.comboBox1_Leave);
             // 
             // label9
             // 
@@ -252,9 +282,13 @@
             this.textBox7.Location = new System.Drawing.Point(188, 224);
             this.textBox7.Multiline = true;
             this.textBox7.Name = "textBox7";
+            this.textBox7.PasswordChar = '•';
             this.textBox7.Size = new System.Drawing.Size(156, 23);
             this.textBox7.TabIndex = 2;
-            this.textBox7.Text = "Enter Civil Status..";
+            this.textBox7.Text = "Enter Civil Status";
+            this.textBox7.UseSystemPasswordChar = true;
+            this.textBox7.Enter += new System.EventHandler(this.textBox7_Enter);
+            this.textBox7.Leave += new System.EventHandler(this.textBox7_Leave);
             // 
             // label10
             // 
@@ -293,9 +327,13 @@
             this.textBox8.Location = new System.Drawing.Point(565, 224);
             this.textBox8.Multiline = true;
             this.textBox8.Name = "textBox8";
+            this.textBox8.PasswordChar = '•';
             this.textBox8.Size = new System.Drawing.Size(86, 23);
             this.textBox8.TabIndex = 2;
-            this.textBox8.Text = "Enter Age..";
+            this.textBox8.Text = "Enter Age";
+            this.textBox8.UseSystemPasswordChar = true;
+            this.textBox8.Enter += new System.EventHandler(this.textBox8_Enter);
+            this.textBox8.Leave += new System.EventHandler(this.textBox8_Leave);
             // 
             // label12
             // 
@@ -314,9 +352,13 @@
             this.textBox9.Location = new System.Drawing.Point(12, 286);
             this.textBox9.Multiline = true;
             this.textBox9.Name = "textBox9";
+            this.textBox9.PasswordChar = '•';
             this.textBox9.Size = new System.Drawing.Size(189, 23);
             this.textBox9.TabIndex = 2;
-            this.textBox9.Text = "Enter Username..";
+            this.textBox9.Text = "Enter Username";
+            this.textBox9.UseSystemPasswordChar = true;
+            this.textBox9.Enter += new System.EventHandler(this.textBox9_Enter);
+            this.textBox9.Leave += new System.EventHandler(this.textBox9_Leave);
             // 
             // label13
             // 
@@ -335,9 +377,13 @@
             this.textBox10.Location = new System.Drawing.Point(235, 286);
             this.textBox10.Multiline = true;
             this.textBox10.Name = "textBox10";
+            this.textBox10.PasswordChar = '•';
             this.textBox10.Size = new System.Drawing.Size(189, 23);
             this.textBox10.TabIndex = 2;
-            this.textBox10.Text = "Enter Password..";
+            this.textBox10.Text = "Enter Password";
+            this.textBox10.UseSystemPasswordChar = true;
+            this.textBox10.Enter += new System.EventHandler(this.textBox10_Enter);
+            this.textBox10.Leave += new System.EventHandler(this.textBox10_Leave);
             // 
             // label14
             // 
@@ -356,9 +402,13 @@
             this.textBox11.Location = new System.Drawing.Point(462, 286);
             this.textBox11.Multiline = true;
             this.textBox11.Name = "textBox11";
+            this.textBox11.PasswordChar = '•';
             this.textBox11.Size = new System.Drawing.Size(189, 23);
             this.textBox11.TabIndex = 2;
-            this.textBox11.Text = "Enter Account Status..";
+            this.textBox11.Text = "Enter Account Status";
+            this.textBox11.UseSystemPasswordChar = true;
+            this.textBox11.Enter += new System.EventHandler(this.textBox11_Enter);
+            this.textBox11.Leave += new System.EventHandler(this.textBox11_Leave);
             // 
             // panel2
             // 
@@ -375,7 +425,8 @@
             // iconButton2
             // 
             this.iconButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(123)))), ((int)(((byte)(253)))));
-            this.iconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.iconButton2.FlatAppearance.BorderSize = 0;
+            this.iconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButton2.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.iconButton2.ForeColor = System.Drawing.Color.White;
             this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.Check;
@@ -393,7 +444,8 @@
             // iconButton1
             // 
             this.iconButton1.BackColor = System.Drawing.Color.Red;
-            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.iconButton1.FlatAppearance.BorderSize = 0;
+            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButton1.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.iconButton1.ForeColor = System.Drawing.Color.White;
             this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.CircleMinus;

@@ -336,6 +336,16 @@ namespace login
         {
             this.Close();
         }
+
+        private void txtfirstname_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtemail_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace login
 {
-    public partial class customerDayPayment : Form
+    public partial class customerPayment : Form
     {
-        public customerDayPayment()
+        public customerPayment()
         {
             InitializeComponent();
         }
