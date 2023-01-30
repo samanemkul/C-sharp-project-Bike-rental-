@@ -371,6 +371,7 @@
             // f
             // 
             this.f.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(195)))), ((int)(((byte)(9)))));
+            this.f.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.f.Location = new System.Drawing.Point(494, 113);
             this.f.Name = "f";
             this.f.Size = new System.Drawing.Size(200, 100);

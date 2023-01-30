@@ -22,7 +22,7 @@ namespace login
         private void bikeName1_Click(object sender, EventArgs e)
         {
             // For Yamaha XTZ150
-            
+            myGlobal.BikeType = "";
             pBike1 pB1 = new pBike1();
             pB1.ShowDialog();
             this.Show();

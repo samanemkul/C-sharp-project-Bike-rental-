@@ -22,7 +22,7 @@ namespace login
         private void iconButton1_Click(object sender, EventArgs e)
         {
             //for per hour payment
-
+            this.Hide();
             perHourCustomer pHC = new perHourCustomer();
             pHC.ShowDialog();
             this.Show();
@@ -31,7 +31,7 @@ namespace login
         private void iconButton2_Click(object sender, EventArgs e)
         {
             // for per day payment
-
+            this.Hide();
             perDayCustomer pDC = new perDayCustomer();
             pDC.ShowDialog();
             this.Show();

@@ -21,6 +21,7 @@ namespace login
         private void iconButton2_Click(object sender, EventArgs e)
         {
             //for payment option
+            this.Hide();
             Option Opt = new Option();
             Opt.ShowDialog();
             this.Show();
