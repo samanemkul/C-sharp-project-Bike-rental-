@@ -101,7 +101,7 @@ namespace petrol_bikes
                 string bikeno = table.Rows[i]["bikeno"].ToString();
                 string year = table.Rows[i]["year"].ToString();
                 string id = table.Rows[i]["id"].ToString();
-                dataGridView1.Rows.Add(sn++, name, bikeno, year);
+                dataGridView1.Rows.Add(sn++, name, bikeno, year,id);
             }
         }
     }

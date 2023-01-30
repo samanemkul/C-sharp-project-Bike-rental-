@@ -45,6 +45,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -57,7 +58,8 @@
             this.sn,
             this.name,
             this.bikeno,
-            this.year});
+            this.year,
+            this.id});
             this.dataGridView1.Location = new System.Drawing.Point(93, 105);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
@@ -211,12 +213,21 @@
             this.label4.TabIndex = 9;
             this.label4.Text = "Year";
             // 
+            // id
+            // 
+            this.id.HeaderText = "ID";
+            this.id.MinimumWidth = 8;
+            this.id.Name = "id";
+            this.id.ReadOnly = true;
+            this.id.Visible = false;
+            this.id.Width = 150;
+            // 
             // Electric_bike
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MintCream;
-            this.ClientSize = new System.Drawing.Size(932, 542);
+            this.ClientSize = new System.Drawing.Size(918, 537);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -259,5 +270,6 @@
         private Label label2;
         private Label label3;
         private Label label4;
+        private DataGridViewTextBoxColumn id;
     }
 }
