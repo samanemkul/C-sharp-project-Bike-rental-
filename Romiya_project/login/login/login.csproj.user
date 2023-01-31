@@ -37,6 +37,9 @@
     <Compile Update="customerDb.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="customerHourPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="customerPayment.cs">
       <SubType>Form</SubType>
     </Compile>

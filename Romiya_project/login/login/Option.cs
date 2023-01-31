@@ -16,7 +16,7 @@ namespace login
         {
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.None;
-            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            
         }
 
         private void iconButton1_Click(object sender, EventArgs e)

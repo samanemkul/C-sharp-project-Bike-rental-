@@ -787,6 +787,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "rulesAndRegulation";
             this.Text = "rulesAndRegulation";
+            this.Load += new System.EventHandler(this.rulesAndRegulation_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

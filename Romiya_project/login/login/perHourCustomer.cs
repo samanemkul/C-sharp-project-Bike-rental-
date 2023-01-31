@@ -19,6 +19,13 @@ namespace login
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
         }
 
-       
+        private void iconButton2_Click(object sender, EventArgs e)
+        {
+            //for Hour payment
+            this.Close();
+            customerHourPayment cHP = new customerHourPayment();
+            cHP.ShowDialog();
+            this.Show();
+        }
     }
 }

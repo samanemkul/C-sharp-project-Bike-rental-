@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace login
 {
-    public partial class rulesAndRegulation : Form
+    public partial class customerHourPayment : Form
     {
-        public rulesAndRegulation()
+        public customerHourPayment()
         {
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.None;
@@ -20,16 +20,7 @@ namespace login
 
         private void iconButton2_Click(object sender, EventArgs e)
         {
-            //for payment option
             this.Close();
-            Option Opt = new Option();
-            Opt.ShowDialog();
-            this.Show();
-        }
-
-        private void rulesAndRegulation_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

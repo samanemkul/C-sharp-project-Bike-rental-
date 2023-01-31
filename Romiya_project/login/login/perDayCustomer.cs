@@ -21,7 +21,11 @@ namespace login
 
         private void iconButton2_Click(object sender, EventArgs e)
         {
-
+            //bill payment form
+            this.Close();
+            customerPayment cP = new customerPayment();
+            cP.ShowDialog();
+            this.Show();
         }
 
        

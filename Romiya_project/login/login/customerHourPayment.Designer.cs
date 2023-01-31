@@ -1,6 +1,6 @@
 ﻿namespace login
 {
-    partial class customerPayment
+    partial class customerHourPayment
     {
         /// <summary>
         /// Required designer variable.
@@ -196,10 +196,10 @@
             this.panel1.Controls.Add(this.label69);
             this.panel1.Controls.Add(this.label66);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Location = new System.Drawing.Point(12, 12);
+            this.panel1.Location = new System.Drawing.Point(10, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(776, 517);
-            this.panel1.TabIndex = 0;
+            this.panel1.TabIndex = 1;
             // 
             // iconButton2
             // 
@@ -385,9 +385,9 @@
             this.label44.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label44.Location = new System.Drawing.Point(30, 235);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(140, 21);
+            this.label44.Size = new System.Drawing.Size(150, 21);
             this.label44.TabIndex = 3;
-            this.label44.Text = "Number of Days : ";
+            this.label44.Text = "Number of Hours : ";
             // 
             // label43
             // 
@@ -1013,15 +1013,15 @@
             this.label3.Text = "/////////////////////////////////////////////////////////////////////////////////" +
     "/////////////////////////";
             // 
-            // customerPayment
+            // customerHourPayment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.ClientSize = new System.Drawing.Size(798, 541);
             this.Controls.Add(this.panel1);
-            this.Name = "customerPayment";
-            this.Text = "customerPayment";
+            this.Name = "customerHourPayment";
+            this.Text = "customerHourPayment";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -1034,12 +1034,33 @@
         #endregion
 
         private Panel panel1;
+        private FontAwesome.Sharp.IconButton iconButton2;
+        private TextBox textBox6;
+        private TextBox textBox5;
+        private TextBox textBox4;
+        private TextBox textBox3;
+        private TextBox textBox1;
+        private TextBox textBox2;
         private Panel panel2;
         private PictureBox pictureBox1;
         private Label label1;
-        private Label label3;
-        private Label label4;
+        private Label label48;
+        private Label label46;
+        private Label label21;
+        private Label label20;
+        private Label label49;
+        private Label label47;
+        private Label label45;
+        private Label label44;
+        private Label label43;
+        private Label label42;
+        private Label label41;
+        private Label label14;
+        private Label label40;
         private Label label8;
+        private Label label19;
+        private Label label18;
+        private Label label17;
         private Label label16;
         private Label label15;
         private Label label13;
@@ -1050,36 +1071,17 @@
         private Label label7;
         private Label label6;
         private Label label5;
-        private Label label41;
-        private Label label40;
-        private Label label19;
-        private Label label18;
-        private Label label17;
-        private Label label37;
-        private Label label36;
-        private Label label35;
-        private Label label34;
-        private Label label33;
-        private Label label43;
-        private Label label42;
-        private Label label44;
-        private Label label46;
-        private Label label21;
-        private Label label20;
-        private Label label49;
-        private Label label47;
-        private Label label45;
         private Label label52;
         private Label label51;
         private Label label55;
         private Label label54;
         private Label label53;
         private Label label39;
-        private Label label38;
-        private Label label50;
-        private Label label57;
-        private Label label2;
-        private Label label14;
+        private Label label37;
+        private Label label36;
+        private Label label35;
+        private Label label34;
+        private Label label33;
         private Label label31;
         private Label label30;
         private Label label29;
@@ -1090,6 +1092,7 @@
         private Label label24;
         private Label label23;
         private Label label56;
+        private Label label65;
         private Label label64;
         private Label label63;
         private Label label62;
@@ -1097,15 +1100,12 @@
         private Label label60;
         private Label label59;
         private Label label58;
+        private Label label57;
+        private Label label2;
         private Label label22;
-        private TextBox textBox6;
-        private TextBox textBox5;
-        private TextBox textBox4;
-        private TextBox textBox3;
-        private TextBox textBox2;
-        private Label label48;
-        private Label label65;
-        private TextBox textBox1;
+        private Label label4;
+        private Label label38;
+        private Label label50;
         private Label label68;
         private Label label72;
         private Label label71;
@@ -1113,6 +1113,6 @@
         private Label label67;
         private Label label69;
         private Label label66;
-        private FontAwesome.Sharp.IconButton iconButton2;
+        private Label label3;
     }
 }
