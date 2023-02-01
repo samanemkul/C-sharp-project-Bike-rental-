@@ -25,6 +25,7 @@ namespace login
             perHourCustomer pHC = new perHourCustomer();
             pHC.ShowDialog();
             this.Show();
+            this.Close();
         }
 
         private void iconButton2_Click(object sender, EventArgs e)
@@ -34,6 +35,7 @@ namespace login
             perDayCustomer pDC = new perDayCustomer();
             pDC.ShowDialog();
             this.Show();
+            this.Close();
         }
 
         private void iconButton4_Click(object sender, EventArgs e)

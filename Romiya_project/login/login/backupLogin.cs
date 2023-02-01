@@ -28,6 +28,7 @@ namespace login
             customerDb cDB = new customerDb();
             cDB.ShowDialog();
             this.Show();
+            this.Close();
             
         }
     }

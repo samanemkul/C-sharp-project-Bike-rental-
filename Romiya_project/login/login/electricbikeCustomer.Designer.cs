@@ -59,6 +59,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.bike_timer = new System.Windows.Forms.Timer(this.components);
             this.sidebar.SuspendLayout();
             this.bikeContainer.SuspendLayout();
             this.panelProfile.SuspendLayout();
@@ -100,7 +101,7 @@
             this.bikeContainer.MaximumSize = new System.Drawing.Size(190, 136);
             this.bikeContainer.MinimumSize = new System.Drawing.Size(190, 38);
             this.bikeContainer.Name = "bikeContainer";
-            this.bikeContainer.Size = new System.Drawing.Size(190, 38);
+            this.bikeContainer.Size = new System.Drawing.Size(190, 42);
             this.bikeContainer.TabIndex = 3;
             // 
             // btn_customerBikes
@@ -121,6 +122,7 @@
             this.btn_customerBikes.TabIndex = 0;
             this.btn_customerBikes.Text = "Bikes";
             this.btn_customerBikes.UseVisualStyleBackColor = false;
+            this.btn_customerBikes.Click += new System.EventHandler(this.btn_customerBikes_Click);
             // 
             // btn_customerPetrolBike
             // 
@@ -139,6 +141,7 @@
             this.btn_customerPetrolBike.TabIndex = 0;
             this.btn_customerPetrolBike.Text = "Petrol Bikes";
             this.btn_customerPetrolBike.UseVisualStyleBackColor = true;
+            this.btn_customerPetrolBike.Click += new System.EventHandler(this.btn_customerPetrolBike_Click);
             // 
             // btn_customerElectricBike
             // 
@@ -157,6 +160,7 @@
             this.btn_customerElectricBike.TabIndex = 0;
             this.btn_customerElectricBike.Text = "Electric Bikes";
             this.btn_customerElectricBike.UseVisualStyleBackColor = true;
+            this.btn_customerElectricBike.Click += new System.EventHandler(this.btn_customerElectricBike_Click);
             // 
             // btn_logOut
             // 
@@ -187,7 +191,7 @@
             this.btn_customerHelp.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_customerHelp.IconSize = 25;
             this.btn_customerHelp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_customerHelp.Location = new System.Drawing.Point(3, 215);
+            this.btn_customerHelp.Location = new System.Drawing.Point(1, 207);
             this.btn_customerHelp.Name = "btn_customerHelp";
             this.btn_customerHelp.Size = new System.Drawing.Size(214, 38);
             this.btn_customerHelp.TabIndex = 0;
@@ -503,6 +507,11 @@
             this.guna2Elipse1.BorderRadius = 36;
             this.guna2Elipse1.TargetControl = this;
             // 
+            // bike_timer
+            // 
+            this.bike_timer.Interval = 5;
+            this.bike_timer.Tick += new System.EventHandler(this.bike_timer_Tick);
+            // 
             // electricbikeCustomer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -566,5 +575,6 @@
         private Panel panel4;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private FontAwesome.Sharp.IconPictureBox closeButton;
+        private System.Windows.Forms.Timer bike_timer;
     }
 }

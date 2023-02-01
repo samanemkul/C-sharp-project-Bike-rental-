@@ -12,10 +12,11 @@ namespace login
 {
     public partial class petrolbikeCustomer : Form
     {
+        bool bikeCollapse;
         public petrolbikeCustomer()
         {
             InitializeComponent();
-            this.FormBorderStyle = FormBorderStyle.None;
+            
             
         }
 
@@ -112,6 +113,50 @@ namespace login
 
         private void closeButton_Click(object sender, EventArgs e)
         {
+            this.Close();
+        }
+
+        private void bike_timer_Tick(object sender, EventArgs e)
+        {
+            if(bikeCollapse)
+            {
+                bikeContainer.Height += 10;
+                if(bikeContainer.Height == bikeContainer.MaximumSize.Height)
+                {
+                    bikeCollapse = false;
+                    bike_timer.Stop();
+                }
+            }
+            else
+            {
+                bikeContainer.Height -= 10;
+                if(bikeContainer.Height == bikeContainer.MinimumSize.Height)
+                {
+                    bikeCollapse = true;
+                    bike_timer.Stop();
+                }
+
+            }
+        }
+
+        private void btn_customerBikes_Click(object sender, EventArgs e)
+        {
+            bike_timer.Start();
+        }
+
+        private void btn_customerPetrolBike_Click(object sender, EventArgs e)
+        {
+            petrolbikeCustomer pBC = new petrolbikeCustomer();
+            pBC.ShowDialog();
+            this.Show();
+            this.Close();
+        }
+
+        private void btn_customerElectricBike_Click(object sender, EventArgs e)
+        {
+            electricbikeCustomer eBC = new electricbikeCustomer();
+            eBC.ShowDialog();
+            this.Show();
             this.Close();
         }
     }

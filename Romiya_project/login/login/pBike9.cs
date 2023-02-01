@@ -25,6 +25,7 @@ namespace login
             rulesAndRegulation rAR = new rulesAndRegulation();
             rAR.ShowDialog();
             this.Show();
+            this.Close();
         }
 
         private void iconButton1_Click(object sender, EventArgs e)

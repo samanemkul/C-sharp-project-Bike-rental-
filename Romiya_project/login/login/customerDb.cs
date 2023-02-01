@@ -18,7 +18,7 @@ namespace login
         public customerDb()
         {
             InitializeComponent();
-            this.FormBorderStyle = FormBorderStyle.None;
+            
 //<<<<<<< Updated upstream
 //=======
             
