@@ -237,3 +237,6 @@ C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-wind
 C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Management.dll
 C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.customerPayment.resources
 C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.customerHourPayment.resources
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\MaterialSkin.dll
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\obj\Debug\net6.0-windows\login.backupLogin.resources
+C:\C-sharp-project-Bike-rental-\Romiya_project\login\login\bin\Debug\net6.0-windows\FontAwesome.Sharp.Pro.dll

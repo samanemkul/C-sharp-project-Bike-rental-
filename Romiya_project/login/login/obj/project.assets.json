@@ -14,6 +14,21 @@
           "Microsoft.WindowsDesktop.App"
         ]
       },
+      "FontAwesome.Sharp.Pro/6.2.1": {
+        "type": "package",
+        "dependencies": {
+          "FontAwesome.Sharp": "6.2.1"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/FontAwesome.Sharp.Pro.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/FontAwesome.Sharp.Pro.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      },
       "Guna.UI2.WinForms/2.0.4.2": {
         "type": "package",
         "dependencies": {
@@ -231,6 +246,21 @@
         "lib/net48/FontAwesome.Sharp.dll",
         "lib/net6.0-windows7.0/FontAwesome.Sharp.dll",
         "lib/netcoreapp3.1/FontAwesome.Sharp.dll"
+      ]
+    },
+    "FontAwesome.Sharp.Pro/6.2.1": {
+      "sha512": "NKaPjEMthqHpzy2iQ2O1m3fXC+Tj4Gd0zAzWmGhqnXrwNFbWE+QVlEmY3CVeqk1rDjUWmSaBpcKj4P0hwy0yhA==",
+      "type": "package",
+      "path": "fontawesome.sharp.pro/6.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fontawesome.sharp.pro.6.2.1.nupkg.sha512",
+        "fontawesome.sharp.pro.nuspec",
+        "lib/net472/FontAwesome.Sharp.Pro.dll",
+        "lib/net48/FontAwesome.Sharp.Pro.dll",
+        "lib/net6.0-windows7.0/FontAwesome.Sharp.Pro.dll",
+        "lib/netcoreapp3.1/FontAwesome.Sharp.Pro.dll"
       ]
     },
     "Guna.UI2.WinForms/2.0.4.2": {
@@ -622,6 +652,7 @@
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "FontAwesome.Sharp >= 6.2.1",
+      "FontAwesome.Sharp.Pro >= 6.2.1",
       "Guna.UI2.WinForms >= 2.0.4.2",
       "System.Data.SqlClient >= 4.8.5"
     ]
@@ -666,6 +697,10 @@
         "targetAlias": "net6.0-windows",
         "dependencies": {
           "FontAwesome.Sharp": {
+            "target": "Package",
+            "version": "[6.2.1, )"
+          },
+          "FontAwesome.Sharp.Pro": {
             "target": "Package",
             "version": "[6.2.1, )"
           },

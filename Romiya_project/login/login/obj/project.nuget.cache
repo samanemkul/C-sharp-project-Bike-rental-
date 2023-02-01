@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "XQ5MzWgLRO2ELs62dw3a+Y55yUCDqoQVq2q8lvlTdS5gsunsHE/0RHVjentTrQ6FfVs5Z/huvTVgKxJ8EFpV0A==",
+  "dgSpecHash": "cCpEx6iKG7fVZ5GjZMxhRojYnhh5N0ys9O697ibc9NLoPR+DClGbzaJOhZX+Dv0daw0nn3NEu+jcfCjyBAetcQ==",
   "success": true,
   "projectFilePath": "C:\\C-sharp-project-Bike-rental-\\Romiya_project\\login\\login\\login.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\fontawesome.sharp\\6.2.1\\fontawesome.sharp.6.2.1.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\fontawesome.sharp.pro\\6.2.1\\fontawesome.sharp.pro.6.2.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.2\\guna.ui2.winforms.2.0.4.2.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

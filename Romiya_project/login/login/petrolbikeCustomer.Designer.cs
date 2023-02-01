@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.sidebar = new System.Windows.Forms.Panel();
             this.bikeContainer = new System.Windows.Forms.FlowLayoutPanel();
             this.btn_customerBikes = new FontAwesome.Sharp.IconButton();
@@ -35,7 +36,6 @@
             this.btn_customerElectricBike = new FontAwesome.Sharp.IconButton();
             this.btn_logOut = new FontAwesome.Sharp.IconButton();
             this.btn_customerHelp = new FontAwesome.Sharp.IconButton();
-            this.btn_customerPayment = new FontAwesome.Sharp.IconButton();
             this.btn_customerDb = new FontAwesome.Sharp.IconButton();
             this.panelProfile = new System.Windows.Forms.Panel();
             this.btn_customerProfile = new FontAwesome.Sharp.IconButton();
@@ -43,7 +43,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.projectName = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.menubtn = new FontAwesome.Sharp.IconPictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -63,13 +62,13 @@
             this.bikeName2 = new FontAwesome.Sharp.IconButton();
             this.rights = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
+            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.sidebar.SuspendLayout();
             this.bikeContainer.SuspendLayout();
             this.panelProfile.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.menubtn)).BeginInit();
             this.categorypanel.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -79,12 +78,10 @@
             // 
             // sidebar
             // 
-            this.sidebar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.sidebar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.sidebar.BackColor = System.Drawing.Color.Black;
             this.sidebar.Controls.Add(this.bikeContainer);
             this.sidebar.Controls.Add(this.btn_logOut);
             this.sidebar.Controls.Add(this.btn_customerHelp);
-            this.sidebar.Controls.Add(this.btn_customerPayment);
             this.sidebar.Controls.Add(this.btn_customerDb);
             this.sidebar.Controls.Add(this.panelProfile);
             this.sidebar.Controls.Add(this.panel2);
@@ -111,7 +108,7 @@
             // 
             // btn_customerBikes
             // 
-            this.btn_customerBikes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.btn_customerBikes.BackColor = System.Drawing.Color.Black;
             this.btn_customerBikes.FlatAppearance.BorderSize = 0;
             this.btn_customerBikes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_customerBikes.Font = new System.Drawing.Font("Yu Gothic UI Semilight", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -193,30 +190,12 @@
             this.btn_customerHelp.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_customerHelp.IconSize = 25;
             this.btn_customerHelp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_customerHelp.Location = new System.Drawing.Point(0, 258);
+            this.btn_customerHelp.Location = new System.Drawing.Point(0, 207);
             this.btn_customerHelp.Name = "btn_customerHelp";
             this.btn_customerHelp.Size = new System.Drawing.Size(217, 38);
             this.btn_customerHelp.TabIndex = 0;
             this.btn_customerHelp.Text = "Help";
             this.btn_customerHelp.UseVisualStyleBackColor = true;
-            // 
-            // btn_customerPayment
-            // 
-            this.btn_customerPayment.FlatAppearance.BorderSize = 0;
-            this.btn_customerPayment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_customerPayment.Font = new System.Drawing.Font("Yu Gothic UI Semilight", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_customerPayment.ForeColor = System.Drawing.Color.White;
-            this.btn_customerPayment.IconChar = FontAwesome.Sharp.IconChar.Dollar;
-            this.btn_customerPayment.IconColor = System.Drawing.Color.White;
-            this.btn_customerPayment.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btn_customerPayment.IconSize = 25;
-            this.btn_customerPayment.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_customerPayment.Location = new System.Drawing.Point(1, 214);
-            this.btn_customerPayment.Name = "btn_customerPayment";
-            this.btn_customerPayment.Size = new System.Drawing.Size(216, 38);
-            this.btn_customerPayment.TabIndex = 0;
-            this.btn_customerPayment.Text = "Payment";
-            this.btn_customerPayment.UseVisualStyleBackColor = true;
             // 
             // btn_customerDb
             // 
@@ -269,7 +248,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(215, 57);
+            this.panel2.Size = new System.Drawing.Size(217, 57);
             this.panel2.TabIndex = 0;
             // 
             // pictureBox1
@@ -299,26 +278,11 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(127)))), ((int)(((byte)(21)))));
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.menubtn);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(217, 0);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(847, 55);
             this.panel3.TabIndex = 3;
-            // 
-            // menubtn
-            // 
-            this.menubtn.BackColor = System.Drawing.Color.Transparent;
-            this.menubtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.menubtn.IconChar = FontAwesome.Sharp.IconChar.CaretDown;
-            this.menubtn.IconColor = System.Drawing.Color.White;
-            this.menubtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.menubtn.IconSize = 27;
-            this.menubtn.Location = new System.Drawing.Point(3, 12);
-            this.menubtn.Name = "menubtn";
-            this.menubtn.Size = new System.Drawing.Size(29, 27);
-            this.menubtn.TabIndex = 1;
-            this.menubtn.TabStop = false;
             // 
             // label3
             // 
@@ -357,7 +321,7 @@
             // 
             // categorypanel
             // 
-            this.categorypanel.BackColor = System.Drawing.SystemColors.Control;
+            this.categorypanel.BackColor = System.Drawing.Color.White;
             this.categorypanel.Controls.Add(this.panel5);
             this.categorypanel.Controls.Add(this.label3);
             this.categorypanel.Controls.Add(this.rights);
@@ -619,6 +583,16 @@
             this.label4.TabIndex = 0;
             this.label4.Text = "Bike Rental System. All rights reserved";
             // 
+            // guna2Elipse1
+            // 
+            this.guna2Elipse1.BorderRadius = 36;
+            this.guna2Elipse1.TargetControl = this;
+            // 
+            // guna2Elipse2
+            // 
+            this.guna2Elipse2.BorderRadius = 36;
+            this.guna2Elipse2.TargetControl = this.panel5;
+            // 
             // petrolbikeCustomer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -627,7 +601,9 @@
             this.Controls.Add(this.categorypanel);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.sidebar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "petrolbikeCustomer";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "petrolbikeCustomer";
             this.sidebar.ResumeLayout(false);
             this.bikeContainer.ResumeLayout(false);
@@ -635,8 +611,6 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.menubtn)).EndInit();
             this.categorypanel.ResumeLayout(false);
             this.categorypanel.PerformLayout();
             this.panel5.ResumeLayout(false);
@@ -657,7 +631,6 @@
         private FontAwesome.Sharp.IconButton btn_customerElectricBike;
         private FontAwesome.Sharp.IconButton btn_logOut;
         private FontAwesome.Sharp.IconButton btn_customerHelp;
-        private FontAwesome.Sharp.IconButton btn_customerPayment;
         private FontAwesome.Sharp.IconButton btn_customerDb;
         private Panel panelProfile;
         private FontAwesome.Sharp.IconButton btn_customerProfile;
@@ -665,7 +638,6 @@
         private PictureBox pictureBox1;
         private Label projectName;
         private Panel panel3;
-        private FontAwesome.Sharp.IconPictureBox menubtn;
         private Panel categorypanel;
         private Panel rights;
         private Label label4;
@@ -685,5 +657,7 @@
         private FontAwesome.Sharp.IconButton bikeName2;
         private FontAwesome.Sharp.IconButton bikeName1;
         private Panel panel5;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
     }
 }

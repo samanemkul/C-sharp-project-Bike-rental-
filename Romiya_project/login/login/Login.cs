@@ -35,7 +35,7 @@ namespace login
             var dr = cmd.ExecuteReader();
             if (dr.Read() == true)
             {
-                new adminDb().Show();
+                new customerDb().Show();
                 this.Hide();
             }
             else

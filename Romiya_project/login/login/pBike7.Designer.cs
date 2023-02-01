@@ -49,6 +49,8 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -129,11 +131,14 @@
             this.iconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton1.UseVisualStyleBackColor = false;
+            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Snow;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.label17);
+            this.panel3.Controls.Add(this.label18);
             this.panel3.Controls.Add(this.label16);
             this.panel3.Controls.Add(this.label14);
             this.panel3.Controls.Add(this.label7);
@@ -149,9 +154,9 @@
             this.panel3.Controls.Add(this.label9);
             this.panel3.Controls.Add(this.label8);
             this.panel3.Controls.Add(this.label4);
-            this.panel3.Location = new System.Drawing.Point(13, 92);
+            this.panel3.Location = new System.Drawing.Point(13, 81);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(348, 296);
+            this.panel3.Size = new System.Drawing.Size(348, 323);
             this.panel3.TabIndex = 13;
             // 
             // label16
@@ -159,7 +164,7 @@
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Yu Gothic UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label16.ForeColor = System.Drawing.Color.Gray;
-            this.label16.Location = new System.Drawing.Point(68, 279);
+            this.label16.Location = new System.Drawing.Point(72, 306);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(191, 15);
             this.label16.TabIndex = 5;
@@ -306,6 +311,26 @@
             this.label4.TabIndex = 5;
             this.label4.Text = "Bike Name     : ";
             // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label17.Location = new System.Drawing.Point(5, 266);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(163, 25);
+            this.label17.TabIndex = 6;
+            this.label17.Text = "Deposit Amount :";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label18.Location = new System.Drawing.Point(174, 269);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(76, 21);
+            this.label18.TabIndex = 7;
+            this.label18.Text = "Rs 20000";
+            // 
             // pBike7
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -314,7 +339,9 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "pBike7";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "pBike7";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -348,5 +375,7 @@
         private Label label9;
         private Label label8;
         private Label label4;
+        private Label label17;
+        private Label label18;
     }
 }

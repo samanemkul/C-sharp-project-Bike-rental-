@@ -13,7 +13,7 @@ namespace login
 {
     public partial class customerDb : Form
     {
-        bool sideBarExpand;
+       
         bool bikeCollapse;
         public customerDb()
         {
@@ -39,35 +39,8 @@ namespace login
             
         }
 
-        private void sidebar_click(object sender, EventArgs e)
-        {
-            //SET the minimum and maximum size of the sidebar
+        
 
-            if(sideBarExpand)
-            {
-                //if sidebar is expanded, minimize
-                sidebar.Width -= 10;
-                if(sidebar.Width == sidebar.MinimumSize.Width)
-                {
-                    sideBarExpand = false;
-                    sidebar_timer.Stop();    
-                }
-            }
-            else
-            {
-                sidebar.Width += 10;
-                if(sidebar.Width == sidebar.MaximumSize.Width)
-                {
-                    sideBarExpand = true;
-                    sidebar_timer.Stop();
-                }
-            }
-        }
-
-        private void menubtn_Click(object sender, EventArgs e)
-        {
-            sidebar_timer.Start();
-        }
 
         private void bike_timer_Tick(object sender, EventArgs e)
         {
@@ -188,6 +161,11 @@ namespace login
             electricbikeCustomer f3 = new electricbikeCustomer();
             f3.ShowDialog();
             f3.Show();
+        }
+
+        private void closeButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -14,6 +14,17 @@
           }
         }
       },
+      "FontAwesome.Sharp.Pro/6.2.1": {
+        "dependencies": {
+          "FontAwesome.Sharp": "6.2.1"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/FontAwesome.Sharp.Pro.dll": {
+            "assemblyVersion": "6.2.1.0",
+            "fileVersion": "6.2.1.0"
+          }
+        }
+      },
       "Guna.UI2.WinForms/2.0.4.2": {
         "dependencies": {
           "System.Management": "6.0.0"
@@ -191,6 +202,13 @@
       "sha512": "sha512-eYpj85+70pOjV4cOfB/Et/Rj6m56WRlCKU2G4ivWCohb7sF7DwHz/3jy8XIWp9utgb/R2Pqm+HsaBwV33FBNbg==",
       "path": "fontawesome.sharp/6.2.1",
       "hashPath": "fontawesome.sharp.6.2.1.nupkg.sha512"
+    },
+    "FontAwesome.Sharp.Pro/6.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NKaPjEMthqHpzy2iQ2O1m3fXC+Tj4Gd0zAzWmGhqnXrwNFbWE+QVlEmY3CVeqk1rDjUWmSaBpcKj4P0hwy0yhA==",
+      "path": "fontawesome.sharp.pro/6.2.1",
+      "hashPath": "fontawesome.sharp.pro.6.2.1.nupkg.sha512"
     },
     "Guna.UI2.WinForms/2.0.4.2": {
       "type": "package",

@@ -40,34 +40,38 @@
             this.panelProfile = new System.Windows.Forms.Panel();
             this.btn_customerProfile = new FontAwesome.Sharp.IconButton();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.projectName = new System.Windows.Forms.Label();
-            this.menubtn = new FontAwesome.Sharp.IconPictureBox();
             this.pnl_main = new System.Windows.Forms.Panel();
+            this.rights = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btn_feedback = new System.Windows.Forms.Button();
             this.lbl_dashboard = new System.Windows.Forms.Label();
             this.btn_offers = new System.Windows.Forms.Button();
             this.btn_activeBikes = new System.Windows.Forms.Button();
-            this.f = new System.Windows.Forms.Panel();
+            this.feedBack = new System.Windows.Forms.Panel();
             this.pnl_offers = new System.Windows.Forms.Panel();
             this.pnl_activeBikes = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.sidebar_timer = new System.Windows.Forms.Timer(this.components);
+            this.closeButton = new FontAwesome.Sharp.IconPictureBox();
             this.bike_timer = new System.Windows.Forms.Timer(this.components);
+            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.sidebar.SuspendLayout();
             this.bikeContainer.SuspendLayout();
             this.panelProfile.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.menubtn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnl_main.SuspendLayout();
+            this.rights.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.closeButton)).BeginInit();
             this.SuspendLayout();
             // 
             // sidebar
             // 
-            this.sidebar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.sidebar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.sidebar.BackColor = System.Drawing.Color.Black;
             this.sidebar.Controls.Add(this.bikeContainer);
             this.sidebar.Controls.Add(this.btn_logOut);
             this.sidebar.Controls.Add(this.btn_customerHelp);
@@ -85,19 +89,20 @@
             // 
             // bikeContainer
             // 
-            this.bikeContainer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.bikeContainer.BackColor = System.Drawing.Color.Black;
             this.bikeContainer.Controls.Add(this.btn_customerBikes);
             this.bikeContainer.Controls.Add(this.btn_customerPetrolBike);
             this.bikeContainer.Controls.Add(this.btn_customerElectricBike);
-            this.bikeContainer.Location = new System.Drawing.Point(0, 159);
+            this.bikeContainer.Location = new System.Drawing.Point(3, 159);
             this.bikeContainer.MaximumSize = new System.Drawing.Size(190, 136);
             this.bikeContainer.MinimumSize = new System.Drawing.Size(190, 38);
             this.bikeContainer.Name = "bikeContainer";
-            this.bikeContainer.Size = new System.Drawing.Size(190, 39);
+            this.bikeContainer.Size = new System.Drawing.Size(190, 41);
             this.bikeContainer.TabIndex = 3;
             // 
             // btn_customerBikes
             // 
+            this.btn_customerBikes.BackColor = System.Drawing.Color.Black;
             this.btn_customerBikes.FlatAppearance.BorderSize = 0;
             this.btn_customerBikes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_customerBikes.Font = new System.Drawing.Font("Yu Gothic UI Semilight", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -112,7 +117,7 @@
             this.btn_customerBikes.Size = new System.Drawing.Size(214, 38);
             this.btn_customerBikes.TabIndex = 0;
             this.btn_customerBikes.Text = "Bikes";
-            this.btn_customerBikes.UseVisualStyleBackColor = true;
+            this.btn_customerBikes.UseVisualStyleBackColor = false;
             this.btn_customerBikes.Click += new System.EventHandler(this.btn_customerBikes_Click);
             // 
             // btn_customerPetrolBike
@@ -182,7 +187,7 @@
             this.btn_customerHelp.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_customerHelp.IconSize = 25;
             this.btn_customerHelp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_customerHelp.Location = new System.Drawing.Point(0, 204);
+            this.btn_customerHelp.Location = new System.Drawing.Point(0, 207);
             this.btn_customerHelp.Name = "btn_customerHelp";
             this.btn_customerHelp.Size = new System.Drawing.Size(217, 38);
             this.btn_customerHelp.TabIndex = 0;
@@ -200,9 +205,9 @@
             this.btn_customerDb.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_customerDb.IconSize = 25;
             this.btn_customerDb.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_customerDb.Location = new System.Drawing.Point(0, 115);
+            this.btn_customerDb.Location = new System.Drawing.Point(3, 115);
             this.btn_customerDb.Name = "btn_customerDb";
-            this.btn_customerDb.Size = new System.Drawing.Size(217, 38);
+            this.btn_customerDb.Size = new System.Drawing.Size(214, 38);
             this.btn_customerDb.TabIndex = 0;
             this.btn_customerDb.Text = "    Dash Board";
             this.btn_customerDb.UseVisualStyleBackColor = true;
@@ -235,13 +240,24 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.projectName);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(215, 57);
+            this.panel2.Size = new System.Drawing.Size(217, 57);
             this.panel2.TabIndex = 0;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::login.Properties.Resources.Logo;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(3, 1);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(53, 56);
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
             // projectName
             // 
@@ -255,32 +271,17 @@
             this.projectName.TabIndex = 0;
             this.projectName.Text = "Bike Rental System";
             // 
-            // menubtn
-            // 
-            this.menubtn.BackColor = System.Drawing.Color.Transparent;
-            this.menubtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.menubtn.IconChar = FontAwesome.Sharp.IconChar.CaretDown;
-            this.menubtn.IconColor = System.Drawing.Color.White;
-            this.menubtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.menubtn.IconSize = 27;
-            this.menubtn.Location = new System.Drawing.Point(3, 12);
-            this.menubtn.Name = "menubtn";
-            this.menubtn.Size = new System.Drawing.Size(29, 27);
-            this.menubtn.TabIndex = 1;
-            this.menubtn.TabStop = false;
-            this.menubtn.Click += new System.EventHandler(this.menubtn_Click);
-            // 
             // pnl_main
             // 
-            this.pnl_main.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.pnl_main.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnl_main.BackColor = System.Drawing.Color.White;
+            this.pnl_main.Controls.Add(this.rights);
             this.pnl_main.Controls.Add(this.label2);
             this.pnl_main.Controls.Add(this.label1);
             this.pnl_main.Controls.Add(this.btn_feedback);
             this.pnl_main.Controls.Add(this.lbl_dashboard);
             this.pnl_main.Controls.Add(this.btn_offers);
             this.pnl_main.Controls.Add(this.btn_activeBikes);
-            this.pnl_main.Controls.Add(this.f);
+            this.pnl_main.Controls.Add(this.feedBack);
             this.pnl_main.Controls.Add(this.pnl_offers);
             this.pnl_main.Controls.Add(this.pnl_activeBikes);
             this.pnl_main.Controls.Add(this.panel3);
@@ -292,11 +293,31 @@
             this.pnl_main.TabIndex = 1;
             this.pnl_main.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_main_Paint);
             // 
+            // rights
+            // 
+            this.rights.Controls.Add(this.label4);
+            this.rights.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.rights.Location = new System.Drawing.Point(0, 528);
+            this.rights.Name = "rights";
+            this.rights.Size = new System.Drawing.Size(847, 40);
+            this.rights.TabIndex = 7;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Yu Gothic UI Semilight", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label4.Location = new System.Drawing.Point(5, 10);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(221, 17);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Bike Rental System. All rights reserved";
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(602, 72);
+            this.label2.Location = new System.Drawing.Point(736, 82);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(100, 21);
             this.label2.TabIndex = 1;
@@ -308,7 +329,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.label1.Location = new System.Drawing.Point(554, 72);
+            this.label1.Location = new System.Drawing.Point(688, 82);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(52, 21);
             this.label1.TabIndex = 1;
@@ -321,9 +342,9 @@
             this.btn_feedback.FlatAppearance.BorderSize = 0;
             this.btn_feedback.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_feedback.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_feedback.Location = new System.Drawing.Point(494, 212);
+            this.btn_feedback.Location = new System.Drawing.Point(605, 241);
             this.btn_feedback.Name = "btn_feedback";
-            this.btn_feedback.Size = new System.Drawing.Size(201, 29);
+            this.btn_feedback.Size = new System.Drawing.Size(231, 29);
             this.btn_feedback.TabIndex = 2;
             this.btn_feedback.Text = "Feed Back";
             this.btn_feedback.UseVisualStyleBackColor = false;
@@ -333,7 +354,7 @@
             // 
             this.lbl_dashboard.AutoSize = true;
             this.lbl_dashboard.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbl_dashboard.Location = new System.Drawing.Point(4, 64);
+            this.lbl_dashboard.Location = new System.Drawing.Point(20, 78);
             this.lbl_dashboard.Name = "lbl_dashboard";
             this.lbl_dashboard.Size = new System.Drawing.Size(157, 37);
             this.lbl_dashboard.TabIndex = 0;
@@ -346,9 +367,9 @@
             this.btn_offers.FlatAppearance.BorderSize = 0;
             this.btn_offers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_offers.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_offers.Location = new System.Drawing.Point(246, 212);
+            this.btn_offers.Location = new System.Drawing.Point(318, 241);
             this.btn_offers.Name = "btn_offers";
-            this.btn_offers.Size = new System.Drawing.Size(200, 29);
+            this.btn_offers.Size = new System.Drawing.Size(237, 29);
             this.btn_offers.TabIndex = 2;
             this.btn_offers.Text = "(%) Offers";
             this.btn_offers.UseVisualStyleBackColor = false;
@@ -360,30 +381,30 @@
             this.btn_activeBikes.FlatAppearance.BorderSize = 0;
             this.btn_activeBikes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_activeBikes.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_activeBikes.Location = new System.Drawing.Point(4, 212);
+            this.btn_activeBikes.Location = new System.Drawing.Point(20, 241);
             this.btn_activeBikes.Name = "btn_activeBikes";
-            this.btn_activeBikes.Size = new System.Drawing.Size(200, 29);
+            this.btn_activeBikes.Size = new System.Drawing.Size(253, 29);
             this.btn_activeBikes.TabIndex = 2;
             this.btn_activeBikes.Text = "Active Bikes";
             this.btn_activeBikes.UseVisualStyleBackColor = false;
             this.btn_activeBikes.Click += new System.EventHandler(this.btn_history_Click);
             // 
-            // f
+            // feedBack
             // 
-            this.f.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(195)))), ((int)(((byte)(9)))));
-            this.f.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.f.Location = new System.Drawing.Point(494, 113);
-            this.f.Name = "f";
-            this.f.Size = new System.Drawing.Size(200, 100);
-            this.f.TabIndex = 1;
-            this.f.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
+            this.feedBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(195)))), ((int)(((byte)(9)))));
+            this.feedBack.Location = new System.Drawing.Point(605, 142);
+            this.feedBack.Name = "feedBack";
+            this.feedBack.Size = new System.Drawing.Size(230, 100);
+            this.feedBack.TabIndex = 1;
+            this.feedBack.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
             // pnl_offers
             // 
             this.pnl_offers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(167)))), ((int)(((byte)(69)))));
-            this.pnl_offers.Location = new System.Drawing.Point(246, 113);
+            this.pnl_offers.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pnl_offers.Location = new System.Drawing.Point(318, 142);
             this.pnl_offers.Name = "pnl_offers";
-            this.pnl_offers.Size = new System.Drawing.Size(200, 100);
+            this.pnl_offers.Size = new System.Drawing.Size(237, 100);
             this.pnl_offers.TabIndex = 1;
             this.pnl_offers.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
@@ -391,32 +412,46 @@
             // 
             this.pnl_activeBikes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
             this.pnl_activeBikes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pnl_activeBikes.Location = new System.Drawing.Point(4, 113);
+            this.pnl_activeBikes.Location = new System.Drawing.Point(20, 142);
             this.pnl_activeBikes.Name = "pnl_activeBikes";
-            this.pnl_activeBikes.Size = new System.Drawing.Size(200, 100);
+            this.pnl_activeBikes.Size = new System.Drawing.Size(253, 100);
             this.pnl_activeBikes.TabIndex = 1;
             this.pnl_activeBikes.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_history_Paint);
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(127)))), ((int)(((byte)(21)))));
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.menubtn);
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.panel3.Controls.Add(this.closeButton);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(843, 55);
+            this.panel3.Size = new System.Drawing.Size(847, 55);
             this.panel3.TabIndex = 0;
             // 
-            // sidebar_timer
+            // closeButton
             // 
-            this.sidebar_timer.Interval = 5;
-            this.sidebar_timer.Tick += new System.EventHandler(this.sidebar_click);
+            this.closeButton.BackColor = System.Drawing.Color.Transparent;
+            this.closeButton.ForeColor = System.Drawing.Color.Red;
+            this.closeButton.IconChar = FontAwesome.Sharp.IconChar.CircleMinus;
+            this.closeButton.IconColor = System.Drawing.Color.Red;
+            this.closeButton.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.closeButton.IconSize = 27;
+            this.closeButton.Location = new System.Drawing.Point(817, 0);
+            this.closeButton.Name = "closeButton";
+            this.closeButton.Size = new System.Drawing.Size(27, 28);
+            this.closeButton.TabIndex = 1;
+            this.closeButton.TabStop = false;
+            this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
             // 
             // bike_timer
             // 
             this.bike_timer.Interval = 5;
             this.bike_timer.Tick += new System.EventHandler(this.bike_timer_Tick);
+            // 
+            // guna2Elipse1
+            // 
+            this.guna2Elipse1.BorderRadius = 36;
+            this.guna2Elipse1.TargetControl = this;
             // 
             // customerDb
             // 
@@ -425,7 +460,9 @@
             this.ClientSize = new System.Drawing.Size(1064, 568);
             this.Controls.Add(this.pnl_main);
             this.Controls.Add(this.sidebar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "customerDb";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";
             this.Load += new System.EventHandler(this.customerDb_Load);
             this.sidebar.ResumeLayout(false);
@@ -433,10 +470,13 @@
             this.panelProfile.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.menubtn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.pnl_main.ResumeLayout(false);
             this.pnl_main.PerformLayout();
+            this.rights.ResumeLayout(false);
+            this.rights.PerformLayout();
             this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.closeButton)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -456,8 +496,6 @@
         private Button btn_feedback;
         private Button btn_offers;
         private Button btn_activeBikes;
-        private FontAwesome.Sharp.IconPictureBox menubtn;
-        private System.Windows.Forms.Timer sidebar_timer;
         private System.Windows.Forms.Timer bike_timer;
         private FontAwesome.Sharp.IconButton btn_customerDb;
         private FontAwesome.Sharp.IconButton btn_customerProfile;
@@ -467,7 +505,12 @@
         private FontAwesome.Sharp.IconButton btn_customerBikes;
         private FontAwesome.Sharp.IconButton btn_customerElectricBike;
         private FontAwesome.Sharp.IconButton btn_customerPetrolBike;
-        private Panel f;
+        private Panel feedBack;
         private Label label2;
+        private PictureBox pictureBox1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
+        private Panel rights;
+        private Label label4;
+        private FontAwesome.Sharp.IconPictureBox closeButton;
     }
 }
