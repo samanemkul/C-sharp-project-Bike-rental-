@@ -25,6 +25,7 @@ namespace login
             Option Opt = new Option();
             Opt.ShowDialog();
             this.Show();
+            this.Close();
         }
 
         private void rulesAndRegulation_Load(object sender, EventArgs e)

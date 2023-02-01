@@ -26,6 +26,7 @@ namespace login
             pBike1 pB1 = new pBike1();
             pB1.ShowDialog();
             this.Show();
+            
         }
 
         private void bikeName2_Click(object sender, EventArgs e)
@@ -107,6 +108,11 @@ namespace login
             pBike10 pB10 = new pBike10();
             pB10.ShowDialog();
             this.Show();
+        }
+
+        private void closeButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

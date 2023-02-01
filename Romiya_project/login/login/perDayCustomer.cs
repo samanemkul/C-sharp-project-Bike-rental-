@@ -25,6 +25,7 @@ namespace login
             customerPayment cP = new customerPayment();
             cP.ShowDialog();
             this.Show();
+            this.Close();
         }
 
         private void iconButton1_Click(object sender, EventArgs e)

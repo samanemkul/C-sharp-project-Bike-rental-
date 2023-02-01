@@ -43,6 +43,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.projectName = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.closeButton = new FontAwesome.Sharp.IconPictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -63,12 +64,13 @@
             this.rights = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.sidebar.SuspendLayout();
             this.bikeContainer.SuspendLayout();
             this.panelProfile.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.closeButton)).BeginInit();
             this.categorypanel.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -95,7 +97,7 @@
             // 
             // bikeContainer
             // 
-            this.bikeContainer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.bikeContainer.BackColor = System.Drawing.Color.Black;
             this.bikeContainer.Controls.Add(this.btn_customerBikes);
             this.bikeContainer.Controls.Add(this.btn_customerPetrolBike);
             this.bikeContainer.Controls.Add(this.btn_customerElectricBike);
@@ -190,9 +192,9 @@
             this.btn_customerHelp.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_customerHelp.IconSize = 25;
             this.btn_customerHelp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_customerHelp.Location = new System.Drawing.Point(0, 207);
+            this.btn_customerHelp.Location = new System.Drawing.Point(3, 207);
             this.btn_customerHelp.Name = "btn_customerHelp";
-            this.btn_customerHelp.Size = new System.Drawing.Size(217, 38);
+            this.btn_customerHelp.Size = new System.Drawing.Size(214, 38);
             this.btn_customerHelp.TabIndex = 0;
             this.btn_customerHelp.Text = "Help";
             this.btn_customerHelp.UseVisualStyleBackColor = true;
@@ -278,11 +280,27 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(127)))), ((int)(((byte)(21)))));
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.closeButton);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(217, 0);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(847, 55);
             this.panel3.TabIndex = 3;
+            // 
+            // closeButton
+            // 
+            this.closeButton.BackColor = System.Drawing.Color.Transparent;
+            this.closeButton.ForeColor = System.Drawing.Color.Red;
+            this.closeButton.IconChar = FontAwesome.Sharp.IconChar.CircleMinus;
+            this.closeButton.IconColor = System.Drawing.Color.Red;
+            this.closeButton.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.closeButton.IconSize = 27;
+            this.closeButton.Location = new System.Drawing.Point(815, 0);
+            this.closeButton.Name = "closeButton";
+            this.closeButton.Size = new System.Drawing.Size(27, 28);
+            this.closeButton.TabIndex = 3;
+            this.closeButton.TabStop = false;
+            this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
             // 
             // label3
             // 
@@ -588,11 +606,6 @@
             this.guna2Elipse1.BorderRadius = 36;
             this.guna2Elipse1.TargetControl = this;
             // 
-            // guna2Elipse2
-            // 
-            this.guna2Elipse2.BorderRadius = 36;
-            this.guna2Elipse2.TargetControl = this.panel5;
-            // 
             // petrolbikeCustomer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -611,6 +624,8 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.closeButton)).EndInit();
             this.categorypanel.ResumeLayout(false);
             this.categorypanel.PerformLayout();
             this.panel5.ResumeLayout(false);
@@ -658,6 +673,6 @@
         private FontAwesome.Sharp.IconButton bikeName1;
         private Panel panel5;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
-        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
+        private FontAwesome.Sharp.IconPictureBox closeButton;
     }
 }

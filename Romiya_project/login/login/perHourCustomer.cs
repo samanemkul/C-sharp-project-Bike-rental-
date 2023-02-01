@@ -15,8 +15,7 @@ namespace login
         public perHourCustomer()
         {
             InitializeComponent();
-            this.FormBorderStyle = FormBorderStyle.None;
-            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+           
         }
 
         private void iconButton2_Click(object sender, EventArgs e)
@@ -26,6 +25,7 @@ namespace login
             customerHourPayment cHP = new customerHourPayment();
             cHP.ShowDialog();
             this.Show();
+            this.Close();
         }
 
         private void iconButton1_Click(object sender, EventArgs e)

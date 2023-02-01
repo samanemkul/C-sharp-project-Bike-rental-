@@ -59,7 +59,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.sidebar.SuspendLayout();
             this.bikeContainer.SuspendLayout();
             this.panelProfile.SuspendLayout();
@@ -291,7 +290,7 @@
             this.closeButton.IconColor = System.Drawing.Color.Red;
             this.closeButton.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.closeButton.IconSize = 27;
-            this.closeButton.Location = new System.Drawing.Point(815, -1);
+            this.closeButton.Location = new System.Drawing.Point(831, -1);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(27, 28);
             this.closeButton.TabIndex = 2;
@@ -504,11 +503,6 @@
             this.guna2Elipse1.BorderRadius = 36;
             this.guna2Elipse1.TargetControl = this;
             // 
-            // guna2Elipse2
-            // 
-            this.guna2Elipse2.BorderRadius = 20;
-            this.guna2Elipse2.TargetControl = this.panel4;
-            // 
             // electricbikeCustomer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -571,7 +565,6 @@
         private PictureBox pictureBox2;
         private Panel panel4;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
-        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
         private FontAwesome.Sharp.IconPictureBox closeButton;
     }
 }
