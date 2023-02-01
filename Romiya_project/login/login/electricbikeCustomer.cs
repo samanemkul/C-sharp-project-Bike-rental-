@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Management;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -26,6 +27,7 @@ namespace login
             eBike5 eB5 = new eBike5();
             eB5.ShowDialog();
             this.Show();
+            
         }
 
         private void e1_Click(object sender, EventArgs e)
@@ -35,6 +37,7 @@ namespace login
             eBike1 eB1 = new eBike1();
             eB1.ShowDialog();
             this.Show();
+            
         }
 
         private void e2_Click(object sender, EventArgs e)
@@ -44,6 +47,7 @@ namespace login
             eBike2 eB2 = new eBike2();
             eB2.ShowDialog();
             this.Show();
+            
         }
 
         private void e3_Click(object sender, EventArgs e)
@@ -53,6 +57,7 @@ namespace login
             eBike3 eB3 = new eBike3();
             eB3.ShowDialog();
             this.Show();
+            
         }
 
         private void e4_Click(object sender, EventArgs e)
@@ -62,6 +67,7 @@ namespace login
             eBike4 eB4 = new eBike4();
             eB4.ShowDialog();
             this.Show();
+            
         }
 
         private void closeButton_Click(object sender, EventArgs e)
@@ -98,6 +104,7 @@ namespace login
 
         private void btn_customerElectricBike_Click(object sender, EventArgs e)
         {
+            this.Hide();
             electricbikeCustomer eBC = new electricbikeCustomer();
             eBC.ShowDialog();
             this.Show();
@@ -106,8 +113,18 @@ namespace login
 
         private void btn_customerPetrolBike_Click(object sender, EventArgs e)
         {
+            this.Hide();
             petrolbikeCustomer pBC = new petrolbikeCustomer();
             pBC.ShowDialog();
+            this.Show();
+            this.Close();
+        }
+
+        private void btn_customerDb_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            customerDb cDB = new customerDb();
+            cDB.ShowDialog();
             this.Show();
             this.Close();
         }

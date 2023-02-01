@@ -215,6 +215,7 @@
             this.btn_customerDb.TabIndex = 0;
             this.btn_customerDb.Text = "    Dash Board";
             this.btn_customerDb.UseVisualStyleBackColor = true;
+            this.btn_customerDb.Click += new System.EventHandler(this.btn_customerDb_Click);
             // 
             // panelProfile
             // 

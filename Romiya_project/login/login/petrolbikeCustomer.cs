@@ -37,6 +37,7 @@ namespace login
             pBike2 pB2 = new pBike2();
             pB2.ShowDialog();
             this.Show();
+            
         }
 
         private void bikeName3_Click(object sender, EventArgs e)
@@ -46,6 +47,7 @@ namespace login
             pBike3 pB3 = new pBike3();
             pB3.ShowDialog();
             this.Show();
+            
         }
 
         private void bikeName4_Click(object sender, EventArgs e)
@@ -55,6 +57,7 @@ namespace login
             pBike4 pB4 = new pBike4();
             pB4.ShowDialog();
             this.Show();
+            
         }
 
         private void bikeName5_Click(object sender, EventArgs e)
@@ -64,6 +67,7 @@ namespace login
             pBike5 pB5 = new pBike5();
             pB5.ShowDialog();
             this.Show();
+            
         }
 
         private void bikeName6_Click(object sender, EventArgs e)
@@ -73,6 +77,7 @@ namespace login
             pBike6 pB6 = new pBike6();
             pB6.ShowDialog();
             this.Show();
+            
         }
 
         private void bikeName7_Click(object sender, EventArgs e)
@@ -82,6 +87,7 @@ namespace login
             pBike7 pB7 = new pBike7();
             pB7.ShowDialog();
             this.Show();
+            
         }
 
         private void bikeName8_Click(object sender, EventArgs e)
@@ -91,6 +97,7 @@ namespace login
             pBike8 pB8 = new pBike8();
             pB8.ShowDialog();
             this.Show();
+            
         }
 
         private void bikeName9_Click(object sender, EventArgs e)
@@ -99,7 +106,8 @@ namespace login
 
             pBike9 pB9 = new pBike9();
             pB9.ShowDialog();
-            pB9.Show();
+            this.Show();
+            
         }
 
         private void bikeName10_Click(object sender, EventArgs e)
@@ -109,6 +117,7 @@ namespace login
             pBike10 pB10 = new pBike10();
             pB10.ShowDialog();
             this.Show();
+            
         }
 
         private void closeButton_Click(object sender, EventArgs e)
@@ -146,6 +155,7 @@ namespace login
 
         private void btn_customerPetrolBike_Click(object sender, EventArgs e)
         {
+            this.Hide();
             petrolbikeCustomer pBC = new petrolbikeCustomer();
             pBC.ShowDialog();
             this.Show();
@@ -154,8 +164,18 @@ namespace login
 
         private void btn_customerElectricBike_Click(object sender, EventArgs e)
         {
+            this.Hide();
             electricbikeCustomer eBC = new electricbikeCustomer();
             eBC.ShowDialog();
+            this.Show();
+            this.Close();
+        }
+
+        private void btn_customerDb_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            customerDb cDB = new customerDb();
+            cDB.ShowDialog();
             this.Show();
             this.Close();
         }
