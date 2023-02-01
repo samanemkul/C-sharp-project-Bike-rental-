@@ -15,15 +15,21 @@ namespace login
         public eBike4()
         {
             InitializeComponent();
-            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            
         }
 
         private void iconButton2_Click(object sender, EventArgs e)
         {
             //for rules and regultion
+            this.Hide();
             rulesAndRegulation rAR = new rulesAndRegulation();
             rAR.ShowDialog();
             this.Show();
+        }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

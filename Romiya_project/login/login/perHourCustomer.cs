@@ -22,10 +22,15 @@ namespace login
         private void iconButton2_Click(object sender, EventArgs e)
         {
             //for Hour payment
-            this.Close();
+            this.Hide();
             customerHourPayment cHP = new customerHourPayment();
             cHP.ShowDialog();
             this.Show();
+        }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

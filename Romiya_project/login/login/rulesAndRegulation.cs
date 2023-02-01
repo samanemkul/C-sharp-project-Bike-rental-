@@ -15,13 +15,13 @@ namespace login
         public rulesAndRegulation()
         {
             InitializeComponent();
-            this.FormBorderStyle = FormBorderStyle.None;
+            
         }
 
         private void iconButton2_Click(object sender, EventArgs e)
         {
             //for payment option
-            this.Close();
+            this.Hide();
             Option Opt = new Option();
             Opt.ShowDialog();
             this.Show();
@@ -30,6 +30,11 @@ namespace login
         private void rulesAndRegulation_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

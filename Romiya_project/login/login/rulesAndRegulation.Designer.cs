@@ -193,6 +193,7 @@
             this.iconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton1.UseVisualStyleBackColor = false;
+            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
             // 
             // label43
             // 
@@ -785,7 +786,9 @@
             this.ClientSize = new System.Drawing.Size(798, 449);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "rulesAndRegulation";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "rulesAndRegulation";
             this.Load += new System.EventHandler(this.rulesAndRegulation_Load);
             this.panel1.ResumeLayout(false);

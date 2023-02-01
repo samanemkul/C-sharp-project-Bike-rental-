@@ -15,7 +15,6 @@ namespace login
         public Option()
         {
             InitializeComponent();
-            this.FormBorderStyle = FormBorderStyle.None;
             
         }
 
@@ -35,6 +34,11 @@ namespace login
             perDayCustomer pDC = new perDayCustomer();
             pDC.ShowDialog();
             this.Show();
+        }
+
+        private void iconButton4_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

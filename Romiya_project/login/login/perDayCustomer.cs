@@ -15,19 +15,21 @@ namespace login
         public perDayCustomer()
         {
             InitializeComponent();
-            this.FormBorderStyle = FormBorderStyle.None;
-            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            
         }
 
         private void iconButton2_Click(object sender, EventArgs e)
         {
             //bill payment form
-            this.Close();
+            this.Hide();
             customerPayment cP = new customerPayment();
             cP.ShowDialog();
             this.Show();
         }
 
-       
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
