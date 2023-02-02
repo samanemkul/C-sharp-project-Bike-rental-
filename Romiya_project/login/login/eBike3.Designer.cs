@@ -100,9 +100,9 @@
             this.iconButton2.IconColor = System.Drawing.Color.White;
             this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton2.IconSize = 20;
-            this.iconButton2.Location = new System.Drawing.Point(274, 16);
+            this.iconButton2.Location = new System.Drawing.Point(269, 16);
             this.iconButton2.Name = "iconButton2";
-            this.iconButton2.Size = new System.Drawing.Size(86, 32);
+            this.iconButton2.Size = new System.Drawing.Size(91, 32);
             this.iconButton2.TabIndex = 2;
             this.iconButton2.Text = "Proceed";
             this.iconButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
