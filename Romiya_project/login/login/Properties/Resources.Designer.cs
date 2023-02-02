@@ -263,6 +263,16 @@ namespace login.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap main {
+            get {
+                object obj = ResourceManager.GetObject("main", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap OIP {
             get {
                 object obj = ResourceManager.GetObject("OIP", resourceCulture);
@@ -296,6 +306,26 @@ namespace login.Properties {
         internal static System.Drawing.Bitmap Screenshot_2022_12_08_170004 {
             get {
                 object obj = ResourceManager.GetObject("Screenshot 2022-12-08 170004", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Thankyou {
+            get {
+                object obj = ResourceManager.GetObject("Thankyou", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Thankyou1 {
+            get {
+                object obj = ResourceManager.GetObject("Thankyou1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -128,5 +128,14 @@ namespace login
             this.Show();
             this.Close();
         }
+
+        private void btn_logOut_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            logout logO = new logout();
+            logO.ShowDialog();
+            this.Show();
+            this.Close();
+        }
     }
 }

@@ -32,10 +32,14 @@
             Guna.UI2.WinForms.Guna2Button guna2Button1;
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Guna2Button guna2Button2;
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.closeButton = new FontAwesome.Sharp.IconPictureBox();
             this.label1 = new System.Windows.Forms.Label();
             guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.closeButton)).BeginInit();
             this.SuspendLayout();
             // 
@@ -95,6 +99,30 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "WELCOME";
             // 
+            // guna2Button2
+            // 
+            guna2Button2.AutoRoundedCorners = true;
+            guna2Button2.BackColor = System.Drawing.Color.Transparent;
+            guna2Button2.BorderColor = System.Drawing.Color.Transparent;
+            guna2Button2.BorderRadius = 21;
+            guna2Button2.CustomizableEdges = customizableEdges3;
+            guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            guna2Button2.FillColor = System.Drawing.Color.Blue;
+            guna2Button2.FocusedColor = System.Drawing.Color.Transparent;
+            guna2Button2.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            guna2Button2.ForeColor = System.Drawing.Color.White;
+            guna2Button2.Location = new System.Drawing.Point(238, 267);
+            guna2Button2.Name = "guna2Button2";
+            guna2Button2.PressedColor = System.Drawing.Color.Cyan;
+            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            guna2Button2.Size = new System.Drawing.Size(158, 45);
+            guna2Button2.TabIndex = 6;
+            guna2Button2.Text = "Register";
+            guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
+            // 
             // backupLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -103,6 +131,7 @@
             this.BackgroundImage = global::login.Properties.Resources.wallpaper1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(630, 420);
+            this.Controls.Add(guna2Button2);
             this.Controls.Add(guna2Button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.closeButton);

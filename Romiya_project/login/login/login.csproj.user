@@ -70,6 +70,12 @@
     <Compile Update="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="logout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="mainLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Option.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +125,9 @@
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="rulesAndRegulation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="thankyou.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

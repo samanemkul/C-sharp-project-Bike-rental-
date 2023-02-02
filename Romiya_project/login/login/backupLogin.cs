@@ -31,5 +31,15 @@ namespace login
             this.Close();
             
         }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            RegisterForm rf = new RegisterForm();
+            rf.ShowDialog();
+            this.Show();
+            this.Close();
+         
+        }
     }
 }

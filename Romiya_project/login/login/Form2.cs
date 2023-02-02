@@ -26,8 +26,10 @@ namespace login
 
         private void label7_Click(object sender, EventArgs e)
         {
-            new Login().Show();
             this.Hide();
+            new backupLogin().ShowDialog();
+            this.Hide();
+            this.Close();
            
         }
 
