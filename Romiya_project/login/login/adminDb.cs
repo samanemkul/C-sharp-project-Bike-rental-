@@ -13,53 +13,13 @@ namespace login
 {
     public partial class adminDb : Form
     {
-        [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
-        private static extern IntPtr CreateRoundRectRgn
-            (
-                int nLeftRect,
-                int nTopRect,
-                int nRightRect,
-                int nBottomRect,
-                int nWidthEllipse,
-                int nHeightEllipse
-            );
-        bool sideBarExpand;
+        
         bool bikeCollapse;
         public adminDb()
         {
             InitializeComponent();
-            this.FormBorderStyle = FormBorderStyle.None;
-            Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 20, 20));
+         
         }
-
-        private void menubtn_Click(object sender, EventArgs e)
-        {
-            adminSidebar_timer.Start();
-        }
-
-        private void sidebar_click(object sender, EventArgs e)
-        {
-            if(sideBarExpand)
-            {
-                //if sidebar is expanded minimize
-                sidebar.Width -= 10;
-                if(sidebar.Width == sidebar.MinimumSize.Width)
-                {
-                    sideBarExpand = false;
-                    adminSidebar_timer.Stop();
-                }
-            }
-            else
-            {
-                sidebar.Width += 10;
-                if(sidebar.Width == sidebar.MaximumSize.Width)
-                {
-                    sideBarExpand = true;
-                    adminSidebar_timer.Stop();
-                }
-            }
-        }
-
         private void adminBike_Click(object sender, EventArgs e)
         {
             adminBike_timer.Start();
