@@ -20,6 +20,10 @@ namespace login
 
         private void iconButton2_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            successful success = new successful();
+            success.ShowDialog();
+            this.Show();
             this.Close();
         }
     }
