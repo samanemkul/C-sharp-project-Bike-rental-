@@ -19,10 +19,8 @@ namespace login
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            customerDb cDb = new customerDb();
-            cDb.ShowDialog();
-            this.Show();
+            
+            
             this.Close();
         }
     }

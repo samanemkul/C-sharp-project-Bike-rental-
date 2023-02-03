@@ -127,6 +127,9 @@
     <Compile Update="rulesAndRegulation.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="successful.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="thankyou.cs">
       <SubType>Form</SubType>
     </Compile>
